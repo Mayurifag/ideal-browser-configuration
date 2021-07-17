@@ -27,4 +27,4 @@ URL: `about:profiles` . Удалить неиспользуемый default пр
 
 ## Полезные ссылки
 
--  <https://librewolf-community.gitlab.io/docs/>
+- <https://librewolf-community.gitlab.io/docs/>
