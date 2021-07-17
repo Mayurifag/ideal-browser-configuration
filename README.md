@@ -1,23 +1,30 @@
 # Ideal browser configuration [WIP]
 
-## Motivation
+## Мотивация
 
-There is no «ansible»-provisioning-way to install favourite browser and its
-extensions, so I made this repository as a cheatsheet.
+Пока нет возможности декларативно описать нужную мне конфигурацию браузера или написать что-нибудь вроде ansible-скриптов для установки, я решил сделать себе (и тем, кто ознакомится с репозиторием) шпаргалку по настройке LibreWolf так, как это вижу я.
 
-## What browser to pick
+Настройка делается на ваш страх и риск, инструкцию надо использовать не как пошаговое руководство, а с полным пониманием, что вы делаете.
 
-There are not too many browser choices nowadays: you may choose either
-Chromium-based or Firefox-based forks.
+## Какие браузеры есть на рынке
 
-My favourite ones (if I need a bit of privacy related settings) are:
+Из тех кроссплатформенных браузеров, которыми я пользовался, выделить можно несколько:
 
-1. LibreWolf (Firefox fork) <https://librewolf-community.gitlab.io/install/>
+1. **LW** LibreWolf (Firefox fork) <https://librewolf-community.gitlab.io/install/>
 2. Ungoogled Chromium <https://github.com/Eloston/ungoogled-chromium>
-3. Firefox Beta (if you dont respect vasyan-like forks like LibreWolf)
-<https://www.mozilla.org/en-US/firefox/channel/desktop/>
+3. **FF** Firefox Beta (если LibreWolf не подходит) <https://www.mozilla.org/en-US/firefox/channel/desktop/>
 
-I'm okay with LibreWolf, because I don't like Chromium and I respect
-pre-configured privacy settings from LibreWolf, comparing to vanilla FF.
+Далее повествование будет идти про LibreWolf, но это универсальные шаги, доступные и на Firefox. Аналогичные расширения могут быть доступны и для браузеров, основанных на Chromium.
 
-## LibreWolf configuration, the hard way
+## Первичная настройка
+
+### Удаление лишнего профиля
+
+URL: `about:profiles` . Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем.
+
+### Внешний вид
+
+
+## Полезные ссылки
+
+-  <https://librewolf-community.gitlab.io/docs/>
