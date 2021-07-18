@@ -30,15 +30,15 @@
 
 ### Ставим нужные поиски (если не используем whoogle/searchx)
 
-- Выставляем настройку Добавить панель поиска на панель инструментов
+- Выставляем настройку «Добавить панель поиска на панель инструментов»
 - Переходим на <https://mycroftproject.com/search-engines.html>
 - Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
 - Добавляем в браузер
-- Убираем настройку Добавить панель поиска на панель инструментов
+- Убираем настройку «Добавить панель поиска на панель инструментов»
 
 ### Копируем user.js
 
-... в папку профиля. TODO: добавить команду здесь.
+... в папку профиля. TODO: добавить команду здесь. Проверить win/*nix
 
 ### about:preferences
 
@@ -68,7 +68,7 @@ Nothing to do at «Home» section.
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны упоминания. Бекапы настроек по возможности и надобности имеются в директории `addons_settings`.
 
-### Must have FF Recommended
+### Must have
 
 [**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента.
 
@@ -79,9 +79,9 @@ Nothing to do at «Home» section.
 
 [**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню. Стандартных настроек более чем достаточно.
 
-[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) — иногда скрывает пэйволлы.
-
 [**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен. Имеется бекап настроек.
+
+[**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
 
 ### Privacy
 
@@ -104,6 +104,29 @@ Nothing to do at «Home» section.
 
 #### Userstyles
 
+Dark Reader покрывает большую часть моих потребностей, но есть стили, которые улучшают сайт по вкусу авторов.
+
+Cтили можно искать на <https://userstyles.org>, но лучше использовать более юзабельное зеркало <https://uso.kkx.one>.
+
+Есть несколько расширений для юзерстилей:
+
+- [**Stylus**](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+- Stylish: старое расширение, скурвилось после продажи userstyles.org
+- Firemonkey: упоминалось выше. Не использую, т.к. нет удобной киллерфичи — установки стилей не заходя на userstyles.org
+
+Используемые мной стили (в бекапе уже импортированы):
+
+- <https://userstyles.org/styles/165011/2ch-reborn> со своим микрофиксом спойлеров (кажется, эта проблема только у меня)
+- <https://userstyles.org/styles/129171/reddit-minimal-dark>
+- <https://userstyles.org/styles/134432/wikia-fandom-uncluttered-and-unbranded>
+- <https://userstyles.org/styles/167022/material-dark-wikipedia>
+
+#### Bypass
+
+[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) — иногда скрывает пэйволлы.
+
+[**Universal Bypass**](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных ссылках.
+
 #### Youtube
 
 [**Enhancer for Youtube**](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) — дополнительные возможности, темы, etc. Есть бекап.
@@ -111,6 +134,14 @@ Nothing to do at «Home» section.
 [**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) — скип встроенной в видео херни (рекламы, сегменты без музыки в музыкальных видео и т.д.). Есть бекап.
 
 [**DF YouTube (Distraction Free)**](https://addons.mozilla.org/en-US/firefox/addon/df-youtube/) — изучение материалов на ютьюбе без мусора, включается изредкa.
+
+#### Other
+
+[**Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/): Требует доп. настройки!
+
+[**Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
+
+[**BetterTTV** -> https://twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/betterttv/)
 
 ### Disabled, but worth mentioning
 
@@ -129,6 +160,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 ## Полезные ссылки
 
 - <https://librewolf-community.gitlab.io/docs/>
+- <https://2ch.hk/s> -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
 - <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
@@ -139,3 +171,4 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - Suggest extension for bookmarks
 - Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically.
 - Suggest restore session solution (not by default, but via button if needed)
+- Any way to make addons.mozilla.org dark?
