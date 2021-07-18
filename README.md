@@ -49,9 +49,7 @@
 - Unset 'Use recommended perfomance settings' -> Unset 'Use hardware acceleration when available'
 - Unset 'Enable picture-in-picture video controls'
 
-#### Home
-
-- Set blank pages
+Nothing to do at «Home» section.
 
 #### Search
 
@@ -64,6 +62,15 @@
 - Untick 'Delete cookies and site data when LibreWolf is closed'
 - History -> Remember things; Clear history Settings ->
 
+### Addons and settings
+
+#### Must have
+
+[**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента.
+
+Настройки включают сторонние фильтры, включая и мои собственные.
+По настройкам фильтров можно ссылаться на статью по [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749) нужно расширение [**Scriptlet Doctor**](https://forums.lanik.us/viewtopic.php?f=102&t=22749).
+
 ## Полезные ссылки
 
 - <https://librewolf-community.gitlab.io/docs/>
@@ -72,7 +79,7 @@
 
 ## TODO
 
-- Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo/yt shortcuts
+- Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play) shortcuts
 - Suggest extension for bookmarks
 - Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically.
 - Suggest restore session solution (not by default, but via button if needed)
