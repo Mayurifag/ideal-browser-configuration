@@ -18,13 +18,61 @@
 
 ## Первичная настройка
 
-### Удаление лишнего профиля
-
-URL: `about:profiles` . Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем.
-
 ### Внешний вид
 
+Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем пробелы, редактируем закладки, выбираем темную тему.
+
+### about:profiles
+
+Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем. Оставляем вкладку, чтобы был удобный доступ к директории профиля.
+
+### Ставим нужные поиски (если не используем whoogle/searchx)
+
+Выставляем настройку Добавить панель поиска на панель инструментов
+Переходим на <https://mycroftproject.com/search-engines.html>
+Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
+Добавляем в браузер
+Убираем настройку Добавить панель поиска на панель инструментов
+
+### Копируем user.js
+
+... в папку профиля. TODO: добавить команду здесь.
+
+### about:preferences
+
+#### General
+
+- Set default browser
+- Unset 'Enable Container Tabs'
+- Unset 'Check your spelling as you type'
+- Settings for applications by your tastes. Suggesting pdf/torrent changes.
+- Unset 'Use recommended perfomance settings' -> Unset 'Use hardware acceleration when available'
+- Unset 'Enable picture-in-picture video controls'
+
+#### Home
+
+- Set blank pages
+
+#### Search
+
+- Set Default Search Engine
+- Tick Provide search suggestions -> Tick all 3 options
+- Search Shortcuts: Remove everything except favourite search engine. Set 'g' shortcut.
+
+#### Privacy & Security
+
+- Untick 'Delete cookies and site data when LibreWolf is closed'
+- History -> Remember things; Clear history Settings ->
 
 ## Полезные ссылки
 
 - <https://librewolf-community.gitlab.io/docs/>
+- <https://github.com/black7375/Firefox-UI-Fix>
+- <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
+
+## TODO
+
+- Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo/yt shortcuts
+- Suggest extension for bookmarks
+- Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically.
+- Suggest restore session solution (not by default, but via button if needed)
