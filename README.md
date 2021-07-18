@@ -60,22 +60,59 @@ Nothing to do at «Home» section.
 #### Privacy & Security
 
 - Untick 'Delete cookies and site data when LibreWolf is closed'
-- History -> Remember things; Clear history Settings ->
+- History -> Remember things; Clear history Settings -> Pick what you dont need after browser reboot
 
-### Addons and settings
+### Addons and backuped settings
 
-#### Must have
+Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны упоминания. Бекапы настроек по возможности и надобности имеются в директории `addons_settings`.
+
+#### Must have FF Recommended
 
 [**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента.
 
-Настройки включают сторонние фильтры, включая и мои собственные.
+Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные.
 По настройкам фильтров можно ссылаться на статью по [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749) нужно расширение [**Scriptlet Doctor**](https://forums.lanik.us/viewtopic.php?f=102&t=22749).
+
+[**Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема. Имеется бекап настроек в репозитории.
+
+[**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню. Стандартных настроек более чем достаточно.
+
+[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) — иногда скрывает пэйволлы.
+
+[**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен. Имеется бекап настроек.
+
+#### Privacy
+
+[**Smart Referer**](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/) — спуфинг реферер заголовка с автообновляемым whitelist.
+
+[**Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) — чистка URL от лишних маркетинговых и прочих меток. Есть бекап настроек, но, кажется, это стандартные. И, судя по .conf файлу, лучше с нуля прощёлкать нужные настройки. Надо сравнить с альтернативами типа Pure URL / Neat URL.
+
+#### Userstyles/Userscripts
+
+
+
+#### Disabled, but worth mentioning
+
+Bookmark Dupes / Checkmarks — расширения для работы с закладками. Думаю использовать универсальные сервисы, вместо хранения закладок в браузере.
+
+Absolute Enable Right Click & Copy — изредка можно включить, когда надо что-то с дурацких сайтов скопировать.
+
+DF YouTube (Distraction Free) — изучение материалов на ютьюбе без мусора, включается изредкa.
+
+#### Deleted
+
+Blockchain DNS — можно было удобно заходить на *.lib сайты без пердолинга, но сейчас не нужно.
+
+Decentraleyes / LocalCDN (fork) — задумка хорошая, но на практике может ломать сайты и не приносит особой пользы. Можно использовать в отдельном браузере на знакомых сайтах, где всё работает или изредка париться с исключенями.
+
+HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практической пользы. Сайты с банками/паролями и так HTTPS. Встроенные инструменты в браузерах закрывают потребность. Более того, можно через http сайты посмотреть заглушки ISP или бесплатного Wi-Fi, если не работает интернет.
 
 ## Полезные ссылки
 
 - <https://librewolf-community.gitlab.io/docs/>
 - <https://github.com/black7375/Firefox-UI-Fix>
 - <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
+- <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
 
 ## TODO
 
