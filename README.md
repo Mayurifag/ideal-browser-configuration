@@ -70,7 +70,7 @@ Nothing to do at «Home» section.
 
 ### Must have
 
-[**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента.
+[**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные.
 По настройкам фильтров можно ссылаться на статью по [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749) нужно расширение [**Scriptlet Doctor**](https://github.com/JustOff/scriptlet-doctor/releases).
@@ -147,7 +147,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
 
-[**ff2mpv**](https://addons.mozilla.org/en-US/firefox/addon/ff2mpv/) — открыть контент в mpv
+[**ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть контент в mpv. Нужно дополнительно поставить в систему хелпер.
 
 [**To Deepl**](https://github.com/rewkha/firefox-to-deepl) — первый попавшийся переводчик deepl
 
@@ -166,6 +166,8 @@ Bookmark Dupes / Checkmarks — расширения для работы с за
 Absolute Enable Right Click & Copy (+ аналоги) — изредка можно включить, когда надо что-то с дурацких сайтов скопировать.
 
 ### Deleted
+
+<https://github.com/The-OP/Fox/blob/master/greylist.md#user-content-stylish>
 
 Blockchain DNS — можно было удобно заходить на *.lib сайты без пердолинга, но сейчас не нужно.
 

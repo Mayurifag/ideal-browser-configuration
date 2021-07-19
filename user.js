@@ -133,3 +133,6 @@ user_pref("network.dns.disableIPv6", false);
 // defaultPref("privacy.firstparty.isolate", true); // enable FPI
 // defaultPref("network.cookie.cookieBehavior", 1); // block 3rd party cookies
 // defaultPref("network.cookie.lifetimePolicy", 0); // keep cookies untill they expire
+
+
+user_pref("mousewheel.min_line_scroll_amount", 30);
