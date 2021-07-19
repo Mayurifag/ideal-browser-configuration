@@ -143,3 +143,7 @@ user_pref("middlemouse.scrollbarPosition", true)
 
 // Скрытие плашки про фуллскрин. Работает не очень хорошо.
 user_pref("full-screen-api.warning.timeout", 0)
+
+user_pref("privacy.resistFingerprinting", true)
+
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true)

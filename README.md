@@ -21,24 +21,13 @@
 
 Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем. Оставляем вкладку, чтобы был удобный доступ к директории профиля.
 
-## Ставим нужные поиски (если не используем whoogle/searchx)
-
-- Выставляем настройку «Добавить панель поиска на панель инструментов»
-- Переходим на <https://mycroftproject.com/search-engines.html>
-- Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
-- Добавляем в браузер
-- Убираем настройку «Добавить панель поиска на панель инструментов»
-
-## Копируем user.js
-
-... в папку профиля. TODO: добавить команду здесь. Проверить win/*nix
-
 ## about:preferences
 
 ### General
 
 - Set default browser
 - Unset 'Enable Container Tabs'
+- "Colors..." button > Background -> Set dark
 - Unset 'Check your spelling as you type'
 - Settings for applications by your tastes. Suggesting pdf/torrent changes.
 - Unset 'Use recommended perfomance settings' -> Unset 'Use hardware acceleration when available'
@@ -51,6 +40,14 @@ Nothing to do at «Home» section.
 - Set Default Search Engine
 - Tick Provide search suggestions -> Tick all 3 options
 - Search Shortcuts: Remove everything except favourite search engine. Set 'g' shortcut.
+
+### Ставим нужные поиски (если не используем whoogle/searchx)
+
+- Выставляем настройку «Добавить панель поиска на панель инструментов»
+- Переходим на <https://mycroftproject.com/search-engines.html>
+- Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
+- Добавляем в браузер
+- Убираем настройку «Добавить панель поиска на панель инструментов»
 
 ### Privacy & Security
 
@@ -127,9 +124,9 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**DF YouTube (Distraction Free)**](https://addons.mozilla.org/en-US/firefox/addon/df-youtube/) — изучение материалов на ютьюбе без мусора, включается изредкa.
 
-[:page_facing_up:**Enhancer for Youtube**](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) — дополнительные возможности, темы, etc. Есть бекап.
+[:page_facing_up:**Enhancer for Youtube**](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) — дополнительные возможности, темы, etc.
 
-[:page_facing_up:**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) — скип встроенной в видео херни (рекламы, сегменты без музыки в музыкальных видео и т.д.). Есть бекап.
+[:page_facing_up:**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) — скип встроенной в видео херни (рекламы, сегменты без музыки в музыкальных видео и т.д.).
 
 #### Other sites
 
@@ -193,6 +190,10 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 
 Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем пробелы, редактируем закладки, выбираем темную тему, убираем ненужные расширения с панелей.
 
+Копируем `user.js` и директорию `chrome` в директорию профиля. В папке chrome лежит немного измененный стиль (убрал раскраску url bar и вкладок) по [инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme) (оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно было).
+
+Нужно посмотреть упомянутую инструкцию и с помощью [Addons UUID Replacer](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases/tag/1.1.0) сделать UUID установленных расширений нужными для css, чтобы ublock и другие расширения тоже были темными.
+
 ## Изменение хоткеев
 
 Здесь должно быть описание того, как я в системе отключаю CTRL+SHIFT+W / CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут под *nix и win.
@@ -204,6 +205,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - <https://github.com/black7375/Firefox-UI-Fix>
 - <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
+- <https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme>
 
 ## TODO
 
