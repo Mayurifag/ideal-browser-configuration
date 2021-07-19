@@ -140,3 +140,6 @@ user_pref("mousewheel.min_line_scroll_amount", 30);
 
 // СКМ по скроллбару перемещает прокрутку в соответствующее положение
 user_pref("middlemouse.scrollbarPosition", true)
+
+// Скрытие плашки про фуллскрин. Работает не очень хорошо.
+user_pref("full-screen-api.warning.timeout", 0)
