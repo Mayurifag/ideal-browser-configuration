@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-secret filter=git-crypt diff=git-crypt
 addons_settings/sponsor-block/sponsor-block-backup.json filter=git-crypt diff=git-crypt
 addons_settings/dynamic-history/DynamicHistory.json filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff

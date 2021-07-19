@@ -1,12 +1,12 @@
 {
-  "timeStamp": 1626621329436,
+  "timeStamp": 1626700827935,
   "version": "1.36.2",
   "userSettings": {
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/Mayurifag/mayurifag-ublock-filters/main/filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
     "importedLists": [
       "https://easylist-downloads.adblockplus.org/bitblock.txt",
       "https://easylist-downloads.adblockplus.org/cntblock.txt",
-      "https://raw.githubusercontent.com/Mayurifag/mayurifag-ublock-filters/main/filters.txt",
+      "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt",
       "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
       "https://www.i-dont-care-about-cookies.eu/abp/"
     ],
@@ -31,9 +31,9 @@
     "RUS-0",
     "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
     "https://www.i-dont-care-about-cookies.eu/abp/",
-    "https://raw.githubusercontent.com/Mayurifag/mayurifag-ublock-filters/main/filters.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
-    "https://easylist-downloads.adblockplus.org/cntblock.txt"
+    "https://easylist-downloads.adblockplus.org/cntblock.txt",
+    "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [

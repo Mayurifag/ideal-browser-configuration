@@ -6,8 +6,6 @@
 
 Настройка делается на ваш страх и риск, инструкцию надо использовать не как пошаговое руководство, а как пример, с полным пониманием, что вы делаете.
 
-Часть файлов зашифрована git-crypt.
-
 ## Какие браузеры есть на рынке
 
 Из тех кроссплатформенных браузеров, которыми я пользовался, выделить можно несколько:
@@ -63,7 +61,7 @@ Nothing to do at «Home» section.
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны упоминания. Значки перед названием аддона:
 
-- :page_facing_up: — Бекапы настроек для расширений имеются в директории `addons_settings`.
+- :page_facing_up: — Бекапы настроек для расширений имеются в директории `addons_settings`. Часть зашифрована git-crypt.
 - :exclamation: — Расширение требует доп. настройки / не умеет в бекап / проч.
 - Если значка нет, то скорее всего расширение удовлетворительно работает на дефолтных настройках.
 
@@ -71,7 +69,12 @@ Nothing to do at «Home» section.
 
 [:page_facing_up:**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
 
-Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные.
+Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock такой строкой:
+
+```txt
+https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt
+```
+
 По настройкам фильтров можно ссылаться на статью по [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749) нужно расширение [**Scriptlet Doctor**](https://github.com/JustOff/scriptlet-doctor/releases).
 
 [:page_facing_up:**Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема.
@@ -206,7 +209,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 
 - [ ] Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play) shortcuts
 - [ ] Suggest extension for bookmarks
-- [ ] Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically. Extension «Save In...»
+- [ ] Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically. Extension «Save In...», InlineDisposition, Cute Save Button
 - [ ] Suggest restore session solution (not by default, but via button if needed)
 - [ ] Any way to make addons.mozilla.org dark?
 - [ ] Fix dark theme input boxes instruction. maybe extension or smth
