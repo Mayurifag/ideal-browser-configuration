@@ -134,5 +134,9 @@ user_pref("network.dns.disableIPv6", false);
 // defaultPref("network.cookie.cookieBehavior", 1); // block 3rd party cookies
 // defaultPref("network.cookie.lifetimePolicy", 0); // keep cookies untill they expire
 
-
+// Make scrolling faster
+// Сделать скроллинг колёсиком мыши быстрее
 user_pref("mousewheel.min_line_scroll_amount", 30);
+
+// СКМ по скроллбару перемещает прокрутку в соответствующее положение
+user_pref("middlemouse.scrollbarPosition", true)
