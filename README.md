@@ -1,4 +1,4 @@
-# Ideal browser configuration [WIP]
+# Ideal browser configuration
 
 ## Мотивация
 
@@ -77,12 +77,6 @@ Nothing to do at «Home» section.
 
 [**Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема. Имеется бекап настроек в репозитории.
 
-[**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню. Стандартных настроек более чем достаточно.
-
-[**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен. Имеется бекап настроек.
-
-[**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
-
 ### Privacy
 
 [**Smart Referer**](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/) — спуфинг реферер заголовка с автообновляемым whitelist.
@@ -135,13 +129,35 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**DF YouTube (Distraction Free)**](https://addons.mozilla.org/en-US/firefox/addon/df-youtube/) — изучение материалов на ютьюбе без мусора, включается изредкa.
 
-#### Other
+#### Other sites
 
 [**Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/): Требует доп. настройки!
 
 [**Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
 
 [**BetterTTV** -> https://twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/betterttv/)
+
+[**Global Aliexpress**](https://addons.mozilla.org/en-US/firefox/addon/global-aliexpress/) — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний автоперевод.
+
+### Useful
+
+[**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню. Стандартных настроек более чем достаточно.
+
+[**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен. Имеется бекап настроек.
+
+[**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
+
+[**ff2mpv**](https://addons.mozilla.org/en-US/firefox/addon/ff2mpv/) — открыть контент в mpv
+
+[**To Deepl**](https://github.com/rewkha/firefox-to-deepl) — первый попавшийся переводчик deepl
+
+### Development / РАБота
+
+[**Pinned Google Calendar**](https://addons.mozilla.org/en-US/firefox/addon/pinned-google-calendar/) — периодами необходимое расширение
+
+[**JSON Lite**](https://addons.mozilla.org/en-US/firefox/addon/json-lite/) — смотреть большие json-чики со свистелками без смс
+
+[**Vue.js devtools**](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
 
 ### Disabled, but worth mentioning
 
@@ -172,3 +188,4 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically.
 - Suggest restore session solution (not by default, but via button if needed)
 - Any way to make addons.mozilla.org dark?
+- Fix dark theme input boxes instruction. maybe extension or smth
