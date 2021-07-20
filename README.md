@@ -219,9 +219,11 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - [ ] Suggest extension for bookmarks
 - [ ] Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically. Extension «Save In...», InlineDisposition, Cute Save Button
 - [ ] Suggest restore session solution (not by default, but via button if needed)
-- [ ] Any way to make addons.mozilla.org dark?
+- [x] Any way to make addons.mozilla.org dark? — done via chrome folder
 - [ ] Fix dark theme input boxes instruction. maybe extension or smth
 - [ ] Make extensions list on addons.mozilla.org to install all of them via single install button
 - [ ] Move personal ublock list / dollchan spells into this repository + archive previous
+  - [x] Move ublock list
+  - [ ] Move dollchan spells (do i really need it to be shared?)
 - [ ] Find «Select like a boss» working alternative
-- [ ] Proxy extension for several sites
+- [x] Proxy extension for several sites
