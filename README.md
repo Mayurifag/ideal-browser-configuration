@@ -85,6 +85,8 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 [:exclamation: **User-Agent Switcher and Manager**](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/) — рандом аддон для смены Useragent. В моем редком сценарии использования не имеет смысл бекапить настройки — нужно только убрать галку «Открывать страницу FAQ при обновлении», а затем выставить при надобности один из предлагаемых юзерагентов.
 
+[:exclamation: **CanvasBlocker**](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/) — Stealth settings/reCAPTCHA exception apply
+
 ### Sites enhancements
 
 #### Userscripts
@@ -206,6 +208,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 
 ## Полезные ссылки
 
+- <https://ffprofile.com/>
 - <https://librewolf-community.gitlab.io/docs/>
 - <https://2ch.hk/s> -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
