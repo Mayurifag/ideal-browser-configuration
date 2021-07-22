@@ -18,9 +18,32 @@ inb4: Да, это всё вместе уживается и не тормози
 
 Далее повествование будет идти про LibreWolf, но это универсальные шаги, доступные и на Firefox. Аналогичные расширения могут быть доступны и для браузеров, основанных на Chromium.
 
+## librewolf.overrides.cfg
+
+Смотрим <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
+
+```sh
+git clone https://github.com/Mayurifag/ideal-browser-configuration.git
+cd ideal-browser-configuration
+### Linux
+mkdir -p $HOME/.librewolf/
+cp librewolf.overrides.cfg $HOME/.librewolf/librewolf.overrides.cfg
+### Win
+mkdir -p %USERPROFILE%\.librewolf\
+cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
+```
+
 ## about:profiles
 
-Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем. Оставляем вкладку, чтобы был удобный доступ к директории профиля.
+Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем. Опционально можно создать новый профиль. Оставляем вкладку, чтобы был удобный доступ к директории профиля.
+
+Копируем `user.js` и директорию `chrome` в директорию профиля.
+
+В папке chrome лежит немного измененный стиль (убрал раскраску url bar и вкладок) по [инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme) (оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно было).
+
+Возможно опционально потребуется после установок аддонов с помощью [Addons UUID Replacer](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases/tag/1.1.0) из репозитория сделать UUID установленных расширений нужными для css, чтобы ublock и другие расширения тоже были темными.
+
+После копирования папки браузер лучше перезапустить.
 
 ## about:preferences
 
@@ -28,13 +51,14 @@ inb4: Да, это всё вместе уживается и не тормози
 
 - Set default browser
 - Unset 'Enable Container Tabs'
-- "Colors..." button > Background -> Set dark
 - Unset 'Check your spelling as you type'
 - Settings for applications by your tastes. Suggesting pdf/torrent changes.
 - Unset 'Use recommended perfomance settings' -> Unset 'Use hardware acceleration when available'
-- Unset 'Enable picture-in-picture video controls'
+- Network Settings -> Enable DNS-over-HTTPS
 
-Nothing to do at «Home» section.
+### Home
+
+- Set blank pages
 
 ### Search
 
@@ -55,7 +79,9 @@ Nothing to do at «Home» section.
 - Untick 'Delete cookies and site data when LibreWolf is closed'
 - History -> Remember things; Clear history Settings -> Pick what you dont need after browser reboot
 
-## Addons and backuped settings
+## Extensions and Themes
+
+Надо включить 'Update Add-ons automatically' в настройках.
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны упоминания. Значки перед названием аддона:
 
@@ -198,10 +224,6 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 ## Внешний вид
 
 Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем пробелы, выбираем темную тему, убираем ненужные расширения с панелей.
-
-Копируем `user.js` и директорию `chrome` в директорию профиля. В папке chrome лежит немного измененный стиль (убрал раскраску url bar и вкладок) по [инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme) (оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно было).
-
-Нужно посмотреть упомянутую инструкцию и с помощью [Addons UUID Replacer](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases/tag/1.1.0) сделать UUID установленных расширений нужными для css, чтобы ublock и другие расширения тоже были темными.
 
 ## Закладки
 

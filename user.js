@@ -59,10 +59,6 @@ user_pref("browser.newtabpage.activity-stream.topSitesRows", 4);
 // Включить раздел "Эксперименты Firefox" в настройках
 user_pref("browser.preferences.experimental", true);
 
-// Show search suggestions in Private Windows
-// Отображать поисковые предложения в Приватных вкладках
-user_pref("browser.search.suggest.enabled.private", true);
-
 // Do not warn when attempt to close multiple tabs
 // Не предупреждать при закрытии нескольких вкладок
 user_pref("browser.tabs.warnOnClose", false);
@@ -117,6 +113,7 @@ user_pref("browser.uidensity", 1);
 // How do I enable search suggestions?
 user_pref("browser.search.suggest.enabled", true);
 user_pref("browser.urlbar.suggest.searches", true);
+user_pref("browser.search.suggest.enabled.private", true);
 
 // What settings are used to enable video conferencing?
 user_pref("media.peerconnection.enabled", true);

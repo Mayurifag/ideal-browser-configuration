@@ -1139,7 +1139,7 @@ label::before, .ui.popup {filter: invert(75%)}
 }
 
 /*------ UBLOCK ORIGIN BLOCKING PAGE ------*/
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/document-blocked.html){
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/document-blocked.html){
 
 html, body, .code {background-color: #222 !important}
 
@@ -1166,7 +1166,7 @@ button:hover {
 }
 
 /*------ UBLOCK ORIGIN CONTROL PANEL TOP BUTTONS ------*/
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/dashboard.html) {
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/dashboard.html) {
 
 #dashboard-nav {background: #222 !important; border-bottom: 1px solid black !important}
 
@@ -1179,7 +1179,7 @@ button:hover {
 }
 
 /*------ UBLOCK ORIGIN CONTROL PANEL CONTENT PAGES ------*/
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/) {
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/) {
 html:not(#ublock0-epicker) > body, html:not(#ublock0-epicker), #actions {
   background: #333 !important;
   color: #ccc !important;
@@ -1390,7 +1390,7 @@ select .menulist-dropmarker {display: none}
     color: #ddd !important}
 
 /*------ UBLOCK ORIGIN MENU POPUP ------*/
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/popup.html) {
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/popup.html) {
 
 #appinfo {background: #111 !important}
 
@@ -1447,7 +1447,7 @@ span[data-i18n-tip="popupTipRevertRules"], span[data-i18n-tip="popupTipSaveRules
 #firewallContainer > div {border: none !important}
 }
 
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/popup-fenix.html) {
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/popup-fenix.html) {
 #sticky {
   background: #333 !important}
 
@@ -1497,7 +1497,7 @@ body.off #switch .fa-icon {fill: #222}
 }
 
 /*------ UBLOCK ORIGIN UI LOGGER ------*/
-@-moz-document url-prefix(moz-extension://84147aeb-c5be-4bc4-81e1-d29eb2e61587/logger-ui.html) {
+@-moz-document url-prefix(moz-extension://6da5ae8b-6630-4bd5-88a9-2d67ce73902b/logger-ui.html) {
 
 body, .permatoolbar, .vscrollable, table, html {background: #222 !important}
 
