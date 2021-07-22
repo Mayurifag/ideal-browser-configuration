@@ -104,7 +104,7 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 Dark Reader покрывает большую часть моих потребностей, но есть стили, которые улучшают сайт по вкусу авторов.
 
-Cтили можно искать на <https://userstyles.org>, но лучше использовать более юзабельное зеркало <https://uso.kkx.one>.
+Cтили можно искать на <https://userstyles.org>, но лучше использовать более юзабельное зеркало <https://uso.kkx.one>. Ещё есть <https://userstyles.world>, на данный момент там работающие свежие годные стили, но в не очень большом количестве.
 
 Есть несколько расширений для юзерстилей:
 
@@ -156,6 +156,8 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 [**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню.
 
 [:page_facing_up:**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен.
+
+[:page_facing_up:**floccus**](https://addons.mozilla.org/en-US/firefox/addon/floccus/) — бекап/синхронизация закладок в webdav/nextcloud.
 
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/) — ETH кошелёк. Необходимо настроить сам кошелек и binance подсеть.
 
@@ -222,7 +224,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 ## TODO
 
 - [ ] Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play)/t(tinkoff pulse) shortcuts
-- [ ] Suggest extension for bookmarks
+- [x] Suggest extension for bookmarks
 - [ ] Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically. Extension «Save In...», InlineDisposition, Cute Save Button
 - [ ] Suggest restore session solution (not by default, but via button if needed)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder

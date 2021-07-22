@@ -2,4 +2,5 @@
 * text=auto
 addons_settings/sponsor-block/sponsor-block-backup.json filter=git-crypt diff=git-crypt
 addons_settings/dynamic-history/DynamicHistory.json filter=git-crypt diff=git-crypt
+addons_settings/floccus/floccus.export.json filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
