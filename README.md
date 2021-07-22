@@ -119,6 +119,9 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 - <https://userstyles.org/styles/134432/wikia-fandom-uncluttered-and-unbranded>
 - <https://userstyles.org/styles/167022/material-dark-wikipedia>
 - <https://userstyles.org/styles/166963/dark-and-fix-width-for-rutor>
+- <https://userstyles.org/styles/204678/material-dark-for-google>
+- <https://userstyles.org/styles/146887/stylus-deepdark>
+- <https://userstyles.org/styles/148112/userstyles-deepdark>
 
 #### Bypass
 
