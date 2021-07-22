@@ -108,7 +108,13 @@ user_pref("suggest.calculator", true);
 user_pref("ui.textHighlightBackground", "Fireprick");
 
 //// Personal settings
+
+// Compact mode
 user_pref("browser.uidensity", 1);
+
+// https://support.mozilla.org/en-US/kb/containers#w_what-you-can-do-with-multi-account-containers
+user_pref("privacy.userContext.enabled", false)
+user_pref("privacy.userContext.ui.enabled", false)
 
 // How do I enable search suggestions?
 user_pref("browser.search.suggest.enabled", true);

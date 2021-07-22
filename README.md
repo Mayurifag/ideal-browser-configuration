@@ -43,14 +43,13 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 Возможно опционально потребуется после установок аддонов с помощью [Addons UUID Replacer](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases/tag/1.1.0) из репозитория сделать UUID установленных расширений нужными для css, чтобы ublock и другие расширения тоже были темными.
 
-После копирования папки браузер лучше перезапустить.
+После копирования всех файлов браузер лучше перезапустить.
 
 ## about:preferences
 
 ### General
 
 - Set default browser
-- Unset 'Enable Container Tabs'
 - Unset 'Check your spelling as you type'
 - Settings for applications by your tastes. Suggesting pdf/torrent changes.
 - Unset 'Use recommended perfomance settings' -> Unset 'Use hardware acceleration when available'
@@ -62,22 +61,20 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### Search
 
-- Set Default Search Engine
-- Tick Provide search suggestions -> Tick all 3 options
-- Search Shortcuts: Remove everything except favourite search engine. Set 'g' shortcut.
-
-### Ставим нужные поиски (если не используем whoogle/searchx)
-
 - Выставляем настройку «Добавить панель поиска на панель инструментов»
 - Переходим на <https://mycroftproject.com/search-engines.html>
 - Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
 - Добавляем в браузер
 - Убираем настройку «Добавить панель поиска на панель инструментов»
+- Set Default Search Engine
+- Tick Provide search suggestions -> Tick all 3 options
+- Search Shortcuts: Remove everything except favourite search engine. Set 'g' shortcut.
 
 ### Privacy & Security
 
 - Untick 'Delete cookies and site data when LibreWolf is closed'
-- History -> Remember things; Clear history Settings -> Pick what you dont need after browser reboot
+- History -> Remember things; Untick «Clear history when LibreWolf closes»
+- Block VR devices
 
 ## Extensions and Themes
 
@@ -91,7 +88,7 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### Must have
 
-[:page_facing_up:**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
+[:page_facing_up:**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam. Встроенный, думаю, лучше удалить и поставить из AMO.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock такой строкой:
 
@@ -107,7 +104,7 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 [**Smart Referer**](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/) — спуфинг реферер заголовка с автообновляемым whitelist.
 
-[**Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) — чистка URL от лишних маркетинговых и прочих меток. Есть бекап настроек, но, кажется, это стандартные. И, судя по гигантскому .conf файлу, лучше с нуля прощёлкать нужные настройки. Надо сравнить с альтернативами типа Pure URL / Neat URL.
+[:exclamation: **Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) — чистка URL от лишних маркетинговых и прочих меток. Надо сравнить с альтернативами типа Pure URL / Neat URL. После установки снять галки со статистики и бэджа.
 
 [:exclamation: **User-Agent Switcher and Manager**](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/) — рандом аддон для смены Useragent. В моем редком сценарии использования не имеет смысл бекапить настройки — нужно только убрать галку «Открывать страницу FAQ при обновлении», а затем выставить при надобности один из предлагаемых юзерагентов.
 
@@ -183,13 +180,13 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [:page_facing_up:**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен.
 
-[:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/) — ETH кошелёк. Необходимо настроить сам кошелек и binance подсеть.
+[:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/) — ETH кошелёк. Необходимо настроить сам кошелек и binance подсеть. TODO: добавить инструкцию
 
 [:page_facing_up:**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
 
 [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть контент в mpv. Нужно дополнительно поставить в систему хелпер.
 
-[**To Deepl**](https://github.com/rewkha/firefox-to-deepl) — первый попавшийся переводчик для deepl, почти не использую.
+[**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) — первый попавшийся переводчик для deepl, почти не использую.
 
 ### Development / РАБота
 
