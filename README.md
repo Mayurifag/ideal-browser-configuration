@@ -110,6 +110,8 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 [:exclamation: **CanvasBlocker**](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/) — Stealth settings/reCAPTCHA exception apply
 
+TrackMeNot?
+
 ### Sites enhancements
 
 #### Userscripts

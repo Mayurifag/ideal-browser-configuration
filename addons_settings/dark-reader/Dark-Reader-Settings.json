@@ -24,7 +24,6 @@
     "siteList": [
         "www.twitch.tv",
         "tweetdeck.twitter.com",
-        "github.com",
         "tinkoff.ru/invest-terminal/",
         "gitlab.com",
         "stackoverflow.com",
@@ -89,6 +88,7 @@
         "minaprotocol.com",
         "userstyles.org",
         "youtube.com",
+        "github.com",
         "google.com"
     ],
     "siteListEnabled": [],

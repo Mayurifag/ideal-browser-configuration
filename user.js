@@ -108,6 +108,12 @@ user_pref("suggest.calculator", true);
 user_pref("ui.textHighlightBackground", "Fireprick");
 
 //// Personal settings
+// Disable hardware video acceleration
+user_pref("layers.acceleration.disabled", true)
+
+// Dark OS theme
+user_pref("browser.in-content.dark-mode", true)
+user_pref("ui.systemUsesDarkTheme", 1)
 
 // Compact mode
 user_pref("browser.uidensity", 1);
@@ -204,7 +210,6 @@ user_pref("extensions.screenshots.upload-disabled", true);
 user_pref("extensions.shield-recipe-client.api_url", "");
 user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("extensions.webservice.discoverURL", "");
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0");
 user_pref("media.autoplay.default", 0);
 user_pref("media.autoplay.enabled", true);
 user_pref("media.eme.enabled", false);
@@ -224,7 +229,6 @@ user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.donottrackheader.value", 1);
-user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.trackingprotection.cryptomining.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
@@ -251,3 +255,7 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("webgl.disabled", true);
 user_pref("webgl.renderer-string-override", " ");
 user_pref("webgl.vendor-string-override", " ");
+
+// Fix for 2ch.hk -> cloudflare browser check infinite loop
+user_pref("privacy.resistFingerprinting", false);
+// also privacy.trackingprotection.fingerprinting.enabled false
