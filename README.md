@@ -154,7 +154,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**Universal Bypass**](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных ссылках.
 
-[:page_facing_up:**Proxy SwitchyOmega**](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) — рандом аддон для прокси. В бекапе список сайтов на которых прокси должен включаться. Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
+[:page_facing_up:**FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться. Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
 #### Youtube
 
