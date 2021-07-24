@@ -196,6 +196,20 @@
         "type": 1,
         "protocols": 1,
         "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.arhivach.net",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.arhivach.ng",
+        "type": 1,
+        "protocols": 1,
+        "active": true
       }
     ],
     "blackPatterns": [
