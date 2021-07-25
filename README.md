@@ -95,6 +95,8 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 [:page_facing_up:**Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема.
 
+[**Select Link Text**](https://addons.mozilla.org/en-US/firefox/addon/select-link-text/) — форк Select Like a Boss, расширение, чтобы выделять ссылки для копирования без перехода после отпускания ЛКМ.
+
 ### Privacy
 
 [**Smart Referer**](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/) — спуфинг реферер заголовка с автообновляемым whitelist.
@@ -253,5 +255,5 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - [x] Move personal ublock list / ~~dollchan spells~~ into this repository + archive previous
   - [x] Move ublock list
   - [x] ~~Move dollchan spells (do i really need it to be shared?)~~
-- [ ] Find «Select like a boss» working alternative
+- [x] Find «Select like a boss» working alternative
 - [x] Proxy extension for several sites
