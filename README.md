@@ -37,9 +37,11 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем. Опционально можно создать новый профиль. Оставляем вкладку, чтобы был удобный доступ к директории профиля.
 
-Копируем `user.js` и директорию `chrome` в директорию профиля.
+Копируем `user.js`, `search.json.mozlz4` и директорию `chrome` в директорию профиля.
 
 В папке chrome лежит немного измененный стиль (убрал раскраску url bar и вкладок) по [инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme) (оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно было).
+
+В файле `search.json.mozlz4` — используемые мной поисковые движки (?) и шорткаты для них. Делается из файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4).
 
 После копирования всех файлов браузер лучше перезапустить.
 
@@ -59,14 +61,9 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### Search
 
-- Выставляем настройку «Добавить панель поиска на панель инструментов»
-- Переходим на <https://mycroftproject.com/search-engines.html>
-- Ищем `Google Encrypted (NCR, No PWS, Safe Off, en-US)` (должна быть единственной)
-- Добавляем в браузер
-- Убираем настройку «Добавить панель поиска на панель инструментов»
 - Set Default Search Engine
 - Tick Provide search suggestions -> Tick all 3 options
-- Search Shortcuts: Remove everything except favourite search engine. Set 'g' shortcut.
+- Search Shortcuts: Remove trash positions
 
 ### Privacy & Security
 
@@ -246,15 +243,15 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 
 ## TODO
 
-- [ ] Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play)/t(tinkoff pulse) shortcuts
+- [x] Make search configuration via `search.json.mozlz4` file. Need to add 4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play)/t(tinkoff pulse) shortcuts
 - [x] Suggest extension for bookmarks
 - [ ] Suggest folders for automatical downloads, automatically save content to Videos/Pictures/etc. Launch torrents automatically. Extension «Save In...», InlineDisposition, Cute Save Button
 - [ ] Suggest restore session solution (not by default, but via button if needed)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder
-- [ ] Fix dark theme input boxes instruction. maybe extension or smth
+- [x] ~~Fix dark theme input boxes instruction. maybe extension or smth. Check if its needed actually somehow. Seems not.~~
 - [ ] Make extensions collections list on addons.mozilla.org to install all of them via single install button
-- [ ] Move personal ublock list / dollchan spells into this repository + archive previous
+- [x] Move personal ublock list / ~~dollchan spells~~ into this repository + archive previous
   - [x] Move ublock list
-  - [ ] Move dollchan spells (do i really need it to be shared?)
+  - [x] ~~Move dollchan spells (do i really need it to be shared?)~~
 - [ ] Find «Select like a boss» working alternative
 - [x] Proxy extension for several sites
