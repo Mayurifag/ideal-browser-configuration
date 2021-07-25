@@ -108,6 +108,9 @@ user_pref("suggest.calculator", true);
 user_pref("ui.textHighlightBackground", "Fireprick");
 
 //// Personal settings
+// Disable delay on install extensions or saving file
+user_pref("security.dialog_enable_delay", 0);
+
 // Disable hardware video acceleration
 user_pref("layers.acceleration.disabled", true)
 
