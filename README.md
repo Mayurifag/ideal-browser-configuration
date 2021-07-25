@@ -147,7 +147,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 #### Bypass
 
-[**Bypass Paywalls**](https://github.com/iamadamdev/bypass-paywalls-chrome) — иногда скрывает пэйволлы.
+[**Bypass Paywalls Clean (custom)**](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean-custom/) — иногда скрывает пэйволлы.
 
 [**Universal Bypass**](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных ссылках.
 
@@ -251,7 +251,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 - [ ] Suggest restore session solution (not by default, but via button if needed)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder
 - [x] ~~Fix dark theme input boxes instruction. maybe extension or smth. Check if its needed actually somehow. Seems not.~~
-- [ ] Make extensions collections list on addons.mozilla.org to install all of them via single install button
+- [x] Make extensions collections list on addons.mozilla.org ~~to install all of them via single install button~~ (yea you cant do it right now..)
 - [x] Move personal ublock list / ~~dollchan spells~~ into this repository + archive previous
   - [x] Move ublock list
   - [x] ~~Move dollchan spells (do i really need it to be shared?)~~
