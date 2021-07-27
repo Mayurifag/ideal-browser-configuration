@@ -149,7 +149,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**Bypass Paywalls Clean (custom)**](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean-custom/) — иногда скрывает пэйволлы.
 
-[**Universal Bypass**](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных ссылках.
+[**Skip Redirect**](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/) / [Universal Bypass](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных и редирект ссылках. Пока определяю какой из аддонов для меня лучше. Skip Redirect нравится тем, что скипает редиректы смартлаба.
 
 [:page_facing_up:**FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться. Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
