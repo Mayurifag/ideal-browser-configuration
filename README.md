@@ -285,6 +285,11 @@ yandex.(ru|com)/images/search*
 [**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) —
 первый попавшийся переводчик для deepl, почти не использую.
 
+[:exclamation: **Tab Session Manager**](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
+— открытие сессии при случайном закрытии браузера или запоминание текущей сессии
+при необходимости. Нет встроенного бекапа настроек, жду пока девелопер запилит
+([issue](https://github.com/sienori/Tab-Session-Manager/issues/350)).
+
 ### Development / РАБота
 
 [**Pinned Google Calendar**](https://addons.mozilla.org/en-US/firefox/addon/pinned-google-calendar/)
@@ -369,7 +374,7 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] Suggest folders for automatical downloads, automatically save content to
       Videos/Pictures/etc. Launch torrents automatically. Extension «Save
       In...», InlineDisposition, Cute Save Button
-- [ ] Suggest restore session solution (not by default, but via button if
+- [x] Suggest restore session solution (not by default, but via button if
       needed) (mysessions or smth)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder
 - [x] ~~Fix dark theme input boxes instruction. maybe extension or smth. Check
