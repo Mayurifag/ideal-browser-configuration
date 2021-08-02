@@ -83,7 +83,7 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### Must have
 
-[:page_facing_up:**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam. Встроенный, думаю, лучше удалить и поставить из AMO.
+[:page_facing_up: **uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam. Встроенный, думаю, лучше удалить и поставить из AMO.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock такой строкой:
 
@@ -91,9 +91,16 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt
 ```
 
+Остальные сторонние фильтры:
+
+- Hello, Goodbye!
+- I don't care about cookies
+- RU AdList: BitBlock + Fanboy's General
+- RU AdList: Counters
+
 По настройкам фильтров можно ссылаться на статью по [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749) нужно расширение [**Scriptlet Doctor**](https://github.com/JustOff/scriptlet-doctor/releases).
 
-[:page_facing_up:**Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема.
+[:page_facing_up: **Dark Reader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) — универсальная темная тема.
 
 [**Select Link Text**](https://addons.mozilla.org/en-US/firefox/addon/select-link-text/) — форк Select Like a Boss, расширение, чтобы выделять ссылки для копирования без перехода после отпускания ЛКМ.
 
@@ -115,12 +122,12 @@ TrackMeNot?
 
 Стоит предпочесть то расширение, которое рекомендует создатель используемых вами юзерскриптов. Примеры:
 
-- [:page_facing_up:**Violentmonkey**](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/): опенсорс, актуальное расширение для FF
+- [:page_facing_up: **Violentmonkey**](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/): опенсорс, актуальное расширение для FF
 - Greasemonkey: было популярно раньше, но стало менее активно разрабатываться
 - Tampermonkey: проприетарное решение, разрабатывалось изначально под Chromium
 - Firemonkey: опенсорс, наиболее перспективное из упомянутых. Так же может быть использовано для стилей.
 
-Из скриптов сейчас я использую только [:page_facing_up:**куклу**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js). У неё есть расширение для Firefox со своими преимуществами, однако на практике скрипт для меня лучше, т.к. частенько нужны хотфиксы, которые получается использовать быстрее именно через скрипт.
+Из скриптов сейчас я использую только [:page_facing_up: **куклу**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js). У неё есть расширение для Firefox со своими преимуществами, однако на практике скрипт для меня лучше, т.к. частенько нужны хотфиксы, которые получается использовать быстрее именно через скрипт.
 
 #### Userstyles
 
@@ -130,7 +137,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 Есть несколько расширений для юзерстилей:
 
-- [:page_facing_up:**Stylus**](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+- [:page_facing_up: **Stylus**](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - Stylish: старое расширение, скурвилось после продажи userstyles.org
 - Firemonkey: упоминалось выше. Не использую, т.к. нет удобной киллерфичи — установки стилей не заходя на userstyles.org
 
@@ -149,39 +156,45 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [**Bypass Paywalls Clean (custom)**](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean-custom/) — иногда скрывает пэйволлы.
 
-[**Skip Redirect**](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/) / [Universal Bypass](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных и редирект ссылках. Пока определяю какой из аддонов для меня лучше. Skip Redirect нравится тем, что скипает редиректы смартлаба.
+[:exclamation: **Skip Redirect**](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/) / [Universal Bypass](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) — не тратить время на сокращенных и редирект ссылках. Пока определяю какой из аддонов для меня лучше. Skip Redirect нравится тем, что скипает редиректы смартлаба.
 
-[:page_facing_up:**FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться. Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
+Чтобы корректно работал, например, поиск по картинкам (в т.ч. с расширения Image Search Options), надо добавить в `No-skip-urls-list` регэксп с исключениями. Пример для Яндекса:
+
+```txt
+yandex.(ru|com)/images/search*
+```
+
+[:page_facing_up: **FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться. Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
 #### Youtube
 
 [**DF YouTube (Distraction Free)**](https://addons.mozilla.org/en-US/firefox/addon/df-youtube/) — изучение материалов на ютьюбе без мусора, включается изредкa.
 
-[:page_facing_up:**Enhancer for Youtube**](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) — дополнительные возможности, темы, etc.
+[:page_facing_up: **Enhancer for Youtube**](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) — дополнительные возможности, темы, etc.
 
-[:page_facing_up:**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) — скип встроенной в видео херни (рекламы, сегменты без музыки в музыкальных видео и т.д.).
+[:page_facing_up: **SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) — скип встроенной в видео херни (рекламы, сегменты без музыки в музыкальных видео и т.д.).
 
 #### Other sites
 
-[:page_facing_up:**Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/): Бекап импортируется в настройках внизу справа.
+[:page_facing_up: **Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/): Бекап импортируется в настройках внизу справа.
 
-[:page_facing_up:**Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
+[:page_facing_up: **Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
 
-[:page_facing_up:**BetterTTV** -> https://twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/betterttv/)
+[:page_facing_up: **BetterTTV** -> https://twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/betterttv/)
 
 [**Global Aliexpress**](https://addons.mozilla.org/en-US/firefox/addon/global-aliexpress/) — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний автоперевод.
 
-[:page_facing_up:**VkOpt** -> https://vk.com](https://vkopt.net/download/)
+[:page_facing_up: **VkOpt** -> https://vk.com](https://vkopt.net/download/)
 
 ### Useful
 
 [**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) — удобный поиск по картинке из контекстного меню.
 
-[:page_facing_up:**KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен.
+[:page_facing_up: **KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер отключен.
 
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/) — ETH кошелёк. Необходимо настроить сам кошелек и binance подсеть. TODO: добавить инструкцию
 
-[:page_facing_up:**Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
+[:page_facing_up: **Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/) — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если я не захочу в порыве прокрастинации заходить на какой-либо сайт (либо сайты по тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать полный URL.
 
 [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть контент в mpv. Нужно дополнительно поставить в систему хелпер.
 
@@ -226,7 +239,7 @@ HTTPZ / Smart HTTPS / HTTPS Everywhere — не вижу практическо�
 ## Закладки
 
 - Удалить все имеющиеся закладки (CTRL+B)
-- Сделать синхронизацию в [:page_facing_up:**floccus**](https://addons.mozilla.org/en-US/firefox/addon/floccus/) (у меня бекап в webdav в nextcloud)
+- Сделать синхронизацию в [:page_facing_up: **floccus**](https://addons.mozilla.org/en-US/firefox/addon/floccus/) (у меня бекап в webdav в nextcloud)
 - (Опционально) Восстановить favicon'ки через [:exclamation: **Checkmarks**](https://addons.mozilla.org/en-US/firefox/addon/checkmarks-web-ext/)
 
 ## Изменение хоткеев
