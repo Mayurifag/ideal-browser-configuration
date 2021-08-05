@@ -374,6 +374,7 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] Suggest folders for automatical downloads, automatically save content to
       Videos/Pictures/etc. Launch torrents automatically. Extension «Save
       In...», InlineDisposition, Cute Save Button
+- [ ] Pushbullet
 - [x] Suggest restore session solution (not by default, but via button if
       needed) (mysessions or smth)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder
