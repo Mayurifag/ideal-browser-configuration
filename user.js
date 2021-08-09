@@ -144,7 +144,7 @@ user_pref("network.dns.disableIPv6", false);
 
 // Make scrolling faster
 // Сделать скроллинг колёсиком мыши быстрее
-user_pref("mousewheel.min_line_scroll_amount", 30);
+user_pref("mousewheel.min_line_scroll_amount", 50);
 
 // СКМ по скроллбару перемещает прокрутку в соответствующее положение
 user_pref("middlemouse.scrollbarPosition", true)
