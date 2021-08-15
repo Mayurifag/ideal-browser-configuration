@@ -376,6 +376,7 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
       In...», InlineDisposition, Cute Save Button
 - [ ] Pushbullet
 - [ ] Reddit enhancement suite
+- [ ] Privacy Redirect
 - [x] Suggest restore session solution (not by default, but via button if
       needed) (mysessions or smth)
 - [x] Any way to make addons.mozilla.org dark? — done via chrome folder
