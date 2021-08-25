@@ -367,26 +367,12 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 
 ## TODO
 
-- [x] Make search configuration via `search.json.mozlz4` file. Need to add
-      4pda/amo(addons.mozilla.org)/yt(youtube)/gp(google play)/t(tinkoff pulse)
-      shortcuts
-- [x] Suggest extension for bookmarks
 - [ ] Suggest folders for automatical downloads, automatically save content to
       Videos/Pictures/etc. Launch torrents automatically. Extension «Save
-      In...», InlineDisposition, Cute Save Button
+      In...», InlineDisposition, Cute Save Button. Works on Linux?
 - [ ] Pushbullet
 - [ ] Reddit enhancement suite
 - [ ] Privacy Redirect
-- [x] Suggest restore session solution (not by default, but via button if
-      needed) (mysessions or smth)
-- [x] Any way to make addons.mozilla.org dark? — done via chrome folder
-- [x] ~~Fix dark theme input boxes instruction. maybe extension or smth. Check
-      if its needed actually somehow. Seems not.~~
-- [x] Make extensions collections list on addons.mozilla.org ~~to install all of
-      them via single install button~~ (yea you cant do it right now..)
-- [x] Move personal ublock list / ~~dollchan spells~~ into this repository +
-      archive previous
-  - [x] Move ublock list
-  - [x] ~~Move dollchan spells (do i really need it to be shared?)~~
-- [x] Find «Select like a boss» working alternative
-- [x] Proxy extension for several sites
+- [ ] Need new proxy extension. With backups / fast add site / updates
+- [ ] <https://uso.kkx.one/style/159780>
+- [ ] Productivity addons - block vk.com (but with exception for audio), etc.
