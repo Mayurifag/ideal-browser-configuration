@@ -376,3 +376,4 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] Need new proxy extension. With backups / fast add site / updates
 - [ ] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
+- [ ] https://github.com/Taraflex/Back2stackoverflow

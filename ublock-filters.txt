@@ -24,14 +24,31 @@ vk.com##.audio_promo
 vk.com##.feed_groups_recomm.page_block
 vk.com##.CatalogBlock__subscription_ru
 
-! google.com hide trash sites (there are some more actually)
-google.com#?##search .g:-abp-has([href*="coderoad.ru"])
-
 ! aliexpress
 aliexpress.ru##.festival-main-venue
 ! aliexpress.##.list-item:has(.item-ad-tag)
 
 ! https://2ch.hk/s/res/2988057.html#3017069
 pornhub.com###relateRecommendedItems>.alpha
+pornhub.com###welcome
 pornolab.net###page_footer
 pornolab.net###vs_here
+
+! 2021-08-14 https://www.deepl.com
+www.deepl.com##.dl_app_popup__content
+www.deepl.com##.dl_overlay_popup
+
+! 2021-08-26 https://eu4.paradoxwikis.com
+||central.paradoxwikis.com/images/$image
+
+! google.com hide trash sites (there are some more actually)
+google.com,google.ru#?##search .g:-abp-has(a[href*="qaru.site"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="programmerz.ru"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="quares.ru"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="askvoprosy.com"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="progi.pro"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="issue.life"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="overcoder.net"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="qastack.ru"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="stackoverrun.com"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="coderoad.ru"])
