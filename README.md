@@ -331,6 +331,8 @@ Decentraleyes / LocalCDN (fork) — задумка хорошая, но на п�
 сайты и не приносит особой пользы. Можно использовать в отдельном браузере на
 знакомых сайтах, где всё работает или изредка париться с исключенями.
 
+Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
+
 ## Внешний вид
 
 Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем
@@ -358,6 +360,7 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 ## Полезные ссылки
 
 - <https://ffprofile.com/>
+- <https://enchiridion.red/2019/1/18/firefox-extensions/>
 - <https://librewolf-community.gitlab.io/docs/>
 - <https://2ch.hk/s> -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
@@ -376,4 +379,18 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] Need new proxy extension. With backups / fast add site / updates
 - [ ] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
-- [ ] https://github.com/Taraflex/Back2stackoverflow
+- [ ] <https://github.com/Taraflex/Back2stackoverflow>
+- [ ] more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>
+- [ ] Localcdn
+- [ ] nbox?
+- [ ] Allow CORS: Access-Control-Allow-Origin
+- [ ] Bloody Vikings!
+- [ ] Forget Button - Clean your Browser
+- [ ] No Homo-Graph
+- [ ] pinterest-guest
+- [ ] Twitter View Original Images
+- [ ] HTTPZ
+- [ ] Session Alive + rules for vtb/tinkoff/etc
+- [ ] copy selection as markdown
+- [ ] change proxy extensions
+- [ ] Morning Coffee Quantum (?)
