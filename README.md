@@ -394,3 +394,4 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] copy selection as markdown
 - [ ] change proxy extensions
 - [ ] Morning Coffee Quantum (?)
+- [ ] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
