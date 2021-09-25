@@ -52,3 +52,6 @@ google.com,google.ru#?##search .g:-abp-has(a[href*="overcoder.net"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="qastack.ru"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="stackoverrun.com"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="coderoad.ru"])
+
+! 2021-09-20 https://www.eurogamer.net
+eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter

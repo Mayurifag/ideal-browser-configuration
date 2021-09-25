@@ -1,7 +1,8 @@
 {
-  "timeStamp": 1626700827935,
-  "version": "1.36.2",
+  "timeStamp": 1632603000811,
+  "version": "1.37.2",
   "userSettings": {
+    "advancedUserEnabled": true,
     "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
     "importedLists": [
       "https://easylist-downloads.adblockplus.org/bitblock.txt",
@@ -11,8 +12,7 @@
       "https://www.i-dont-care-about-cookies.eu/abp/"
     ],
     "popupPanelSections": 63,
-    "showIconBadge": false,
-    "webrtcIPAddressHidden": true
+    "showIconBadge": false
   },
   "selectedFilterLists": [
     "user-filters",
@@ -22,6 +22,8 @@
     "ublock-abuse",
     "ublock-unbreak",
     "easylist",
+    "easyprivacy",
+    "urlhaus-1",
     "fanboy-thirdparty_social",
     "fanboy-cookiemonster",
     "ublock-annoyances",
@@ -31,9 +33,9 @@
     "RUS-0",
     "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
     "https://www.i-dont-care-about-cookies.eu/abp/",
+    "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
-    "https://easylist-downloads.adblockplus.org/cntblock.txt",
-    "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt"
+    "https://easylist-downloads.adblockplus.org/cntblock.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [

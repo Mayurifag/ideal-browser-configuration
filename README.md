@@ -269,8 +269,8 @@ yandex.(ru|com)/images/search*
 отключен.
 
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
-— ETH кошелёк. Необходимо настроить сам кошелек и binance подсеть. TODO:
-добавить инструкцию
+— ETH кошелёк. Необходимо настроить сам кошелек и подсети. TODO:
+добавить инструкцию для BSC и матик подсетей.
 
 [:page_facing_up: **Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/)
 — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки
@@ -326,10 +326,6 @@ Blockchain DNS — можно было удобно заходить на \*.lib
 
 Buster: Captcha Solver for Humans — такое ощущение, что не работает или я не
 понял как им пользоваться.
-
-Decentraleyes / LocalCDN (fork) — задумка хорошая, но на практике может ломать
-сайты и не приносит особой пользы. Можно использовать в отдельном браузере на
-знакомых сайтах, где всё работает или изредка париться с исключенями.
 
 Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
 
