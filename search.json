@@ -2,13 +2,61 @@
   "version": 6,
   "engines": [
     {
+      "_name": "Google",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 17
+      }
+    },
+    {
+      "_name": "Amazon.com",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 13
+      }
+    },
+    {
+      "_name": "Wikipedia (en)",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 18
+      }
+    },
+    {
+      "_name": "Bing",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 14
+      }
+    },
+    {
+      "_name": "DuckDuckGo",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 15
+      }
+    },
+    {
+      "_name": "eBay",
+      "_isAppProvided": true,
+      "_metaData": {
+        "hidden": true,
+        "order": 16
+      }
+    },
+    {
       "_name": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
       "_loadPath": "[https]mycroftproject.com/google-encrypted-ncr-no-pws-safe-off-en-us.xml",
       "description": "Google Encrypted without Country Redirect, Personalized Results and Safe Search. Language en-US and Suggestions Enabled.",
       "__searchForm": "https://encrypted.google.com/?gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50",
       "_iconURL": "data:image/x-icon;base64,AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///zD9/f2W/f392P39/fn9/f35/f391/39/ZT+/v4uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Cf39/Zn///////////////////////////////////////////39/ZX///8IAAAAAAAAAAAAAAAA/v7+Cf39/cH/////+v35/7TZp/92ul3/WKs6/1iqOv9yuFn/rNWd//j79v///////f39v////wgAAAAAAAAAAP39/Zn/////7PXp/3G3WP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP+Or1j//vDo///////9/f2VAAAAAP///zD/////+vz5/3G3V/9TqDT/WKo6/6LQkf/U6cz/1urO/6rUm/+Zo0r/8IZB//adZ////v7///////7+/i79/f2Y/////4nWzf9Lqkj/Vqo4/9Xqzv///////////////////////ebY//SHRv/0hUL//NjD///////9/f2U/f392v////8sxPH/Ebzt/43RsP/////////////////////////////////4roL/9IVC//i1jf///////f391/39/fr/////Cr37/wW8+/+16/7/////////////////9IVC//SFQv/0hUL/9IVC//SFQv/3pnX///////39/fn9/f36/////wu++/8FvPv/tuz+//////////////////SFQv/0hUL/9IVC//SFQv/0hUL/96p7///////9/f35/f392/////81yfz/CrL5/2uk9v///////////////////////////////////////////////////////f392P39/Zn/////ks/7/zdS7P84Rur/0NT6///////////////////////9/f////////////////////////39/Zb+/v4y//////n5/v9WYu3/NUPq/ztJ6/+VnPT/z9L6/9HU+v+WnfT/Ul7t/+Hj/P////////////////////8wAAAAAP39/Z3/////6Or9/1hj7v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9sdvD////////////9/f2YAAAAAAAAAAD///8K/f39w//////5+f7/paz2/11p7v88Suv/Okfq/1pm7v+iqfX/+fn+///////9/f3B/v7+CQAAAAAAAAAAAAAAAP///wr9/f2d///////////////////////////////////////////9/f2Z/v7+CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f2Z/f392/39/fr9/f36/f392v39/Zj///8wAAAAAAAAAAAAAAAAAAAAAPAPAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAPAPAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/g3+/v5X/f39mf39/cj9/f3q/f39+f39/fn9/f3q/f39yP39/Zn+/v5W////DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f2c/f399f/////////////////////////////////////////////////////9/f31/f39mv7+/iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/gn9/f2K/f39+////////////////////////////////////////////////////////////////////////////f39+v39/Yf///8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4k/f390v////////////////////////////////////////////////////////////////////////////////////////////////39/dD///8iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////MP39/er//////////////////////////+r05v+v16H/gsBs/2WxSf9Wqjj/Vqk3/2OwRv99vWX/pdKV/97u2P////////////////////////////39/ej+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f3q/////////////////////+v15/+Pxnv/VKk2/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/36+Z//d7tf///////////////////////39/ej///8iAAAAAAAAAAAAAAAAAAAAAAAAAAD///8K/f390//////////////////////E4bn/XKw+/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1apN/+x0pv///////////////////////39/dD///8IAAAAAAAAAAAAAAAAAAAAAP39/Yv/////////////////////sdij/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/YKU1/8qOPv/5wZ////////////////////////39/YcAAAAAAAAAAAAAAAD+/v4l/f39+////////////////8Lgt/9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9utlT/n86N/7faqv+426v/pdKV/3u8ZP9UqDX/U6g0/3egN//jiUH/9IVC//SFQv/82MP//////////////////f39+v7+/iMAAAAAAAAAAP39/Z3////////////////q9Ob/W6w+/1OoNP9TqDT/U6g0/1OoNP9nskz/zOXC/////////////////////////////////+Dv2v+osWP/8YVC//SFQv/0hUL/9IVC//WQVP/++fb//////////////////f39mgAAAAD+/v4O/f399v///////////////4LHj/9TqDT/U6g0/1OoNP9TqDT/dblc//L58P/////////////////////////////////////////////8+v/3p3f/9IVC//SFQv/0hUL/9IVC//rIqf/////////////////9/f31////DP7+/ln////////////////f9v7/Cbz2/zOwhv9TqDT/U6g0/2KwRv/v9+z///////////////////////////////////////////////////////738//1kFT/9IVC//SFQv/0hUL/9plg///////////////////////+/v5W/f39nP///////////////4jf/f8FvPv/Bbz7/yG1s/9QqDz/vN2w//////////////////////////////////////////////////////////////////rHqP/0hUL/9IVC//SFQv/0hUL//vDn//////////////////39/Zn9/f3L////////////////R878/wW8+/8FvPv/Bbz7/y7C5P/7/fr//////////////////////////////////////////////////////////////////ere//SFQv/0hUL/9IVC//SFQv/718H//////////////////f39yP39/ez///////////////8cwvv/Bbz7/wW8+/8FvPv/WNL8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//rIqv/////////////////9/f3q/f39+v///////////////we9+/8FvPv/Bbz7/wW8+/993P3///////////////////////////////////////SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/+cGf//////////////////39/fn9/f36////////////////B737/wW8+/8FvPv/Bbz7/33c/f//////////////////////////////////////9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/6xaX//////////////////f39+f39/e3///////////////8cwvv/Bbz7/wW8+/8FvPv/WdP8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//vVv//////////////////9/f3q/f39y////////////////0bN/P8FvPv/Bbz7/wW8+/8hrvn/+/v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////39/cj9/f2c////////////////ht/9/wW8+/8FvPv/FZP1/zRJ6/+zuPf//////////////////////////////////////////////////////////////////////////////////////////////////////////////////f39mf7+/lr////////////////d9v7/B7n7/yB38f81Q+r/NUPq/0hV7P/u8P3////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5X////D/39/ff///////////////9tkPT/NUPq/zVD6v81Q+r/NUPq/2Fs7//y8v7////////////////////////////////////////////09f7//////////////////////////////////////////////////f399f7+/g0AAAAA/f39n////////////////+Tm/P89Suv/NUPq/zVD6v81Q+r/NUPq/1Bc7f/IzPn/////////////////////////////////x8v5/0xY7P+MlPP////////////////////////////////////////////9/f2cAAAAAAAAAAD+/v4n/f39/P///////////////7W69/81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9ZZe7/k5v0/6609/+vtff/lJv0/1pm7v81Q+r/NUPq/zVD6v+GjvL//v7//////////////////////////////f39+/7+/iQAAAAAAAAAAAAAAAD9/f2N/////////////////////6Cn9f81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v+BivL////////////////////////////9/f2KAAAAAAAAAAAAAAAAAAAAAP7+/gv9/f3V/////////////////////7W69/8+S+v/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/P0zr/7q/+P///////////////////////f390v7+/gkAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3r/////////////////////+Xn/P94gfH/NkTq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NkTq/3Z/8f/l5/z///////////////////////39/er+/v4kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f3r///////////////////////////k5vz/nqX1/2p08P9IVez/OEbq/zdF6v9GU+z/aHLv/5qh9f/i5Pz////////////////////////////9/f3q////MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3V/////////////////////////////////////////////////////////////////////////////////////////////////f390v7+/iQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wr9/f2N/f39/P///////////////////////////////////////////////////////////////////////////f39+/39/Yv+/v4JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4n/f39n/39/ff//////////////////////////////////////////////////////f399v39/Z3+/v4lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Dv7+/lr9/f2c/f39y/39/e39/f36/f39+v39/ez9/f3L/f39nP7+/ln+/v4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AA///AAD//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPAAAAD4AAAB/AAAA/4AAAf/AAAP/8AAP//wAP/",
       "_metaData": {
-        "loadPathHash": "h03CLH25cckhT/YlzyrhS0+iE/cMA6QKHYYz5P9zNos=",
+        "loadPathHash": "bGoVKbwPM55ROiuBZgy4Uxzy5HkBPM8dD29GCYZT3c8=",
         "order": 1,
         "updateexpir": 1627148834815,
         "alias": "g"
@@ -18,12 +66,14 @@
           "params": [],
           "rels": [],
           "template": "https://encrypted.google.com/search?q={searchTerms}&gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50"
-        }, {
+        },
+        {
           "params": [],
           "rels": [],
           "template": "https://suggestqueries.google.com/complete/search?output=firefox&client=firefox&gl=US&hl=en&q={searchTerms}",
           "type": "application/x-suggestions+json"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/google.xml",
@@ -41,7 +91,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "YouTube",
       "_loadPath": "[https]mycroftproject.com/youtube.xml",
       "description": "YouTube - Videos",
@@ -58,12 +109,14 @@
           "params": [],
           "rels": [],
           "template": "https://www.youtube.com/results?search_query={searchTerms}&search=Search"
-        }, {
+        },
+        {
           "params": [],
           "rels": [],
           "template": "https://suggestqueries.google.com/complete/search?output=firefox&ds=yt&q={searchTerms}",
           "type": "application/x-suggestions+json"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/youtube.xml",
@@ -81,7 +134,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "4pda.to content - Google",
       "_loadPath": "[https]mycroftproject.com/4pda-content---google.xml",
       "description": "Searches 4pda.to content through Google",
@@ -98,7 +152,8 @@
           "params": [],
           "rels": [],
           "template": "http://www.google.com/search?q={searchTerms}+site:4pda.to"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/4pda-content-google.xml",
@@ -116,7 +171,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "Google Play - Apps",
       "_loadPath": "[https]mycroftproject.com/google-play---apps.xml",
       "description": "Search for Android apps",
@@ -133,7 +189,8 @@
           "params": [],
           "rels": [],
           "template": "https://play.google.com/store/search?q={searchTerms}&c=apps"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/android-market.xml",
@@ -151,7 +208,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "Wikipedia (ru)",
       "_loadPath": "[https]mycroftproject.com/wikipedia-ru.xml",
       "description": "Wikipedia (ru)",
@@ -168,12 +226,14 @@
           "params": [],
           "rels": [],
           "template": "https://ru.wikipedia.org/wiki/Служебная:Search?search={searchTerms}"
-        }, {
+        },
+        {
           "params": [],
           "rels": [],
           "template": "https://ru.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}",
           "type": "application/x-suggestions+json"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/wikipedia-ru.xml",
@@ -191,7 +251,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "Rutracker.org",
       "_loadPath": "[https]mycroftproject.com/rutrackerorg.xml",
       "description": "Torrents.ru Search",
@@ -208,7 +269,8 @@
           "params": [],
           "rels": [],
           "template": "https://rutracker.org/forum/tracker.php?nm={searchTerms}"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/torrents_ru_alt.xml",
@@ -227,7 +289,8 @@
       "_definedAliases": [],
       "_hasPreferredIcon": false,
       "queryCharset": "windows-1251"
-    }, {
+    },
+    {
       "_name": "Aliexpress",
       "_loadPath": "[https]mycroftproject.com/aliexpress.xml",
       "description": "Aliexpress shopping site",
@@ -244,7 +307,8 @@
           "params": [],
           "rels": [],
           "template": "https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190730094114&SearchText={searchTerms}&switch_new_app=n"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/aliexpress-us-eng.xml",
@@ -262,7 +326,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "Tinkoff Stock",
       "_loadPath": "[https]paste.mozilla.org/tinkoff-stock.xml",
       "description": "",
@@ -290,7 +355,8 @@
       "_extensionID": null,
       "_locale": null,
       "_definedAliases": []
-    }, {
+    },
+    {
       "_name": "Steam",
       "_loadPath": "[https]mycroftproject.com/steam.xml",
       "description": "Search for games on Steam",
@@ -307,12 +373,14 @@
           "params": [],
           "rels": [],
           "template": "https://store.steampowered.com/search/?term={searchTerms}"
-        }, {
+        },
+        {
           "params": [],
           "rels": [],
           "template": "https://store.steampowered.com/search/suggest/?f=JSON&term={searchTerms}",
           "type": "application/x-suggestions+json"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/steam.xml",
@@ -330,7 +398,8 @@
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "VK.com Audio",
       "_loadPath": "[https]paste.mozilla.org/vkcom-audio.xml",
       "description": "",
@@ -358,7 +427,8 @@
       "_extensionID": null,
       "_locale": null,
       "_definedAliases": []
-    }, {
+    },
+    {
       "_name": "Rutor (sort by Seeds)",
       "_loadPath": "[https]mycroftproject.com/rutor-sort-by-seeds.xml",
       "description": "Поиск по трекеру RuTor.is",
@@ -366,7 +436,7 @@
       "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc4AAMwHNdcQ4vsN3fYS2fUY3fUe3fMj4fkk4fco4PYo5fgk7f5gp8ZuZZtsa59FIXZEGm4kh74PyeoLGp8NHK4PHrwQHr8VIb8XJL4bJrUcKJ8optEdtPMBGcQAIcXeZAPVYwdA3MQFf8EDAJoFAMEEAM0AANIAAM4AAM0EAL8CAI8bXaEV1/cBHMsGDNTVWAOodTIU5/ELuOAJM6sEALsIAMoEALkCBbgFALUGAKshgMcvpNUTzOoFQNIFANqxQgBpkmgKue8IT8UUy+8HO7MHPb8Gt+IG3vQHm9YKi84X4foKI7kRl+AWiMwSDYyxjXZAy84HdNYEALcPguYM+vsL6PgGl/wBWN4K1/EF//8LbdQEALgEVc41zMp0YC+t0N0XxPcCIbwGAMkGGOUGUvQKPPUEANsIU9ENvvAJw/ULnekGAr8FJcIUzfRycEZwzuMFnuYEArQCAdYDANYHAMQFAMwGPcwM2vsHU/QKPegLwvYEEckFBrsOt/Y+kYky5/YGgNAGAKkHAc4JMssSoN0GTb0L2/gHYPkCAPkFKOMP0fIHGc0EAKwLgNAq3OMd/P0Al9ACBqQCAMALbOMG+/8E8v0KjugBAO4CAPAGQ9MNyPYEB8QBAKQCe8cW9//T+/09+/8Aqd8GIbIFAMAKbuUG6f8Ht/IFFeEAAMYPqeYMhOEGB6oCgtUY5fuG0tv//vzs+PlQ9fwAw+4CLLoIALgJR+EFU+wEFcweZNAkquMFMrkArOor4fSrxsvWx8n5/fv5+fn3+/iC8fsLzPIAUscEALMDAL8QPtAsetUFWsUHue1r7/vc6evOzMfFx8n5/fvy+fj89vb/9/e+9/o44/oNi9kBD54CFKQJg9Qu4vu09vr/+ff89fTIz8rFx8n5/fvy+fj59vb49vf/+fbh+vtk6vw1rN03suFn6vnl/f3/+fn49vj18/TIz8rFx8n5/fvy+fj59vb39vf39/f//P3w+fme6/ak8Prv+fj//f369/r39vj18/TIz8rFx8ngBwAA4AMAAMADAADAAwAAwAMAAMABAACAAQAAgAEAAAAAAAAAAAAAgAEAAMADAADgBwAA+B8AAPw/AAD+fwAA",
       "_metaData": {
         "loadPathHash": "ilWG1+C894HL2V7JP6KOFq2j8Wv7Jr3t0KyYavpqNBU=",
-        "order": 19,
+        "order": 12,
         "updateexpir": 1627775947083,
         "alias": "rutor"
       },
@@ -375,7 +445,8 @@
           "params": [],
           "rels": [],
           "template": "http://rutor.is/search/0/0/000/2/{searchTerms}"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/rutoris-byseeds.xml",
@@ -388,11 +459,13 @@
       "_updateInterval": null,
       "_updateURL": null,
       "_iconUpdateURL": null,
+      "_filePath": null,
       "_extensionID": null,
       "_locale": null,
       "_definedAliases": [],
       "_hasPreferredIcon": false
-    }, {
+    },
+    {
       "_name": "addons.mozilla.org FF extensions",
       "_loadPath": "[https]mycroftproject.com/ado-ff-extensions.xml",
       "description": "addons.mozilla.org - FF Extensions",
@@ -409,10 +482,76 @@
           "params": [],
           "rels": [],
           "template": "https://addons.mozilla.org/firefox/search?q={searchTerms}&type=extension"
-        }, {
+        },
+        {
           "params": [],
           "rels": ["self"],
           "template": "https://mycroftproject.com/updateos.php/id0/firefox_ext_only.xml",
+          "type": "application/opensearchdescription+xml"
+        }
+      ],
+      "_isAppProvided": false,
+      "_orderHint": null,
+      "_telemetryId": null,
+      "_updateInterval": null,
+      "_updateURL": null,
+      "_iconUpdateURL": null,
+      "_filePath": null,
+      "_extensionID": null,
+      "_locale": null,
+      "_definedAliases": [],
+      "_hasPreferredIcon": false
+    },
+    {
+      "_name": "DNS",
+      "_loadPath": "[https]paste.mozilla.org/dns.xml",
+      "description": "",
+      "__searchForm": null,
+      "_iconURL": "data:image/png;base64,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",
+      "_metaData": {
+        "loadPathHash": "rHl+VokDzwnGVDHUBx9MIRXMkXV+ntLVstMrs1WuopA=",
+        "order": 19,
+        "alias": "dns"
+      },
+      "_urls": [
+        {
+          "params": [],
+          "rels": [],
+          "template": "https://www.dns-shop.ru/search/?q={searchTerms}"
+        }
+      ],
+      "_isAppProvided": false,
+      "_orderHint": null,
+      "_telemetryId": null,
+      "_updateInterval": null,
+      "_updateURL": null,
+      "_iconUpdateURL": null,
+      "_extensionID": null,
+      "_locale": null,
+      "_definedAliases": []
+    },
+    {
+      "_name": "Яндекс.Маркет",
+      "_loadPath": "[https]mycroftproject.com/gyqwc62qy2u.xml",
+      "description": "Поиск товаров в Яндекс.Маркете",
+      "__searchForm": "https://market.yandex.ru/",
+      "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAISEhABEREQAiIiJpIiIi1yIiInEhISEBIiIiAAAAAAAiIiIAIiIiBiIiIociIiLUIiIiUyIiIgAiIiIAAAAAACIiIgAiIiIKIiIivyIiIv8iIiLHIiIiDiIiIgAAAAAAIiIiACIiIhwiIiLcIiIi/yIiIqUhISECISEhAAAAAAAiIiIAISEhASIiIm4iIiLSIiIidiEhIQIiIiIAAAAAACIiIgAiIiIIIiIiiyIiItAiIiJZIiIiACEhIQAAAAAAAAAAACIiIgAiIiIEIiIiEiIiIgQiIiIAAAAAAAAAAAAAAAAAIiIiACIiIgYiIiIRIiIiAiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAMp3QgDKd0IlyndCTsp3QiDKd0IGy3dCAMd1QQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMl2QQDLeEMAyndCicp3QvzKd0LfyndCsMp3QnTKd0I7yndCE8l2QQLJd0IAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0IAyndCF8p3QtDKd0L/yndC/8p3Qv/Kd0L/yndC8sp3Qs/Kd0KZyndCXcp3QinKd0IHAAAAAAAAAADAcTIAyndCAMp3QlDKd0L4yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvzKd0LmyndCkAAAAAAAAAAAyXdBAMl2QQLKd0KdyndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvcAAAAAAAAAAMp3QgDKd0IiyndC3cp3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/AAAAAMl2QADKd0IAyndCY8p3Qv3Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/wAAAADKd0IAyndCB8p3QrDKd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv8AAAAAyndCAMp3QjDKd0LpyndC+Mp3QuXKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndCBMp3QgLKd0J4yndC/8p3Qp7Kd0IiyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QrPKd0KzyndC5Mp3QvXKd0JGyndCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0L/yndC/8p3Qv/Kd0LLyndCE8p3QgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwcMAAMHBAADBwwAA4+MAAPh/AAD4BwAA8AAAAPAAAADgAAAA4AAAAOAAAADAAAAAwAAAAAAAAAAH/wAAB/8AAA==",
+      "_metaData": {
+        "loadPathHash": "BALQrXve8xY5porJV3jryUSSFPhjTleuCoII+Zqjs3g=",
+        "order": 20,
+        "updateexpir": 1635691307943,
+        "alias": "ym"
+      },
+      "_urls": [
+        {
+          "params": [],
+          "rels": [],
+          "template": "https://market.yandex.ru/search?cvredirect=2&text={searchTerms}"
+        },
+        {
+          "params": [],
+          "rels": ["self"],
+          "template": "https://mycroftproject.com/updateos.php/id0/yandex.market.xml",
           "type": "application/opensearchdescription+xml"
         }
       ],
@@ -431,6 +570,6 @@
   "metaData": {
     "useSavedOrder": true,
     "current": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
-    "hash": "DB/uTsGZZ0QaLxJN6+7PLpusDqXpR2P61LZL25UCke8="
+    "hash": "0sRakl9raLpGiEWLJQMmf3H+ShuCE02gZZacv2h8GP0="
   }
 }

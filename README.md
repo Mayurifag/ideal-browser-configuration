@@ -14,21 +14,6 @@
 inb4: Да, это всё вместе уживается и не тормозит у меня в браузере на mid-end
 конфигурациях лаптопа и пекарни.
 
-## Какие браузеры есть на рынке
-
-Из тех кроссплатформенных браузеров, которыми я пользовался, выделить можно
-несколько:
-
-1. **LW** LibreWolf (Firefox fork)
-   <https://librewolf-community.gitlab.io/install/>
-2. Ungoogled Chromium <https://github.com/Eloston/ungoogled-chromium>
-3. **FF** Firefox Beta (если LibreWolf не подходит)
-   <https://www.mozilla.org/en-US/firefox/channel/desktop/>
-
-Далее повествование будет идти про LibreWolf, но это универсальные шаги,
-доступные и на Firefox. Аналогичные расширения могут быть доступны и для
-браузеров, основанных на Chromium.
-
 ## librewolf.overrides.cfg
 
 Смотрим <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
@@ -58,9 +43,6 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 [инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme)
 (оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно
 было).
-
-В файле `search.json.mozlz4` — используемые мной поисковые движки. Делается из
-файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4).
 
 ![Search engines screenshot](./github_readme_images/search_shortcuts.png?raw=true)
 
@@ -353,6 +335,13 @@ Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
 Здесь должно быть описание того, как я в системе отключаю CTRL+SHIFT+W /
 CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут под \*nix и win.
 
+## Примечания
+
+В файле `search.json.mozlz4` — используемые мной поисковые движки. Делается из
+файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4). Как
+вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
+И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
+
 ## Полезные ссылки
 
 - <https://ffprofile.com/>
@@ -390,4 +379,4 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] copy selection as markdown
 - [ ] change proxy extensions
 - [ ] Morning Coffee Quantum (?)
-- [ ] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
+- [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
