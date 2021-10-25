@@ -264,8 +264,7 @@ yandex.(ru|com)/images/search*
 отключен.
 
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
-— ETH кошелёк. Необходимо настроить сам кошелек и подсети. TODO:
-добавить инструкцию для BSC и матик подсетей.
+— ETH кошелёк. Необходимо настроить сам кошелек и подсети. Настройка описана ниже.
 
 [:page_facing_up: **Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/)
 — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки
@@ -347,6 +346,29 @@ Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
 
 Здесь должно быть описание того, как я в системе отключаю CTRL+SHIFT+W /
 CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут под \*nix и win.
+
+## Настройка Metamask
+
+1) Импорт по секрет фразе. Во время настройки сохранить новую закладку moz-extension:// ... (чтобы удобно добавлять подсети)
+2) (опционально) Добавляем токены. Например, $GLCH по адресу `0x038a68ff68c393373ec894015816e33ad41bd564`
+Взят из <https://coinmarketcap.com/currencies/glitch/> -> Explorers -> etherscan
+3) Добавляем Binance Smart Chain <https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain>:
+
+Network Name: Binance Smart Chain
+New RPC URL: https://bsc-dataseed.binance.org/
+ChainID: 56
+Symbol: BNB
+Block Explorer URL: https://bscscan.com
+
+4) Добавляем Matic Mainnet
+
+Network name: Matic Mainnet
+New RPC URL: https://rpc-mainnet.maticvigil.com/
+Chain ID: 137
+Currency symbol: MATIC
+Block Explorer URL: https://explorer.matic.network/
+
+5) Можно включить экспериментальную подгрузку токенов
 
 ## Примечания
 
