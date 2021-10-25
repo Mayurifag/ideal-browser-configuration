@@ -130,9 +130,6 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 ### Privacy
 
-[**Smart Referer**](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/)
-— спуфинг реферер заголовка с автообновляемым whitelist.
-
 [:exclamation: **Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
 — чистка URL от лишних маркетинговых и прочих меток. Надо сравнить с
 альтернативами типа Pure URL / Neat URL. После установки снять галки со
@@ -143,12 +140,6 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 имеет смысл бекапить настройки — нужно только убрать галку «Открывать страницу
 FAQ при обновлении», а затем выставить при надобности один из предлагаемых
 юзерагентов.
-
-[:exclamation: **CanvasBlocker**](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
-— Stealth settings/reCAPTCHA exception apply
-
-[**Smart HTTPS**](https://addons.mozilla.org/en-US/firefox/addon/smart-https-revived/)
-— то, как встроенный https редиректинг в браузере должен работать из коробки.
 
 ### Sites enhancements
 
@@ -164,11 +155,10 @@ FAQ при обновлении», а затем выставить при на�
 - Firemonkey: опенсорс, наиболее перспективное из упомянутых. Так же может быть
   использовано для стилей.
 
-Из скриптов сейчас я использую только
-[:page_facing_up: **куклу**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js).
-У неё есть расширение для Firefox со своими преимуществами, однако на практике
-скрипт для меня лучше, т.к. частенько нужны хотфиксы, которые получается
-использовать быстрее именно через скрипт.
+Из скриптов сейчас я использую только:
+- [:page_facing_up: **Dollchan Extension Tools**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js).
+Скрипту обновления приходят лучше, чем расширению.
+- [**Back2source**](<https://github.com/CennoxX/Back2source>)
 
 #### Userstyles
 
@@ -394,7 +384,7 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] Need new proxy extension. With backups / fast add site / updates
 - [ ] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
-- [ ] <https://github.com/CennoxX/Back2source>
+- [x] <https://github.com/CennoxX/Back2source>
 - [ ] more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>
 - [ ] Localcdn
 - [ ] nbox?
@@ -404,9 +394,8 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] No Homo-Graph
 - [ ] pinterest-guest
 - [ ] Twitter View Original Images
-- [ ] HTTPZ
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
 - [ ] change proxy extensions
-- [ ] Morning Coffee Quantum (?)
+- [x] ~~Morning Coffee Quantum (?)~~
 - [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
