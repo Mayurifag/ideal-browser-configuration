@@ -52,12 +52,15 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### General
 
+- Restore previous session
 - Set default browser
 - Unset 'Check your spelling as you type'
 - Settings for applications by your tastes. Suggesting pdf/torrent changes.
 - Unset 'Use recommended perfomance settings' -> Unset 'Use hardware
   acceleration when available'
-- Network Settings -> Enable DNS-over-HTTPS
+- Unset Show a touch keyboard when necessary
+- Unset Enable picture-in-picture video control
+- Unset Control media via keyboard, headset, or virtual interface
 
 ### Home
 
@@ -67,17 +70,27 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 - Set Default Search Engine
 - Tick Provide search suggestions -> Tick all 3 options
-- Search Shortcuts: Remove trash positions
+- Search Shortcuts: Remove trash positions / Untick all the things
 
 ### Privacy & Security
 
+- Untick blocking 3rd party cookies
 - Untick 'Delete cookies and site data when LibreWolf is closed'
 - History -> Remember things; Untick «Clear history when LibreWolf closes»
 - Block VR devices
+- Unset Warn you when websites try to install add-ons
+
+### Librewolf
+
+- Extensions & Themes auto-update
+- Advanced CSS styling
+- Enable WebGL
+- Peer Connections
+- Disable asm.js
 
 ## Extensions and Themes
 
-Надо включить 'Update Add-ons automatically' в настройках.
+<!-- Надо включить 'Update Add-ons automatically' в настройках. -->
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны
 упоминания. Значки перед названием аддона:
@@ -342,6 +355,13 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
 
+Проверка, что браузер настроен хорошо:
+
+- binance.com
+- ali.pub ... (ссылки брать из https://vk.com/pcstonks)
+- google meet
+- 2ch.hk fingerprint
+
 ## Полезные ссылки
 
 - <https://ffprofile.com/>
@@ -364,7 +384,7 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 - [ ] Need new proxy extension. With backups / fast add site / updates
 - [ ] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
-- [ ] <https://github.com/Taraflex/Back2stackoverflow>
+- [ ] <https://github.com/CennoxX/Back2source>
 - [ ] more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>
 - [ ] Localcdn
 - [ ] nbox?

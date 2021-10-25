@@ -198,7 +198,7 @@ user_pref("device.sensors.motion.enabled", false);
 user_pref("device.sensors.orientation.enabled", false);
 user_pref("device.sensors.proximity.enabled", false);
 user_pref("dom.battery.enabled", false);
-user_pref("dom.webaudio.enabled", false);
+// user_pref("dom.webaudio.enabled", false);
 user_pref("experiments.activeExperiment", false);
 user_pref("experiments.enabled", false);
 user_pref("experiments.manifest.uri", "");
@@ -225,19 +225,13 @@ user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.cookie.cookieBehavior", 1);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
-user_pref("network.http.referer.XOriginPolicy", 2);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.predictor.enable-prefetch", false);
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.donottrackheader.value", 1);
-user_pref("privacy.trackingprotection.cryptomining.enabled", true);
-user_pref("privacy.trackingprotection.enabled", true);
-user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
-user_pref("privacy.trackingprotection.pbmode.enabled", true);
 user_pref("privacy.usercontext.about_newtab_segregation.enabled", true);
-user_pref("security.ssl.disable_session_identifiers", true);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSite", false);
 user_pref("signon.autofillForms", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
@@ -255,10 +249,23 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.unifiedIsOptIn", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
-user_pref("webgl.disabled", true);
-user_pref("webgl.renderer-string-override", " ");
-user_pref("webgl.vendor-string-override", " ");
+
 
 // Fix for 2ch.hk -> cloudflare browser check infinite loop
 user_pref("privacy.resistFingerprinting", false);
 // also privacy.trackingprotection.fingerprinting.enabled false
+
+
+// Что-то из этого ломает binance / ali.pub
+// user_pref("webgl.disabled", true);
+// user_pref("webgl.renderer-string-override", " ");
+// user_pref("webgl.vendor-string-override", " ");
+// user_pref("security.ssl.disable_session_identifiers", true);
+// user_pref("privacy.trackingprotection.cryptomining.enabled", true);
+// user_pref("privacy.trackingprotection.enabled", true);
+// user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
+// user_pref("privacy.trackingprotection.pbmode.enabled", true);
+// user_pref("network.http.referer.XOriginPolicy", 2);
+
+// Fix google meet
+user_pref("dom.webaudio.enabled", true);
