@@ -1,212 +1,18 @@
 {
-  "mode": "patterns",
-  "logging": {
-    "size": 100,
-    "active": false
-  },
-  "1y7irj1627085028002": {
-    "type": 3,
+  "c3vhnj1635119502023": {
+    "type": 1,
     "color": "#66cc66",
     "title": "shadowsocks",
     "active": true,
-    "address": "127.0.0.1",
+    "address": "localhost",
     "port": 1080,
-    "proxyDNS": true,
+    "proxyDNS": false,
     "username": "",
     "password": "",
     "whitePatterns": [
       {
-        "title": "",
-        "pattern": "*.twitter.com",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.twimg.com",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.2ip.ru",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.4pda.ru",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.4pda.to",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.del.dog",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.flibs.me",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.flibusta.is",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.flibusta.site",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.pornolab.net",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.lurkmore.to",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.lurkmo.re",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.lurkmore.co",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.lurkmore.net",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.kino.pub",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.kinozal.tv",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.lib.rus.ec",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.linkedin.com",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.nnm-club.me",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.nnm-club.to",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.nnm-club.ws",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.protonmail.com",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.rutor.info",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.rutor.is",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.rutracker.org",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.tapochek.net",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.arhivach.net",
-        "type": 1,
-        "protocols": 1,
-        "active": true
-      },
-      {
-        "title": "",
-        "pattern": "*.arhivach.ng",
+        "title": "all URLs",
+        "pattern": "*",
         "type": 1,
         "protocols": 1,
         "active": true
@@ -233,13 +39,59 @@
         "type": 2,
         "protocols": 1,
         "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.vk.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.2ip.ru",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.nalog.ru",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.gosuslugi.ru",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.youtube.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.ytimg.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
       }
     ],
     "pacURL": "",
     "index": -1
   },
-  "browserVersion": "90.0.1",
+  "logging": {
+    "size": 100,
+    "active": false
+  },
+  "mode": "patterns",
+  "browserVersion": "93.0",
   "foxyProxyVersion": "7.5.1",
-  "foxyProxyEdition": "standard",
-  "sync": true
+  "foxyProxyEdition": "standard"
 }
