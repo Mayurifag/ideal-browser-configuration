@@ -96,9 +96,9 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 ### Must have
 
-[:page_facing_up: **uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+[:page_facing_up: **uBlock Origin**](https://github.com/gorhill/uBlock/releases)
 — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
-Встроенный, думаю, лучше удалить и поставить из AMO.
+Встроенный, думаю, лучше удалить и поставить из github, т.к. тёмная тема пока только в dev билде.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои
 собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock
