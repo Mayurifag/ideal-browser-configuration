@@ -35,18 +35,11 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 Опционально можно создать новый профиль. Оставляем вкладку, чтобы был удобный
 доступ к директории профиля.
 
-Копируем `user.js`, `search.json.mozlz4` и директорию `chrome` в директорию
-профиля.
-
-В папке chrome лежит немного измененный стиль (убрал раскраску url bar и
-вкладок) по
-[инструкции](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/tree/master/Full%20dark%20theme)
-(оригинальный файл оставлен, чтобы в будущем patch легко сделать по диффу можно
-было).
+Копируем `user.js`, `search.json.mozlz4` в директорию профиля.
 
 ![Search engines screenshot](./github_readme_images/search_shortcuts.png?raw=true)
 
-После копирования всех файлов браузер лучше перезапустить.
+После копирования файлов браузер лучше перезапустить.
 
 ## about:preferences
 
@@ -327,11 +320,6 @@ Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
 
 Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем
 пробелы, выбираем темную тему, убираем ненужные расширения с панелей.
-
-Опционально потребуется после установок аддонов с помощью
-[Addons UUID Replacer](https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme/releases/)
-сгенерировать addons.css, чтобы ublock и другие расширения тоже были темными.
-Для этого понадобится указать путь к профилю в cmd.
 
 ## Закладки
 
