@@ -264,16 +264,15 @@ yandex.(ru|com)/images/search*
 тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать
 полный URL.
 
-[:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
-контент в mpv. Нужно дополнительно поставить в систему хелпер.
+<!-- [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
+контент в mpv. Нужно дополнительно поставить в систему хелпер. -->
 
-[**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) —
-первый попавшийся переводчик для deepl, почти не использую.
+<!-- [**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) —
+первый попавшийся переводчик для deepl, почти не использую. -->
 
-[:exclamation: **Tab Session Manager**](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
+[:page_facing_up: **Tab Session Manager**](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
 — открытие сессии при случайном закрытии браузера или запоминание текущей сессии
-при необходимости. Нет встроенного бекапа настроек, жду пока девелопер запилит
-([issue](https://github.com/sienori/Tab-Session-Manager/issues/350)).
+при необходимости.
 
 [**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
 
@@ -285,15 +284,12 @@ yandex.(ru|com)/images/search*
 [**JSON Lite**](https://addons.mozilla.org/en-US/firefox/addon/json-lite/) —
 смотреть большие json-чики со свистелками без смс
 
-[**Vue.js devtools**](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+<!-- [**Vue.js devtools**](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/) -->
 
 ### Disabled, but worth mentioning
 
 Absolute Enable Right Click & Copy (+ аналоги) — изредка можно включить, когда
 надо что-то с дурацких сайтов скопировать.
-
-Authenticator — Удобная замена смартфонному Google Authenticator, пока не
-настраивал.
 
 Tree Style Tabs - древовидная структура вкладок. Я так и не смог переехать, даже
 несмотря на то, что сейчас у меня ультравайд 4к монитор. Возможно потому что в
@@ -315,6 +311,8 @@ Buster: Captcha Solver for Humans — такое ощущение, что не �
 понял как им пользоваться.
 
 Trace/Sidebery/Chameleon/CanvasBlocker/Canvas Fingerprint Defender
+
+Authenticator — Удобная замена смартфонному Google Authenticator, использую TOTP из KeepassXC
 
 ## Внешний вид
 
@@ -364,13 +362,6 @@ Block Explorer URL: https://explorer.matic.network/
 файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4). Как
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
-
-Проверка, что браузер настроен хорошо:
-
-- binance.com
-- ali.pub ... (ссылки брать из https://vk.com/pcstonks)
-- google meet
-- 2ch.hk fingerprint
 
 ## Полезные ссылки
 
