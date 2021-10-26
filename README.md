@@ -243,6 +243,8 @@ yandex.(ru|com)/images/search*
 [:exclamation: **Privacy Redirect**](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/) 
 оставить Bibliogram/Reddit/Wikipedia
 
+[**Redirect AMP to HTML**](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)
+
 ### Useful
 
 [**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/)
@@ -272,6 +274,8 @@ yandex.(ru|com)/images/search*
 — открытие сессии при случайном закрытии браузера или запоминание текущей сессии
 при необходимости. Нет встроенного бекапа настроек, жду пока девелопер запилит
 ([issue](https://github.com/sienori/Tab-Session-Manager/issues/350)).
+
+[**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
 
 ### Development / РАБота
 
@@ -391,17 +395,18 @@ Block Explorer URL: https://explorer.matic.network/
 - [x] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
 - [x] <https://github.com/CennoxX/Back2source>
-- [ ] more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>
-- [ ] Localcdn
-- [ ] nbox?
-- [ ] Allow CORS: Access-Control-Allow-Origin
-- [ ] Bloody Vikings!
+- [x] ~~more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>~~
+- [x] ~~Localcdn~~
+- [x] ~~nbox?~~
+- [x] ~~Allow CORS: Access-Control-Allow-Origin~~
+- [x] Bloody Vikings!
 - [ ] Forget Button - Clean your Browser
 - [ ] No Homo-Graph
 - [ ] pinterest-guest
 - [ ] Twitter View Original Images
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
-- [ ] change proxy extensions
+- [x] ~~change proxy extensions~~
 - [x] ~~Morning Coffee Quantum (?)~~
 - [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
+- [ ] Youtube live comments?
