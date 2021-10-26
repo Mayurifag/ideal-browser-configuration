@@ -177,7 +177,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 - Firemonkey: упоминалось выше. Не использую, т.к. нет удобной киллерфичи —
   установки стилей не заходя на userstyles.org
 
-Используемые мной стили (в бекапе уже импортированы):
+Часть используемых мной стилей (в бекапе уже импортированы):
 
 - <https://userstyles.org/styles/165011/2ch-reborn> со своим микрофиксом
   спойлеров (кажется, эта проблема только у меня)
@@ -188,6 +188,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 - <https://userstyles.org/styles/204678/material-dark-for-google>
 - <https://userstyles.org/styles/146887/stylus-deepdark>
 - <https://userstyles.org/styles/148112/userstyles-deepdark>
+- <https://uso.kkx.one/style/159780> dark addons.mozilla.org
 
 #### Bypass
 
@@ -236,6 +237,11 @@ yandex.(ru|com)/images/search*
 автоперевод.
 
 [:page_facing_up: **VkOpt** -> https://vk.com](https://vkopt.net/download/)
+
+[:exclamation: **Pushbullet**](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
+
+[:exclamation: **Privacy Redirect**](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/) 
+оставить Bibliogram/Reddit/Wikipedia
 
 ### Useful
 
@@ -378,11 +384,11 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] Suggest folders for automatical downloads, automatically save content to
       Videos/Pictures/etc. Launch torrents automatically. Extension «Save
       In...», InlineDisposition, Cute Save Button. Works on Linux?
-- [ ] Pushbullet
-- [ ] Reddit enhancement suite
-- [ ] Privacy Redirect
-- [ ] Need new proxy extension. With backups / fast add site / updates
-- [ ] <https://uso.kkx.one/style/159780>
+- [x] Pushbullet
+- [x] ~~Reddit enhancement suite~~
+- [x] Privacy Redirect
+- [x] ~~Need new proxy extension. With backups / fast add site / updates~~
+- [x] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
 - [x] <https://github.com/CennoxX/Back2source>
 - [ ] more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>
