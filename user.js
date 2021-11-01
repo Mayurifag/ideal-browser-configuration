@@ -25,11 +25,17 @@ user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
 
 // Do not recommend extensions as you browse
 // Не рекомендовать расширения при просмотре
-user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
+user_pref(
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
+  false
+);
 
 // Do not recommend features as you browse
 // Не рекомендовать функции при просмотре
-user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+user_pref(
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
+  false
+);
 
 // Turn off Snippets (Updates from Mozilla and Firefox)
 // Отключить Заметки (Обновления от Mozilla и Firefox)
@@ -37,7 +43,10 @@ user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 
 // Unpin Top Sites search shortcuts
 // Открепить ярлыки поисковых сервисов в Топе сайтов
-user_pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts", false);
+user_pref(
+  "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts",
+  false
+);
 
 // Does not offer import bookmarks, history and passwords from other browsers
 // Не предлагать импорт закладок, истории и паролей из другого браузера
@@ -112,18 +121,21 @@ user_pref("ui.textHighlightBackground", "Fireprick");
 user_pref("security.dialog_enable_delay", 0);
 
 // Disable hardware video acceleration
-user_pref("layers.acceleration.disabled", true)
+user_pref("layers.acceleration.disabled", true);
 
 // Dark OS theme
-user_pref("browser.in-content.dark-mode", true)
-user_pref("ui.systemUsesDarkTheme", 1)
+user_pref("browser.in-content.dark-mode", true);
+user_pref("ui.systemUsesDarkTheme", 1);
 
 // Compact mode
 user_pref("browser.uidensity", 1);
 
+// Use system backend for notifications (for pushbullet)
+user_pref("alerts.useSystemBackend", true);
+
 // https://support.mozilla.org/en-US/kb/containers#w_what-you-can-do-with-multi-account-containers
-user_pref("privacy.userContext.enabled", false)
-user_pref("privacy.userContext.ui.enabled", false)
+user_pref("privacy.userContext.enabled", false);
+user_pref("privacy.userContext.ui.enabled", false);
 
 // How do I enable search suggestions?
 user_pref("browser.search.suggest.enabled", true);
@@ -147,13 +159,13 @@ user_pref("network.dns.disableIPv6", false);
 user_pref("mousewheel.min_line_scroll_amount", 50);
 
 // СКМ по скроллбару перемещает прокрутку в соответствующее положение
-user_pref("middlemouse.scrollbarPosition", true)
+user_pref("middlemouse.scrollbarPosition", true);
 
 // Скрытие плашки про фуллскрин. Работает не очень хорошо.
-user_pref("full-screen-api.warning.timeout", 0)
+user_pref("full-screen-api.warning.timeout", 0);
 
 // папка chrome - активация
-user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true)
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // https://ffprofile.com/
 user_pref("app.normandy.api_url", "");
@@ -164,12 +176,18 @@ user_pref("beacon.enabled", false);
 user_pref("breakpad.reportURL", "");
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
-user_pref("services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2", false)
+user_pref(
+  "services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2",
+  false
+);
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
 user_pref("browser.disableResetPrompt", true);
 user_pref("browser.fixup.alternate.enabled", false);
 user_pref("browser.newtab.preload", false);
-user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
+user_pref(
+  "browser.newtabpage.activity-stream.section.highlights.includePocket",
+  false
+);
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.enhanced", false);
 user_pref("browser.newtabpage.introShown", true);
@@ -232,7 +250,10 @@ user_pref("network.prefetch-next", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.donottrackheader.value", 1);
 user_pref("privacy.usercontext.about_newtab_segregation.enabled", true);
-user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSite", false);
+user_pref(
+  "services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSite",
+  false
+);
 user_pref("signon.autofillForms", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
@@ -250,11 +271,9 @@ user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.unifiedIsOptIn", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 
-
 // Fix for 2ch.hk -> cloudflare browser check infinite loop
 user_pref("privacy.resistFingerprinting", false);
 // also privacy.trackingprotection.fingerprinting.enabled false
-
 
 // Что-то из этого ломает binance / ali.pub
 // user_pref("webgl.disabled", true);
