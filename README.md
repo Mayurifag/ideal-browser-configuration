@@ -156,9 +156,10 @@ FAQ при обновлении», а затем выставить при на�
   использовано для стилей.
 
 Из скриптов сейчас я использую только:
+
 - [:page_facing_up: **Dollchan Extension Tools**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js).
-Скрипту обновления приходят лучше, чем расширению.
-- [**Back2source**](<https://github.com/CennoxX/Back2source>)
+  Скрипту обновления приходят лучше, чем расширению.
+- [**Back2source**](https://github.com/CennoxX/Back2source)
 
 #### Userstyles
 
@@ -236,11 +237,14 @@ yandex.(ru|com)/images/search*
 — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний
 автоперевод.
 
+[**pinterest-guest**](https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/)
+— просмотр Pinterest без логина
+
 [:page_facing_up: **VkOpt** -> https://vk.com](https://vkopt.net/download/)
 
 [:exclamation: **Pushbullet**](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
 
-[:exclamation: **Privacy Redirect**](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/) 
+[:exclamation: **Privacy Redirect**](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/)
 оставить Bibliogram/Reddit/Wikipedia
 
 [**Redirect AMP to HTML**](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)
@@ -275,6 +279,8 @@ yandex.(ru|com)/images/search*
 при необходимости.
 
 [**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
+
+[**No Homo Graphs**](https://addons.mozilla.org/en-US/firefox/addon/no-homo/) антифишинговое расширение
 
 ### Development / РАБота
 
@@ -335,26 +341,34 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 
 ## Настройка Metamask
 
-1) Импорт по секрет фразе. Во время настройки сохранить новую закладку moz-extension:// ... (чтобы удобно добавлять подсети)
-2) (опционально) Добавляем токены. Например, $GLCH по адресу `0x038a68ff68c393373ec894015816e33ad41bd564`
-Взят из <https://coinmarketcap.com/currencies/glitch/> -> Explorers -> etherscan
-3) Добавляем Binance Smart Chain <https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain>:
+- Импорт по секрет фразе. Во время настройки сохранить новую закладку
+  moz-extension:// ... (чтобы удобно добавлять подсети)
+- Добавляем Binance Smart Chain <https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain>:
 
+```txt
 Network Name: Binance Smart Chain
 New RPC URL: https://bsc-dataseed.binance.org/
 ChainID: 56
 Symbol: BNB
 Block Explorer URL: https://bscscan.com
+```
 
-4) Добавляем Matic Mainnet
+- Добавляем Matic Mainnet
 
+```txt
 Network name: Matic Mainnet
 New RPC URL: https://rpc-mainnet.maticvigil.com/
 Chain ID: 137
 Currency symbol: MATIC
 Block Explorer URL: https://explorer.matic.network/
+```
 
-5) Можно включить экспериментальную подгрузку токенов
+- Можно включить экспериментальную подгрузку токенов
+- (опционально) Добавляем токены ETH. Например, $GLCH по адресу `0x038a68ff68c393373ec894015816e33ad41bd564`.
+  Взят из <https://coinmarketcap.com/currencies/glitch/> -> Explorers -> etherscan
+- (опционально) Добавить WETH для Matic. Можно в payment method ethermine.org
+
+<https://ethpool.freshdesk.com/support/solutions/articles/8000093699-polygon-guide>
 
 ## Примечания
 
@@ -391,13 +405,13 @@ Block Explorer URL: https://explorer.matic.network/
 - [x] ~~nbox?~~
 - [x] ~~Allow CORS: Access-Control-Allow-Origin~~
 - [x] Bloody Vikings!
-- [ ] Forget Button - Clean your Browser
-- [ ] No Homo-Graph
-- [ ] pinterest-guest
+- [x] ~~Forget Button - Clean your Browser~~
+- [x] No Homo-Graph
+- [x] pinterest-guest
 - [ ] Twitter View Original Images
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
 - [x] ~~change proxy extensions~~
 - [x] ~~Morning Coffee Quantum (?)~~
 - [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
-- [ ] Youtube live comments?
+- [x] ~~Youtube live comments?~~
