@@ -98,7 +98,8 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 
 [:page_facing_up: **uBlock Origin**](https://github.com/gorhill/uBlock/releases)
 — блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
-Встроенный, думаю, лучше удалить и поставить из github, т.к. тёмная тема пока только в dev билде.
+Встроенный, думаю, лучше удалить и поставить из github, т.к. тёмная тема пока
+только в dev билде.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои
 собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock
@@ -257,6 +258,12 @@ yandex.(ru|com)/images/search*
 [:page_facing_up: **KeepassXC-Browser**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/)
 — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер
 отключен.
+
+Фикс "Key exchange was not successful" на linux:
+
+```sh
+ln -s ~/.mozilla/native-messaging-hosts ~/.librewolf/native-messaging-hosts
+```
 
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
 — ETH кошелёк. Необходимо настроить сам кошелек и подсети. Настройка описана ниже.
