@@ -288,3 +288,9 @@ user_pref("privacy.resistFingerprinting", false);
 
 // Fix google meet
 user_pref("dom.webaudio.enabled", true);
+
+// TODO: think about drm and service workers
+
+// dom.serviceWorkers.enable
+// user_pref("media.eme.enabled", false);
+// user_pref("media.gmp-widevinecdm.enabled", false);

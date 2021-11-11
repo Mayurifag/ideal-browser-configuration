@@ -95,6 +95,20 @@
         "type": 1,
         "protocols": 1,
         "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.tinkoff.ru",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.googlevideo.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
       }
     ],
     "pacURL": "",
