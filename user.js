@@ -167,6 +167,9 @@ user_pref("full-screen-api.warning.timeout", 0);
 // папка chrome - активация
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
+// Разрешать несекурные загрузки (например, скачает iCloud установщик)
+user_pref("dom.block_download_insecure", false);
+
 // https://ffprofile.com/
 user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
