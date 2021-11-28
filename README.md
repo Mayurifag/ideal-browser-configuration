@@ -422,3 +422,5 @@ Block Explorer URL: https://explorer.matic.network/
 - [x] ~~Morning Coffee Quantum (?)~~
 - [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
 - [x] ~~Youtube live comments?~~
+- [ ] Phantom App (Solana Wallet)
+- [ ] React Developer Tools / Apollo Client DevTools
