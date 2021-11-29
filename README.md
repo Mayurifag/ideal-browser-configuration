@@ -424,3 +424,5 @@ Block Explorer URL: https://explorer.matic.network/
 - [x] ~~Youtube live comments?~~
 - [ ] Phantom App (Solana Wallet)
 - [ ] React Developer Tools / Apollo Client DevTools
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
