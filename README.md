@@ -12,7 +12,7 @@
 что вы делаете.
 
 inb4: Да, это всё вместе уживается и не тормозит у меня в браузере на mid-end
-конфигурациях лаптопа и пекарни.
+конфигурациях.
 
 ## librewolf.overrides.cfg
 
@@ -21,12 +21,8 @@ inb4: Да, это всё вместе уживается и не тормози
 ```sh
 git clone https://github.com/Mayurifag/ideal-browser-configuration.git
 cd ideal-browser-configuration
-### Linux
 mkdir -p $HOME/.librewolf/
-cp librewolf.overrides.cfg $HOME/.librewolf/librewolf.overrides.cfg
-### Win
-mkdir -p %USERPROFILE%\.librewolf\
-cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
+ln -s ideal-browser-configuration/librewolf.overrides.cfg $HOME/.librewolf/librewolf.overrides.cfg
 ```
 
 ## about:profiles
@@ -35,11 +31,14 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 Опционально можно создать новый профиль. Оставляем вкладку, чтобы был удобный
 доступ к директории профиля.
 
-Копируем `user.js`, `search.json.mozlz4` в директорию профиля.
+Копируем/делаем softlink `user.js`, `search.json.mozlz4` в директорию профиля.
 
-![Search engines screenshot](./github_readme_images/search_shortcuts.png?raw=true)
+```sh
+ln -s ideal-browser-configuration/search.json.mozlz4 $HOME/.librewolf/профиль/search.json.mozlz4
+ln -s ideal-browser-configuration/user.js $HOME/.librewolf/профиль/user.js
+```
 
-После копирования файлов браузер лучше перезапустить.
+Затем браузер лучше перезапустить.
 
 ## about:preferences
 
@@ -64,6 +63,8 @@ cp librewolf.overrides.cfg %USERPROFILE%\.librewolf\librewolf.overrides.cfg
 - Set Default Search Engine
 - Tick Provide search suggestions -> Tick all 3 options
 - Search Shortcuts: Remove trash positions / Untick all the things
+
+![Search engines screenshot](./github_readme_images/search_shortcuts.png?raw=true)
 
 ### Privacy & Security
 
