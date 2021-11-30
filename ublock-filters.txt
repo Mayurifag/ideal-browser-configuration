@@ -19,10 +19,13 @@ habr.com##.subscription
 habr.com##.megapost-teasers
 habr.com##.promo-block
 
-! https://vk.com — hide subscription shit
+! https://vk.com — hide subscription shit and advertised functionality
 vk.com##.audio_promo
 vk.com##.feed_groups_recomm.page_block
 vk.com##.CatalogBlock__subscription_ru
+vk.com###block_youla-recommendations-carousel
+vk.com###block_aliexpress-recommendations-carousel
+vk.com##.RecommendedNarrativesBlock
 
 ! aliexpress
 aliexpress.ru##.festival-main-venue
