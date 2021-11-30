@@ -1,12 +1,12 @@
 {
   "c3vhnj1635119502023": {
-    "type": 1,
+    "type": 3,
     "color": "#66cc66",
     "title": "shadowsocks",
     "active": true,
     "address": "localhost",
     "port": 1080,
-    "proxyDNS": false,
+    "proxyDNS": true,
     "username": "",
     "password": "",
     "whitePatterns": [
@@ -106,6 +106,13 @@
       {
         "title": "",
         "pattern": "*.googlevideo.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.tochka.com",
         "type": 1,
         "protocols": 1,
         "active": true
