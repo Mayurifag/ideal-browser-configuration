@@ -427,3 +427,4 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] React Developer Tools / Apollo Client DevTools
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
+- [ ] <https://github.com/ides3rt/librewolf/blob/master/src/librewolf.overrides.cfg>
