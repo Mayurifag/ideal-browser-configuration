@@ -58,3 +58,6 @@ google.com,google.ru#?##search .g:-abp-has(a[href*="coderoad.ru"])
 
 ! 2021-09-20 https://www.eurogamer.net
 eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
+
+! 2021-12-09 https://svtv.org
+svtv.org##.donate-banner

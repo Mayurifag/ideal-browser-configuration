@@ -297,3 +297,9 @@ user_pref("dom.webaudio.enabled", true);
 // dom.serviceWorkers.enable
 // user_pref("media.eme.enabled", false);
 // user_pref("media.gmp-widevinecdm.enabled", false);
+
+// Убирание задержки фулскрина видео:
+// full-screen-api.transition-duration.enter;0 0
+// full-screen-api.transition-duration.leave;0 0
+// full-screen-api.warning.delay;-1
+// full-screen-api.warning.timeout;0

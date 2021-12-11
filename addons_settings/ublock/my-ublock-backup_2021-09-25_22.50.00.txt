@@ -1,18 +1,20 @@
 {
-  "timeStamp": 1632603000811,
-  "version": "1.37.2",
+  "timeStamp": 1639259826764,
+  "version": "1.38.6",
   "userSettings": {
     "advancedUserEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
     "importedLists": [
       "https://easylist-downloads.adblockplus.org/bitblock.txt",
       "https://easylist-downloads.adblockplus.org/cntblock.txt",
+      "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
       "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt",
       "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
       "https://www.i-dont-care-about-cookies.eu/abp/"
     ],
     "popupPanelSections": 63,
-    "showIconBadge": false
+    "showIconBadge": false,
+    "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
     "user-filters",
@@ -22,8 +24,7 @@
     "ublock-abuse",
     "ublock-unbreak",
     "easylist",
-    "easyprivacy",
-    "urlhaus-1",
+    "adguard-spyware-url",
     "fanboy-thirdparty_social",
     "fanboy-cookiemonster",
     "ublock-annoyances",
@@ -35,7 +36,8 @@
     "https://www.i-dont-care-about-cookies.eu/abp/",
     "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
-    "https://easylist-downloads.adblockplus.org/cntblock.txt"
+    "https://easylist-downloads.adblockplus.org/cntblock.txt",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [

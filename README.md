@@ -318,6 +318,8 @@ TrackMeNot — гугл блочит на стандартных настрой�
 
 <https://github.com/The-OP/Fox/blob/master/greylist.md#user-content-stylish>
 
+<https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
+
 Blockchain DNS — можно было удобно заходить на \*.lib сайты без пердолинга, но
 сейчас не нужно.
 
