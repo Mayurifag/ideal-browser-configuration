@@ -4,7 +4,7 @@
 
 Пока нет возможности декларативно описать нужную мне конфигурацию браузера или
 написать что-нибудь вроде ansible-скриптов для установки, я решил сделать себе
-(и тем, кто ознакомится с репозиторием) шпаргалку по настройке LibreWolf так,
+(и тем, кто ознакомится с репозиторием) шпаргалку по настройке браузера так,
 как это вижу я — т.е. предпочитается приватность, но не в ущерб юзабилити.
 
 Если вы используете этот репозиторий по прямому назначению, то инструкцию надо
@@ -14,28 +14,32 @@
 inb4: Да, это всё вместе уживается и не тормозит у меня в браузере на mid-end
 конфигурациях.
 
-## librewolf.overrides.cfg
+## Первичная конфигурация
 
-Смотрим <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
+Используется шаблон `user.js` от Arkenfox, сабмодуль.
 
 ```sh
-git clone https://github.com/Mayurifag/ideal-browser-configuration.git
+git clone --recurse-submodules https://github.com/Mayurifag/ideal-browser-configuration.git
 cd ideal-browser-configuration
-mkdir -p $HOME/.librewolf/
-ln -s ideal-browser-configuration/librewolf.overrides.cfg $HOME/.librewolf/librewolf.overrides.cfg
+export BROWSERCONFPATH=$(pwd)
 ```
 
 ## about:profiles
 
 Удалить неиспользуемый default профиль, чтобы исключить путаницу в будущем.
 Опционально можно создать новый профиль. Оставляем вкладку, чтобы был удобный
-доступ к директории профиля.
-
-Копируем/делаем softlink `user.js`, `search.json.mozlz4` в директорию профиля.
+доступ к директории профиля. Копируем путь к профилю и вставляем туда нужные
+файлы софтлинком или копированием.
 
 ```sh
-ln -s ideal-browser-configuration/search.json.mozlz4 $HOME/.librewolf/профиль/search.json.mozlz4
-ln -s ideal-browser-configuration/user.js $HOME/.librewolf/профиль/user.js
+export FFPROFILEPATH="/home/user/.mozilla/firefox/ide54w4i.test" # директория профиля
+ln -s $BROWSERCONFPATH/user.js/updater.sh $FFPROFILEPATH/updater.sh
+chmod +x $FFPROFILEPATH/updater.sh
+rm $FFPROFILEPATH/search.json.mozlz4
+ln -s $BROWSERCONFPATH/search.json.mozlz4 $FFPROFILEPATH/search.json.mozlz4
+ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
+
+# TODO: prefsCleaner.sh / scratchpad-scripts / etc.?
 ```
 
 Затем браузер лучше перезапустить.
