@@ -78,7 +78,7 @@ user_pref("browser.urlbar.decodeURLsOnCopy", true);
 
 // Turn on lazy loading for images
 // Включить отложенную загрузку для изображений
-user_pref("dom.dom.image-lazy-loading.enabled", true);
+user_pref("dom.image-lazy-loading.enabled", true);
 
 // Turn off Extension Recommendations on the Add-ons Manager
 // Отключить рекомендуемые расширения на странице "Дополнения"
