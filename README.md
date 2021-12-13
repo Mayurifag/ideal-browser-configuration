@@ -1,4 +1,4 @@
-# Ideal browser configuration
+# My ideal Firefox browser configuration
 
 ## Мотивация
 
@@ -38,6 +38,7 @@ chmod +x $FFPROFILEPATH/updater.sh
 rm $FFPROFILEPATH/search.json.mozlz4
 ln -s $BROWSERCONFPATH/search.json.mozlz4 $FFPROFILEPATH/search.json.mozlz4
 ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
+$FFPROFILEPATH/updater.sh -p $FFPROFILEPATH
 
 # TODO: prefsCleaner.sh / scratchpad-scripts / etc.?
 ```
@@ -97,19 +98,6 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 [**Select Link Text**](https://addons.mozilla.org/en-US/firefox/addon/select-link-text/)
 — форк Select Like a Boss, расширение, чтобы выделять ссылки для копирования без
 перехода после отпускания ЛКМ.
-
-### Privacy
-
-[:exclamation: **Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
-— чистка URL от лишних маркетинговых и прочих меток. Надо сравнить с
-альтернативами типа Pure URL / Neat URL. После установки снять галки со
-статистики и бэджа.
-
-[:exclamation: **User-Agent Switcher and Manager**](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
-— рандом аддон для смены Useragent. В моем редком сценарии использования не
-имеет смысл бекапить настройки — нужно только убрать галку «Открывать страницу
-FAQ при обновлении», а затем выставить при надобности один из предлагаемых
-юзерагентов.
 
 ### Sites enhancements
 
@@ -244,8 +232,8 @@ ln -s ~/.mozilla/native-messaging-hosts ~/.librewolf/native-messaging-hosts
 тематике), то первым делом я добавляю его сюда, чтобы мне было лень вбивать
 полный URL.
 
-<!-- [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
-контент в mpv. Нужно дополнительно поставить в систему хелпер. -->
+[:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
+контент в mpv. Нужно дополнительно поставить в систему хелпер.
 
 <!-- [**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) —
 первый попавшийся переводчик для deepl, почти не использую. -->
@@ -281,6 +269,17 @@ Vimium (+ аналоги) — управление браузером с кла�
 возможностей. Мне пока не подходит.
 
 TrackMeNot — гугл блочит на стандартных настройках. Поресёрчить.
+
+[:exclamation: **Clear URLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+— чистка URL от лишних маркетинговых и прочих меток. Надо сравнить с
+альтернативами типа Pure URL / Neat URL. После установки снять галки со
+статистики и бэджа. Заменяется фильтром в юблоке.
+
+[:exclamation: **User-Agent Switcher and Manager**](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
+— рандом аддон для смены Useragent. В моем редком сценарии использования не
+имеет смысл бекапить настройки — нужно только убрать галку «Открывать страницу
+FAQ при обновлении», а затем выставить при надобности один из предлагаемых
+юзерагентов.
 
 ### Deleted
 
