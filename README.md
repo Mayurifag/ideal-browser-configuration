@@ -114,13 +114,6 @@ ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
 https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt
 ```
 
-Остальные сторонние фильтры:
-
-- Hello, Goodbye!
-- I don't care about cookies
-- RU AdList: BitBlock + Fanboy's General
-- RU AdList: Counters
-
 По настройкам фильтров можно ссылаться на статью по
 [ссылке](https://forums.lanik.us/viewtopic.php?f=102&t=22512). Так же
 [для блокировки рекламы Яндекса](https://forums.lanik.us/viewtopic.php?f=102&t=22749)

@@ -27,6 +27,9 @@ user_pref("browser.urlbar.suggest.engines", false);
 /*** [SECTION 1000]: DISK AVOIDANCE ***/
 user_pref("browser.shell.shortcutFavicons", true); // 1006 favicons in shortcuts
 
+// 1021: enable storing extra session data
+user_pref("browser.sessionstore.privacy_level", 0);
+
 /*** [SECTION 1600]: HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginPolicy", 0); // 1600 may break websites :( - may use ext. for this
 
@@ -46,6 +49,8 @@ user_pref("dom.disable_window_move_resize", false); // 2402: prevent scripts fro
 user_pref("dom.disable_open_during_load", false); // 2403: block popup windows
 //// --- comment-out --- 'dom.popup_allowed_events' -2404- may break something idk
 user_pref("dom.push.enabled", true); // 2411 enable push notifications
+// 2404: enable clipboard commands (cut/copy) from "non-privileged" content [FF41+]
+user_pref("dom.allow_cut_copy", true);
 
 /*** [SECTION 2600]: MISCELLANEOUS ***/
 user_pref("network.IDN_show_punycode", false); // 2619: use Punycode in Internationalized Domain Names to eliminate possible spoofing
@@ -55,13 +60,25 @@ user_pref("browser.download.useDownloadDir", true);
 
 user_pref("extensions.webextensions.restrictedDomains", ""); // 2662: disable webextension restrictions on certain mozilla domains (you also need 4503)
 
+/* 2801: save cookies
+ * 0=keep until they expire (default), 2=keep until you close Firefox
+ */
+user_pref("network.cookie.lifetimePolicy", 0);
+/* 2810: enable Firefox to clear items on shutdown (2811)
+ * [SETTING] Privacy & Security>History>Custom Settings>Clear history when Firefox closes ***/
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);
+
 /*** [SECTION 4500]: RFP (RESIST FINGERPRINTING) ***/
 user_pref("privacy.resistFingerprinting", false);
 // user_pref("privacy.window.maxInnerWidth", 1600);
 // user_pref("privacy.window.maxInnerHeight", 900);
+//// --- comment-out --- 'privacy.window.maxInnerWidth'
+//// --- comment-out --- 'privacy.window.maxInnerHeight'
+user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", false); // [HIDDEN PREF]
-user_pref("browser.startup.blankWindow", true); // 4507
 user_pref("webgl.disabled", false); // 4520
+
+user_pref("signon.rememberSignons", false); // 5003: disable saving passwords
 
 /*** [SECTION 6000]: DON'T TOUCH ***/
 user_pref("security.dialog_enable_delay", 0); // [DEFAULT: 1000]
@@ -89,6 +106,8 @@ user_pref("ui.prefersReducedMotion", 1); // disable chrome animations [FF77+] [R
 user_pref("ui.systemUsesDarkTheme", 1); // [FF67+] [HIDDEN PREF]
 // 0=light, 1=dark: with RFP this only affects chrome
 user_pref("browser.in-content.dark-mode", true);
+// Fill SVG Color
+user_pref("svg.context-properties.content.enabled", true);
 /* CONTENT BEHAVIOR ***/
 user_pref("accessibility.typeaheadfind", false); // enable "Find As You Type"
 user_pref("clipboard.autocopy", true); // enable autocopy default [LINUX]
@@ -146,7 +165,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 
 // Enable urlbar built-in calculator
 // Включить встроенный в адресную строку калькулятор
-user_pref("suggest.calculator", true);
+user_pref("browser.urlbar.suggest.calculator", true);
 
 // Disable hardware video acceleration
 user_pref("layers.acceleration.disabled", true);
@@ -176,7 +195,22 @@ user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 
 // Pref : 2663: enable warning when websites try to install add-ons
 // [SETTING] Privacy & Security>Permissions>Warn you when websites try to install add-ons
-lockPref("xpinstall.whitelist.required", false); // default: true
+user_pref("xpinstall.whitelist.required", false); // default: true
+
+user_pref("browser.urlbar.suggest.topsites", false);
+
+user_pref("browser.contentblocking.report.lockwise.enabled", false);
+user_pref("browser.contentblocking.report.monitor.enabled", false);
+
+// CSS Blur Filter [FF88+]
+user_pref("layout.css.backdrop-filter.enabled", true);
+// [SETUP-PERF]
+user_pref("gfx.webrender.all", true);
+
+// 2022: Enable screensharing
+user_pref("media.getusermedia.screensharing.enabled", true);
+user_pref("media.getusermedia.browser.enabled", true);
+user_pref("media.getusermedia.audiocapture.enabled", true);
 
 //
 /////// END
@@ -185,24 +219,11 @@ lockPref("xpinstall.whitelist.required", false); // default: true
 // user_pref("network.file.disable_unc_paths", false); // [HIDDEN PREF] 0703 - false for fixes
 // user_pref("network.gio.supported-protocols", ""); // [HIDDEN PREF] 0704 - reset
 //
-// user_pref("browser.sessionstore.privacy_level", 0); // 1003
-//
 // user_pref("security.mixed_content.block_display_content", false); // 1241-1246 check also
-//
-// user_pref("media.autoplay.blocking_policy", 0); // check auto sound - rbk / radios
-//
-// 0800 section - check searching
 //
 // 2620: enforce PDFJS, disable PDFJS scripting [SETUP-CHROME]
 // 2621 disable links launching Windows Store on Windows 8/8.1/10 [WINDOWS]
 //
 // 2660 EXTENSIONS
-//
-// PASSWORDS SECTION change!!!
-//
-// 2700 COOKIES enhanced tracking protection
-// user_pref("network.cookie.lifetimePolicy", 0); // keep cookies until they expire
-//
-//
 // yay success
 user_pref("_user.js.parrot", "overrides section passed successfully! yay");
