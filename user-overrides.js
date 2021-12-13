@@ -75,7 +75,6 @@ user_pref("privacy.resistFingerprinting", false);
 //// --- comment-out --- 'privacy.window.maxInnerWidth'
 //// --- comment-out --- 'privacy.window.maxInnerHeight'
 user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", false); // [HIDDEN PREF]
 user_pref("webgl.disabled", false); // 4520
 
 user_pref("signon.rememberSignons", false); // 5003: disable saving passwords
