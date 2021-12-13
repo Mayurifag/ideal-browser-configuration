@@ -184,7 +184,7 @@ yandex.(ru|com)/images/search*
 
 #### Other sites
 
-[:page_facing_up: **Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam-an-itad-fork/):
+[:page_facing_up: **Augmented Steam** -> https://steam.com](https://addons.mozilla.org/en-US/firefox/addon/augmented-steam/):
 Бекап импортируется в настройках внизу справа.
 
 [:page_facing_up: **Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
