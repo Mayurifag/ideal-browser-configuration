@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1639259826764,
-  "version": "1.38.6",
+  "timeStamp": 1639434008782,
+  "version": "1.39.3b11",
   "userSettings": {
     "advancedUserEnabled": true,
     "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
@@ -39,7 +39,10 @@
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
   ],
-  "hiddenSettings": {},
+  "hiddenSettings": {
+    "uiStyles": "dark",
+    "uiTheme": "dark"
+  },
   "whitelist": [
     "192.168.0.1",
     "about-scheme",
