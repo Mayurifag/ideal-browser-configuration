@@ -48,47 +48,18 @@ ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
 
 ### General
 
-- Restore previous session
 - Set default browser
-- Unset 'Check your spelling as you type'
 - Settings for applications by your tastes. Suggesting pdf/torrent changes.
-- Unset 'Use recommended perfomance settings' -> Unset 'Use hardware
-  acceleration when available'
 - Unset Show a touch keyboard when necessary
-- Unset Enable picture-in-picture video control
-- Unset Control media via keyboard, headset, or virtual interface
-
-### Home
-
-- Set blank pages
 
 ### Search
 
 - Set Default Search Engine
-- Tick Provide search suggestions -> Tick all 3 options
 - Search Shortcuts: Remove trash positions / Untick all the things
 
 ![Search engines screenshot](./github_readme_images/search_shortcuts.png?raw=true)
 
-### Privacy & Security
-
-- Untick blocking 3rd party cookies
-- Untick 'Delete cookies and site data when LibreWolf is closed'
-- History -> Remember things; Untick «Clear history when LibreWolf closes»
-- Block VR devices
-- Unset Warn you when websites try to install add-ons
-
-### Librewolf
-
-- Extensions & Themes auto-update
-- Advanced CSS styling
-- Enable WebGL
-- Peer Connections
-- Disable asm.js
-
 ## Extensions and Themes
-
-<!-- Надо включить 'Update Add-ons automatically' в настройках. -->
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны
 упоминания. Значки перед названием аддона:
