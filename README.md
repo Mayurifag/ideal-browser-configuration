@@ -216,12 +216,6 @@ yandex.(ru|com)/images/search*
 — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер
 отключен.
 
-Фикс "Key exchange was not successful" на linux:
-
-```sh
-ln -s ~/.mozilla/native-messaging-hosts ~/.librewolf/native-messaging-hosts
-```
-
 [:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
 — ETH кошелёк. Необходимо настроить сам кошелек и подсети. Настройка описана ниже.
 
@@ -243,8 +237,6 @@ ln -s ~/.mozilla/native-messaging-hosts ~/.librewolf/native-messaging-hosts
 при необходимости.
 
 [**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
-
-[**No Homo Graphs**](https://addons.mozilla.org/en-US/firefox/addon/no-homo/) антифишинговое расширение
 
 ### Development / РАБота
 
@@ -396,4 +388,4 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] React Developer Tools / Apollo Client DevTools
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
-- [ ] <https://github.com/ides3rt/librewolf/blob/master/src/librewolf.overrides.cfg>
+- [x] ~~<https://github.com/ides3rt/librewolf/blob/master/src/librewolf.overrides.cfg>~~
