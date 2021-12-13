@@ -26,6 +26,7 @@ vk.com##.CatalogBlock__subscription_ru
 vk.com###block_youla-recommendations-carousel
 vk.com###block_aliexpress-recommendations-carousel
 vk.com##.RecommendedNarrativesBlock
+vk.com##.ConvoRecommendList
 
 ! aliexpress
 aliexpress.ru##.festival-main-venue
