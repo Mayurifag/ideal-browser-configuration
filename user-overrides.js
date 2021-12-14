@@ -211,6 +211,8 @@ user_pref("media.getusermedia.screensharing.enabled", true);
 user_pref("media.getusermedia.browser.enabled", true);
 user_pref("media.getusermedia.audiocapture.enabled", true);
 
+user_pref("signon.management.page.breach-alerts.enabled", false); // disable password breach allerts It's annoying
+
 //
 /////// END
 //

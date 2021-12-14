@@ -389,3 +389,4 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
 - [x] ~~<https://github.com/ides3rt/librewolf/blob/master/src/librewolf.overrides.cfg>~~
+- [ ] Make beautiful user-overrides.js
