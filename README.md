@@ -140,35 +140,10 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 - <https://userstyles.org/styles/165011/2ch-reborn> со своим микрофиксом
   спойлеров (кажется, эта проблема только у меня)
-- <https://userstyles.org/styles/129171/reddit-minimal-dark>
-- <https://userstyles.org/styles/134432/wikia-fandom-uncluttered-and-unbranded>
-- <https://userstyles.org/styles/167022/material-dark-wikipedia>
-- <https://userstyles.org/styles/166963/dark-and-fix-width-for-rutor>
-- <https://userstyles.org/styles/204678/material-dark-for-google>
+- <https://userstyles.org/styles/166963/dark-and-fix-width-for-rutor> - добавить 6tor.org
 - <https://userstyles.org/styles/146887/stylus-deepdark>
 - <https://userstyles.org/styles/148112/userstyles-deepdark>
 - <https://uso.kkx.one/style/159780> dark addons.mozilla.org
-
-#### Bypass
-
-[**Bypass Paywalls Clean (custom)**](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean-custom/)
-— иногда скрывает пэйволлы.
-
-[:exclamation: **Skip Redirect**](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/)
-— не тратить время на сокращенных и редирект ссылках. Универсальные правила,
-работают, например, на смарт-лабе, но могут ломать что-нибудь другое.
-
-Чтобы корректно работал, например, поиск по картинкам (в т.ч. с расширения Image
-Search Options), надо добавить в `No-skip-urls-list` регэксп с исключениями.
-Пример для Яндекса:
-
-```txt
-yandex.(ru|com)/images/search*
-```
-
-[:page_facing_up: **FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
-— аддон для прокси. В бекапе список сайтов на которых прокси должен включаться.
-Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
 #### Youtube
 
@@ -207,6 +182,9 @@ yandex.(ru|com)/images/search*
 
 [**Redirect AMP to HTML**](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)
 
+[**Bypass Paywalls Clean (custom)**](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean-custom/)
+— иногда скрывает пэйволлы.
+
 ### Useful
 
 [**Image Search Options**](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/)
@@ -231,6 +209,10 @@ yandex.(ru|com)/images/search*
 при необходимости.
 
 [**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
+
+[:page_facing_up: **FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+— аддон для прокси. В бекапе список сайтов на которых прокси должен включаться.
+Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
 ### Job
 
