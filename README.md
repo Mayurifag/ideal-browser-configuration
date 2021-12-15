@@ -117,7 +117,7 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 
 - [:page_facing_up: **Dollchan Extension Tools**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js).
   Скрипту обновления приходят лучше, чем расширению.
-- [**Back2source**](https://github.com/CennoxX/Back2source)
+- [**Back2source**](https://github.com/vladgba/Back2source)
 
 #### Userstyles
 
@@ -362,31 +362,14 @@ Block Explorer URL: https://explorer.matic.network/
 - [ ] Suggest folders for automatical downloads, automatically save content to
       Videos/Pictures/etc. Launch torrents automatically. Extension «Save
       In...», InlineDisposition, Cute Save Button. Works on Linux?
-- [x] Pushbullet
-- [x] ~~Reddit enhancement suite~~
-- [x] Privacy Redirect
-- [x] ~~Need new proxy extension. With backups / fast add site / updates~~
-- [x] <https://uso.kkx.one/style/159780>
 - [ ] Productivity addons - block vk.com (but with exception for audio), etc.
-- [x] <https://github.com/CennoxX/Back2source>
-- [x] ~~more for userscripts at <https://enchiridion.red/2019/1/18/firefox-extensions/>~~
-- [x] ~~Localcdn~~
-- [x] ~~nbox?~~
-- [x] ~~Allow CORS: Access-Control-Allow-Origin~~
-- [x] Bloody Vikings!
-- [x] ~~Forget Button - Clean your Browser~~
-- [x] No Homo-Graph
-- [x] pinterest-guest
 - [ ] Twitter View Original Images
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
-- [x] ~~change proxy extensions~~
-- [x] ~~Morning Coffee Quantum (?)~~
-- [x] searches - aliexpress (ali) / dns-shop (dns) / yandex market (ym)
-- [x] ~~Youtube live comments?~~
 - [ ] Phantom App (Solana Wallet)
 - [ ] React Developer Tools / Apollo Client DevTools
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
-- [x] ~~<https://github.com/ides3rt/librewolf/blob/master/src/librewolf.overrides.cfg>~~
 - [ ] Make beautiful user-overrides.js
+- [ ] Move deleted/disabled extensions to another .md file
+- [ ] Make «crypto» section at readme.md
