@@ -177,7 +177,7 @@ user_pref("alerts.useSystemBackend", true);
 
 // Make scrolling faster
 // Сделать скроллинг колёсиком мыши быстрее
-user_pref("mousewheel.min_line_scroll_amount", 40);
+user_pref("mousewheel.min_line_scroll_amount", 35);
 
 // СКМ по скроллбару перемещает прокрутку в соответствующее положение
 user_pref("middlemouse.scrollbarPosition", true);
