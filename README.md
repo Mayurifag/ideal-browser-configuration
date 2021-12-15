@@ -235,6 +235,10 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 - (Опционально) Восстановить favicon'ки через
   [:exclamation: **Checkmarks**](https://addons.mozilla.org/en-US/firefox/addon/checkmarks-web-ext/)
 
+## Отключенные и удалённые расширения
+
+В отдельном файле [NOT_USED_EXTENSIONS.md](NOT_USED_EXTENSIONS.md)
+
 ## Внешний вид
 
 Около URL поля на панели кликаем ПКМ и выбираем `Customize Toolbar`. Убираем
@@ -256,11 +260,9 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 
 ```sh
 docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/README.md
+docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/CRYPTO.md
+docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/NOT_USED_EXTENSIONS.md
 ```
-
-## Отключенные и удалённые расширения
-
-В отдельном файле [NOT_USED_EXTENSIONS.md](NOT_USED_EXTENSIONS.md)
 
 ## Полезные ссылки
 
