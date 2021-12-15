@@ -291,3 +291,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [x] Move deleted/disabled extensions to another .md file
 - [x] Make «crypto» section at readme.md
 - [ ] Section about git submodule update / user.js arkenfox updates
+- [ ] Make Check.md with instructions to check that firefox works on some sites correctly

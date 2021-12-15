@@ -7,6 +7,7 @@
 #words(▲) |
 #exp(/[^a-zа-я](?:re|ре)?(?:roll|ролл)/i) |
 #exp(/^(?:bump|up|ап|бамп|вверх)$/i) |
+#exp(/пор?ридж/i) |
 #wipe(samelines,samewords,longwords,symbols,numbers,whitespace) | (
     (#op) &
     #words(11 −) |
