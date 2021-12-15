@@ -38,7 +38,7 @@ chmod +x $FFPROFILEPATH/updater.sh
 rm $FFPROFILEPATH/search.json.mozlz4
 ln -s $BROWSERCONFPATH/search.json.mozlz4 $FFPROFILEPATH/search.json.mozlz4
 ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
-$FFPROFILEPATH/updater.sh -p $FFPROFILEPATH
+$FFPROFILEPATH/updater.sh -p $FFPROFILEPATH # -u doesnt work, needs confirmation via 'y'
 
 # TODO: prefsCleaner.sh / scratchpad-scripts / etc.?
 ```
@@ -216,9 +216,6 @@ yandex.(ru|com)/images/search*
 — компаньон KeepassXC. Использую пароли оттуда, встроенный парольный менеджер
 отключен.
 
-[:exclamation: **Metamask**](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
-— ETH кошелёк. Необходимо настроить сам кошелек и подсети. Настройка описана ниже.
-
 [:page_facing_up: **Dynamic History**](https://addons.mozilla.org/en-US/firefox/addon/dynamichistory/)
 — не сохранять часть сайтов в истории, как по URL, так и по совпадению регулярки
 в контенте вебстраницы. Помимо очевидных примеров использования от мамки — если
@@ -229,16 +226,13 @@ yandex.(ru|com)/images/search*
 [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
 контент в mpv. Нужно дополнительно поставить в систему хелпер.
 
-<!-- [**To Deepl**](https://addons.mozilla.org/en-US/firefox/addon/to-deepl/) —
-первый попавшийся переводчик для deepl, почти не использую. -->
-
 [:page_facing_up: **Tab Session Manager**](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
 — открытие сессии при случайном закрытии браузера или запоминание текущей сессии
 при необходимости.
 
 [**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
 
-### Development / РАБота
+### Job
 
 [**Pinned Google Calendar**](https://addons.mozilla.org/en-US/firefox/addon/pinned-google-calendar/)
 — периодами необходимое расширение
@@ -246,7 +240,9 @@ yandex.(ru|com)/images/search*
 [**JSON Lite**](https://addons.mozilla.org/en-US/firefox/addon/json-lite/) —
 смотреть большие json-чики со свистелками без смс
 
-<!-- [**Vue.js devtools**](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/) -->
+## Настройка криптовалютных кошельков
+
+В отдельном файле [CRYPTO.md](CRYPTO.md)
 
 ### Disabled, but worth mentioning
 
@@ -341,10 +337,11 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] Twitter View Original Images
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
-- [ ] Phantom App (Solana Wallet)
+- [x] Phantom App (Solana Wallet)
 - [ ] React Developer Tools / Apollo Client DevTools
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
 - [ ] Make beautiful user-overrides.js
 - [ ] Move deleted/disabled extensions to another .md file
-- [ ] Make «crypto» section at readme.md
+- [x] Make «crypto» section at readme.md
+- [ ] Section about git submodule update / user.js arkenfox updates
