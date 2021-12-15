@@ -308,37 +308,6 @@ Authenticator — Удобная замена смартфонному Google Au
 Здесь должно быть описание того, как я в системе отключаю CTRL+SHIFT+W /
 CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут под \*nix и win.
 
-## Настройка Metamask
-
-- Импорт по секрет фразе. Во время настройки сохранить новую закладку
-  moz-extension:// ... (чтобы удобно добавлять подсети)
-- Добавляем Binance Smart Chain <https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain>:
-
-```txt
-Network Name: Binance Smart Chain
-New RPC URL: https://bsc-dataseed.binance.org/
-ChainID: 56
-Symbol: BNB
-Block Explorer URL: https://bscscan.com
-```
-
-- Добавляем Matic Mainnet
-
-```txt
-Network name: Matic Mainnet
-New RPC URL: https://rpc-mainnet.maticvigil.com/
-Chain ID: 137
-Currency symbol: MATIC
-Block Explorer URL: https://explorer.matic.network/
-```
-
-- Можно включить экспериментальную подгрузку токенов
-- (опционально) Добавляем токены ETH. Например, $GLCH по адресу `0x038a68ff68c393373ec894015816e33ad41bd564`.
-  Взят из <https://coinmarketcap.com/currencies/glitch/> -> Explorers -> etherscan
-- (опционально) Добавить WETH для Matic. Можно в payment method ethermine.org
-
-<https://ethpool.freshdesk.com/support/solutions/articles/8000093699-polygon-guide>
-
 ## Примечания
 
 В файле `search.json.mozlz4` — используемые мной поисковые движки. Делается из
@@ -346,12 +315,18 @@ Block Explorer URL: https://explorer.matic.network/
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
 
+Проверка рабочих ссылок в этом README.md:
+
+```sh
+docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/README.md
+```
+
 ## Полезные ссылки
 
 - <https://ffprofile.com/>
 - <https://enchiridion.red/2019/1/18/firefox-extensions/>
 - <https://librewolf-community.gitlab.io/docs/>
-- <https://2ch.hk/s> -> Firefox Thread
+- /s -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
 - <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
