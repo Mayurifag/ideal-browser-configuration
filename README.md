@@ -273,9 +273,7 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - <https://librewolf-community.gitlab.io/docs/>
 - /s -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
-- <https://gitlab.com/librewolf-community/settings/-/wikis/FAQ>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
-- <https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme>
 
 ## TODO
 
