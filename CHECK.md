@@ -12,9 +12,11 @@
 
 ## Sites
 
-- Check cloudflare → go to <https://2ch.hk/test> and message something
 - Check cloudfront → go to <https://binance.com>
+<!-- markdown-link-check-disable -->
+- Check cloudflare → go to <https://2ch.hk/test> and message something
 - Check punycodes → go to <https://гибдд.рф>
+<!-- markdown-link-check-enable-->
 
 ## Notes
 

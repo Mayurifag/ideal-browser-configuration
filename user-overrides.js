@@ -1,4 +1,5 @@
 /*** MY OVERRIDES ***/
+// arkenfox's user.js commit: Dec 15, 2021 https://github.com/arkenfox/user.js/commit/bb56056a68906ddd178f64ab0b016c8bbe9786fb
 user_pref("_user.js.parrot", "overrides section syntax error");
 
 /*** my user.js overrides ***/
