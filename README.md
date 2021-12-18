@@ -226,6 +226,11 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 В отдельном файле [CRYPTO.md](CRYPTO.md)
 
+## Check sites and features you need are working
+
+There is [checklist](CHECK.md) to see if everything you need is working after
+repository changes.
+
 ## Закладки
 
 - Удалить все имеющиеся закладки (CTRL+B)
@@ -289,4 +294,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [x] Move deleted/disabled extensions to another .md file
 - [x] Make «crypto» section at readme.md
 - [ ] Section about git submodule update / user.js arkenfox updates
-- [ ] Make Check.md with instructions to check that firefox works on some sites correctly
+- [x] Make Check.md with instructions to check that firefox works on some sites correctly
