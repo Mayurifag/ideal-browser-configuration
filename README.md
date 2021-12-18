@@ -256,12 +256,10 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
 
-Проверка рабочих ссылок в этом README.md:
+### Check `README.md` noted sites working
 
 ```sh
 docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/README.md
-docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/CRYPTO.md
-docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/NOT_USED_EXTENSIONS.md
 ```
 
 ## Полезные ссылки

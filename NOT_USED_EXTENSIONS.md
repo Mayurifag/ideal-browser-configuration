@@ -52,3 +52,9 @@ TrackMeNot — гугл блочит на стандартных настрой�
 
 - <https://github.com/The-OP/Fox/blob/master/greylist.md#user-content-stylish>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
+
+### Check `NOT_USED_EXTENSIONS.md` noted sites working
+
+```sh
+docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/NOT_USED_EXTENSIONS.md
+```

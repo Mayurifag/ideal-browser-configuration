@@ -52,3 +52,11 @@ Block Explorer URL: https://explorer.matic.network/
 ## Настройка Phantom
 
 Импорт SOL кошелька по секрет фразе.
+
+## Notes
+
+### Check `CRYPTO.md` noted sites working
+
+```sh
+docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /tmp/CRYPTO.md
+```
