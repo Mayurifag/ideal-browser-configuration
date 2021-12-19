@@ -170,15 +170,12 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний
 автоперевод.
 
-[**pinterest-guest**](https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/)
-— просмотр Pinterest без логина
-
 [:page_facing_up: **VkOpt** -> https://vk.com](https://vkopt.net/download/)
 
 [:exclamation: **Pushbullet**](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
 
 [:exclamation: **Privacy Redirect**](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/)
-оставить Bibliogram/Reddit/Wikipedia
+оставить Bibliogram/Reddit
 
 [**Redirect AMP to HTML**](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)
 

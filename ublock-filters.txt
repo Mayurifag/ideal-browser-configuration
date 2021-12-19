@@ -63,3 +63,9 @@ eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
 ! 2021-12-09 https://svtv.org
 svtv.org##.donate-banner
+
+! 2021-12-18 https://www.pepper.ru
+||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
+
+! 2021-12-19 https://ethermine.org
+ethermine.org##.tos-container
