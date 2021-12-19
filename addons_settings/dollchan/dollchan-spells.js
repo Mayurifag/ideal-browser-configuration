@@ -1,7 +1,12 @@
 #words(/gg/) |
 #words(33см) |
+#words(ok-live тред) |
 #words(postcount) |
+#words(гартик) |
+#words(пердикс) |
 #words[biz](соснул? шиз) |
+#words(тонилайф) |
+#words(тонитред) |
 #words(трусики кто-то палил) |
 #words(храмом головы) |
 #words(▲) |
@@ -29,6 +34,7 @@
     #words(terraria) |
     #words(testyourvocab.com) |
     #words(vocaro) |
+    #words(чгк-тред) |
     #words(в слове войн) |
     #words(дабл - думаю) |
     #words(захвати европу)
