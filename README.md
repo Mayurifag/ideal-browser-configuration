@@ -290,3 +290,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [x] Make «crypto» section at readme.md
 - [ ] Section about git submodule update / user.js arkenfox updates
 - [x] Make Check.md with instructions to check that firefox works on some sites correctly
+- [ ] <https://libreddit.kavin.rocks/r/firefox/comments/rj7ce2/-/hp1s52c>
