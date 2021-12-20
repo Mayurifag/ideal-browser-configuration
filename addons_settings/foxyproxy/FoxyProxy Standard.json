@@ -137,6 +137,62 @@
         "type": 1,
         "protocols": 1,
         "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.meet.google.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.softswiss-service.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.bgaming-system.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.bgaming-network.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.bgaming-network-mga.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.bgaming-asia.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.xdevteam.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "",
+        "pattern": "*.xteamchat.com",
+        "type": 1,
+        "protocols": 1,
+        "active": true
       }
     ],
     "pacURL": "",
@@ -147,7 +203,7 @@
     "active": false
   },
   "mode": "patterns",
-  "browserVersion": "93.0",
+  "browserVersion": "95.0.2",
   "foxyProxyVersion": "7.5.1",
   "foxyProxyEdition": "standard"
 }
