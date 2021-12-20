@@ -18,9 +18,15 @@
 
 ### ETH Mainnet
 
+<!-- etherscan sometimes doesnt like checks and gives 403 :S -->
+
+<!-- markdown-link-check-disable -->
+
 Можно добавить используемые токены. Удобно это сделать через web3 интерфейс
 к метамаску, к примеру, с <https://etherscan.io>. Это не очень актуально, т.к.
 Metamask благодаря настройке их сам подгрузит.
+
+<!-- markdown-link-check-enable-->
 
 ### BSC Mainnet
 
