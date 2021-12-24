@@ -11,9 +11,6 @@
 использовать не как пошаговое руководство, а как пример, — с полным пониманием,
 что вы делаете.
 
-inb4: Да, это всё вместе уживается и не тормозит у меня в браузере на mid-end
-конфигурациях.
-
 ## Первичная конфигурация
 
 Используется шаблон `user.js` от Arkenfox, сабмодуль.
@@ -249,10 +246,29 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 
 ## Примечания
 
+### search.json.mozlz4
+
 В файле `search.json.mozlz4` — используемые мной поисковые движки. Делается из
 файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4). Как
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
+
+### Agebox
+
+Extension settings are encrypted via [Agebox](https://github.com/slok/agebox).
+Cheatsheet:
+
+```sh
+agebox encrypt ./addons_settings/sponsor-block/sponsor-block-backup.json # alias to enc
+agebox decrypt --all --force --private-keys ./private # alias to dec
+agebox reencrypt # alias to e
+
+# initialization
+# Install age and agebox
+agebox init
+age-keygen -o ./private/key.txt
+# make ./keys/key.txt with public key from ./private/key.txt
+```
 
 ### Check `README.md` noted sites working
 
