@@ -211,13 +211,9 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться.
 Настроен на `127.0.0.1:1080` (стандартный эндпоинт shadowsocks)
 
-### Job
+### Development / productivity
 
-[**Pinned Google Calendar**](https://addons.mozilla.org/en-US/firefox/addon/pinned-google-calendar/)
-— периодами необходимое расширение
-
-[**JSON Lite**](https://addons.mozilla.org/en-US/firefox/addon/json-lite/) —
-смотреть большие json-чики со свистелками без смс
+В отдельном файле [JOB.md](JOB.md)
 
 ## Настройка криптовалютных кошельков
 
@@ -271,6 +267,7 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - /s -> Firefox Thread
 - <https://github.com/black7375/Firefox-UI-Fix>
 - <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
+- <https://enchiridion.red/2019/1/18/firefox-extensions/>
 
 ## TODO
 
@@ -282,7 +279,7 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] Session Alive + rules for vtb/tinkoff/etc
 - [ ] copy selection as markdown
 - [x] Phantom App (Solana Wallet)
-- [ ] React Developer Tools / Apollo Client DevTools
+- [x] React Developer Tools / Apollo Client DevTools
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/seekingalpha-mfonda/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/tinvest/>
 - [ ] Make beautiful user-overrides.js
@@ -291,3 +288,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] Section about git submodule update / user.js arkenfox updates
 - [x] Make Check.md with instructions to check that firefox works on some sites correctly
 - [ ] <https://libreddit.kavin.rocks/r/firefox/comments/rj7ce2/-/hp1s52c>
+- [ ] Web pages scanner
