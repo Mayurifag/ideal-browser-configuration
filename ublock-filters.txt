@@ -16,6 +16,7 @@
 
 ! https://habr.com
 habr.com##.subscription
+habr.com###subcriptions_block
 habr.com##.megapost-teasers
 habr.com##.promo-block
 
@@ -29,19 +30,19 @@ vk.com##.RecommendedNarrativesBlock
 vk.com##.ConvoRecommendList
 vk.com##.profile_friends_recomm
 
-! aliexpress
 aliexpress.ru##.festival-main-venue
 ! aliexpress.##.list-item:has(.item-ad-tag)
 
-! https://2ch.hk/s/res/2988057.html#3017069
 pornhub.com###relateRecommendedItems>.alpha
 pornhub.com###welcome
+pornhub.com##.section-p2v
+
 pornolab.net###page_footer
 pornolab.net###vs_here
 
 ! 2021-08-14 https://www.deepl.com
-www.deepl.com##.dl_app_popup__content
-www.deepl.com##.dl_overlay_popup
+deepl.com##.dl_app_popup__content
+deepl.com##.dl_overlay_popup
 
 ! 2021-08-26 https://eu4.paradoxwikis.com
 ||central.paradoxwikis.com/images/$image
@@ -69,3 +70,8 @@ svtv.org##.donate-banner
 
 ! 2021-12-19 https://ethermine.org
 ethermine.org##.tos-container
+
+youtube.com##.ytd-button-renderer.style-scope:has-text(Создать клип)
+
+! 2021-10-27 https://itvdn.com
+itvdn.com##.subject-related-specialty
