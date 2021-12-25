@@ -75,3 +75,6 @@ youtube.com##.ytd-button-renderer.style-scope:has-text(Создать клип)
 
 ! 2021-10-27 https://itvdn.com
 itvdn.com##.subject-related-specialty
+
+! 2021-12-25 https://meduza.io
+meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнему нужна поддержка)
