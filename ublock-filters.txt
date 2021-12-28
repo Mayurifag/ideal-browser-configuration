@@ -13,6 +13,7 @@
 2ch.hk/makaba/templates/js/events/*.js
 2ch.hk/makaba/templates/img/santa_hat.png
 2ch.hk##.desktop.tti_info
+2ch.hk##audio
 
 ! https://habr.com
 habr.com##.subscription
