@@ -30,6 +30,8 @@ vk.com###block_aliexpress-recommendations-carousel
 vk.com##.RecommendedNarrativesBlock
 vk.com##.ConvoRecommendList
 vk.com##.profile_friends_recomm
+vk.com##.EasterEggsContainer
+vk.com##.feed_blog_reminder
 
 aliexpress.ru##.festival-main-venue
 ! aliexpress.##.list-item:has(.item-ad-tag)
