@@ -71,7 +71,7 @@ eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 ! 2021-12-19 https://ethermine.org
 ethermine.org##.tos-container
 
-youtube.com##.ytd-button-renderer.style-scope:has-text(Создать клип)
+youtube.com##.ytd-button-renderer.style-scope:has-text(/Создать клип|Спасибо/)
 
 ! 2021-10-27 https://itvdn.com
 itvdn.com##.subject-related-specialty
