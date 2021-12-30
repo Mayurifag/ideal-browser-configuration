@@ -67,6 +67,9 @@ eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
 ! 2021-12-18 https://www.pepper.ru
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
+! 2021-12-30 https://www.pepper.ru
+www.pepper.ru##.tGrid-row.footer
+
 
 ! 2021-12-19 https://ethermine.org
 ethermine.org##.tos-container
@@ -78,3 +81,8 @@ itvdn.com##.subject-related-specialty
 
 ! 2021-12-25 https://meduza.io
 meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнему нужна поддержка)
+
+! 2021-12-30 https://tapochek.net
+tapochek.net##.b-page_newyear
+tapochek.net##.snow-layer
+tapochek.net##.snowman
