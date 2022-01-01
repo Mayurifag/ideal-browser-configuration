@@ -20,6 +20,11 @@ habr.com##.subscription
 habr.com###subcriptions_block
 habr.com##.megapost-teasers
 habr.com##.promo-block
+habr.com##.tm-voice-article
+habr.com##section.tm-block_spacing-bottom:has-text(Работа)
+habr.com##.tm-notice_info
+habr.com##.tm-most-reading-block__promo-post:upward(.tm-article-list-block__item)
+habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 
 ! https://vk.com — hide subscription shit and advertised functionality
 vk.com##.audio_promo
