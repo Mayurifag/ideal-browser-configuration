@@ -61,6 +61,7 @@ google.com,google.ru#?##search .g:-abp-has(a[href*="overcoder.net"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="qastack.ru"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="stackoverrun.com"])
 google.com,google.ru#?##search .g:-abp-has(a[href*="coderoad.ru"])
+google.com,google.ru#?##search .g:-abp-has(a[href*="coderedirect.com"])
 
 ! 2021-09-20 https://www.eurogamer.net
 eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
@@ -86,3 +87,6 @@ meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнем�
 tapochek.net##.b-page_newyear
 tapochek.net##.snow-layer
 tapochek.net##.snowman
+tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
+tapochek.net###page_container > .copyright
+tapochek.net###aposnow
