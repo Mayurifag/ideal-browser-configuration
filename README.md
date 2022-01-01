@@ -306,3 +306,11 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] <https://libreddit.kavin.rocks/r/firefox/comments/rj7ce2/-/hp1s52c>
 - [ ] Web pages scanner
 - [ ] [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/)
+- [ ] <https://addons.mozilla.org/mn/firefox/addon/youtube-anti-translate/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/clickbait-remover-for-youtube/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/lovely-forks/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/blocktube/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/torrent-control/>
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/trockerapp/>
