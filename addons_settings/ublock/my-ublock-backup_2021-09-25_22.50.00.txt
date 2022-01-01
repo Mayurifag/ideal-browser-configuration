@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1639932905187,
-  "version": "1.39.3b13",
+  "timeStamp": 1641034143462,
+  "version": "1.40.3b1",
   "userSettings": {
     "advancedUserEnabled": true,
     "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
@@ -34,14 +34,14 @@
     "mvps-0",
     "plowe-0",
     "RUS-0",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
     "https://www.i-dont-care-about-cookies.eu/abp/",
     "https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
-    "https://easylist-downloads.adblockplus.org/cntblock.txt",
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt",
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt"
+    "https://easylist-downloads.adblockplus.org/cntblock.txt"
   ],
   "hiddenSettings": {
     "uiStyles": "dark",

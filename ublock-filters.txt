@@ -90,3 +90,6 @@ tapochek.net##.snowman
 tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
 tapochek.net###page_container > .copyright
 tapochek.net###aposnow
+
+! 2022-01-01 https://superuser.com
+superuser.com##.s-sidebarwidget__yellow
