@@ -4,16 +4,16 @@
 ! Expires: 2 days
 !
 
-2ch.hk/banners/**
-2ch.hk/ololo/**
-2ch.hk/images/**
-2ch.hk/music/**
-2ch.hk###plashque
-2ch.hk##.board-banner
-2ch.hk/makaba/templates/js/events/*.js
-2ch.hk/makaba/templates/img/santa_hat.png
-2ch.hk##.desktop.tti_info
-2ch.hk##audio
+2ch.*/banners/**
+2ch.*/ololo/**
+2ch.*/images/**
+2ch.*/music/**
+2ch.*/makaba/templates/js/events/*.js
+2ch.*/makaba/templates/img/santa_hat.png
+2ch.*###plashque
+2ch.*##.board-banner
+2ch.*##.desktop.tti_info
+2ch.*##audio
 
 ! https://habr.com
 habr.com##.subscription
@@ -51,25 +51,24 @@ deepl.com##.dl_overlay_popup
 ||central.paradoxwikis.com/images/$image
 
 ! google.com hide trash sites (there are some more actually)
-google.com,google.ru#?##search .g:-abp-has(a[href*="qaru.site"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="programmerz.ru"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="quares.ru"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="askvoprosy.com"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="progi.pro"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="issue.life"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="overcoder.net"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="qastack.ru"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="stackoverrun.com"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="coderoad.ru"])
-google.com,google.ru#?##search .g:-abp-has(a[href*="coderedirect.com"])
+google.*#?##search .g:-abp-has(a[href*="qaru.site"])
+google.*#?##search .g:-abp-has(a[href*="programmerz.ru"])
+google.*#?##search .g:-abp-has(a[href*="quares.ru"])
+google.*#?##search .g:-abp-has(a[href*="askvoprosy.com"])
+google.*#?##search .g:-abp-has(a[href*="progi.pro"])
+google.*#?##search .g:-abp-has(a[href*="issue.life"])
+google.*#?##search .g:-abp-has(a[href*="overcoder.net"])
+google.*#?##search .g:-abp-has(a[href*="qastack.ru"])
+google.*#?##search .g:-abp-has(a[href*="stackoverrun.com"])
+google.*#?##search .g:-abp-has(a[href*="coderoad.ru"])
+google.*#?##search .g:-abp-has(a[href*="coderedirect.com"])
 
 ! 2021-09-20 https://www.eurogamer.net
 eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
 ! 2021-12-18 https://www.pepper.ru
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
-! 2021-12-30 https://www.pepper.ru
-www.pepper.ru##.tGrid-row.footer
+pepper.ru##.tGrid-row.footer
 
 
 ! 2021-12-19 https://ethermine.org
