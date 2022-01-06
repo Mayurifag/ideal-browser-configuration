@@ -3,97 +3,87 @@
 ! Homepage: https://github.com/Mayurifag/ideal-browser-configuration
 ! Expires: 2 days
 !
+! Keep sorted alphabetically if possible
 
-2ch.*/banners/**
-2ch.*/ololo/**
-2ch.*/images/**
-2ch.*/music/**
-2ch.*/makaba/templates/js/events/*.js
-2ch.*/makaba/templates/img/santa_hat.png
 2ch.*###plashque
 2ch.*##.board-banner
 2ch.*##.desktop.tti_info
 2ch.*##audio
+2ch.*/banners/**
+2ch.*/images/**
+2ch.*/makaba/templates/img/santa_hat.png
+2ch.*/makaba/templates/js/events/*.js
+2ch.*/music/**
+2ch.*/ololo/**
 
-! https://habr.com
-habr.com##.subscription
 habr.com###subcriptions_block
 habr.com##.megapost-teasers
 habr.com##.promo-block
+habr.com##.subscription
+habr.com##.tm-company-card__branding-image
+habr.com##.tm-company-widgets
+habr.com##.tm-most-reading-block__promo-post:upward(.tm-article-list-block__item)
+habr.com##.tm-notice_info
+habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 habr.com##.tm-voice-article
 habr.com##section.tm-block_spacing-bottom:has-text(Работа)
-habr.com##.tm-notice_info
-habr.com##.tm-most-reading-block__promo-post:upward(.tm-article-list-block__item)
-habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 
 ! https://vk.com — hide subscription shit and advertised functionality
-vk.com##.audio_promo
-vk.com##.feed_groups_recomm.page_block
-vk.com##.CatalogBlock__subscription_ru
-vk.com###block_youla-recommendations-carousel
 vk.com###block_aliexpress-recommendations-carousel
-vk.com##.RecommendedNarrativesBlock
+vk.com###block_youla-recommendations-carousel
+vk.com##.CatalogBlock__subscription_ru
 vk.com##.ConvoRecommendList
-vk.com##.profile_friends_recomm
 vk.com##.EasterEggsContainer
+vk.com##.RecommendedNarrativesBlock
+vk.com##.audio_promo
 vk.com##.feed_blog_reminder
-
-aliexpress.ru##.festival-main-venue
-! aliexpress.##.list-item:has(.item-ad-tag)
+vk.com##.feed_groups_recomm.page_block
+vk.com##.profile_friends_recomm
 
 pornhub.com###relateRecommendedItems>.alpha
 pornhub.com###welcome
 pornhub.com##.section-p2v
 
+pornolab.net###logo
 pornolab.net###page_footer
 pornolab.net###vs_here
+pornolab.net##.freeleech-icon
 
 ! 2021-08-14 https://www.deepl.com
 deepl.com##.dl_app_popup__content
 deepl.com##.dl_overlay_popup
 
-! 2021-08-26 https://eu4.paradoxwikis.com
-||central.paradoxwikis.com/images/$image
-
 ! google.com hide trash sites (there are some more actually)
-google.*#?##search .g:-abp-has(a[href*="qaru.site"])
-google.*#?##search .g:-abp-has(a[href*="programmerz.ru"])
-google.*#?##search .g:-abp-has(a[href*="quares.ru"])
 google.*#?##search .g:-abp-has(a[href*="askvoprosy.com"])
-google.*#?##search .g:-abp-has(a[href*="progi.pro"])
+google.*#?##search .g:-abp-has(a[href*="coderedirect.com"])
+google.*#?##search .g:-abp-has(a[href*="coderoad.ru"])
 google.*#?##search .g:-abp-has(a[href*="issue.life"])
 google.*#?##search .g:-abp-has(a[href*="overcoder.net"])
+google.*#?##search .g:-abp-has(a[href*="progi.pro"])
+google.*#?##search .g:-abp-has(a[href*="programmerz.ru"])
+google.*#?##search .g:-abp-has(a[href*="qaru.site"])
 google.*#?##search .g:-abp-has(a[href*="qastack.ru"])
+google.*#?##search .g:-abp-has(a[href*="quares.ru"])
 google.*#?##search .g:-abp-has(a[href*="stackoverrun.com"])
-google.*#?##search .g:-abp-has(a[href*="coderoad.ru"])
-google.*#?##search .g:-abp-has(a[href*="coderedirect.com"])
 
-! 2021-09-20 https://www.eurogamer.net
 eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
-! 2021-12-18 https://www.pepper.ru
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
 pepper.ru##.tGrid-row.footer
 
-
-! 2021-12-19 https://ethermine.org
 ethermine.org##.tos-container
 
 youtube.com##.ytd-button-renderer.style-scope:has-text(/Создать клип|Спасибо/)
 
-! 2021-10-27 https://itvdn.com
 itvdn.com##.subject-related-specialty
 
-! 2021-12-25 https://meduza.io
 meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнему нужна поддержка)
 
-! 2021-12-30 https://tapochek.net
+tapochek.net###aposnow
+tapochek.net###page_container > .copyright
+tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
 tapochek.net##.b-page_newyear
 tapochek.net##.snow-layer
 tapochek.net##.snowman
-tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
-tapochek.net###page_container > .copyright
-tapochek.net###aposnow
 
-! 2022-01-01 https://superuser.com
 superuser.com##.s-sidebarwidget__yellow
