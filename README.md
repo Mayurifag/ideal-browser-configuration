@@ -314,3 +314,5 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/torrent-control/>
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/trockerapp/>
+- [ ] Ublock settings one click download link for mobile browsers
+- [ ] <https://addons.mozilla.org/en-US/firefox/addon/zoom-redirector/>
