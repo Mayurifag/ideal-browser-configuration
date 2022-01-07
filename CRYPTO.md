@@ -46,7 +46,7 @@ Block Explorer URL: https://bscscan.com
 
 ```yml
 Network name: Matic Mainnet
-New RPC URL: https://rpc-mainnet.maticvigil.com/
+New RPC URL: https://rpc-mainnet.matic.network
 Chain ID: 137
 Currency symbol: MATIC
 Block Explorer URL: https://explorer.matic.network/
