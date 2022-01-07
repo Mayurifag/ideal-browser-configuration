@@ -1,645 +1,675 @@
 {
-  "version": 6,
-  "engines": [
-      {
-          "_name": "Yandex",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 18
-          }
-      },
-      {
-          "_name": "Amazon.com",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 13
-          }
-      },
-      {
-          "_name": "Wikipedia (en)",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 14
-          }
-      },
-      {
-          "_name": "Bing",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 19
-          }
-      },
-      {
-          "_name": "DuckDuckGo",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 20
-          }
-      },
-      {
-          "_name": "Google",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 17
-          }
-      },
-      {
-          "_name": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
-          "_loadPath": "[https]mycroftproject.com/google-encrypted-ncr-no-pws-safe-off-en-us.xml",
-          "description": "Google Encrypted without Country Redirect, Personalized Results and Safe Search. Language en-US and Suggestions Enabled.",
-          "__searchForm": "https://encrypted.google.com/?gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50",
-          "_iconURL": "data:image/x-icon;base64,AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///zD9/f2W/f392P39/fn9/f35/f391/39/ZT+/v4uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Cf39/Zn///////////////////////////////////////////39/ZX///8IAAAAAAAAAAAAAAAA/v7+Cf39/cH/////+v35/7TZp/92ul3/WKs6/1iqOv9yuFn/rNWd//j79v///////f39v////wgAAAAAAAAAAP39/Zn/////7PXp/3G3WP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP+Or1j//vDo///////9/f2VAAAAAP///zD/////+vz5/3G3V/9TqDT/WKo6/6LQkf/U6cz/1urO/6rUm/+Zo0r/8IZB//adZ////v7///////7+/i79/f2Y/////4nWzf9Lqkj/Vqo4/9Xqzv///////////////////////ebY//SHRv/0hUL//NjD///////9/f2U/f392v////8sxPH/Ebzt/43RsP/////////////////////////////////4roL/9IVC//i1jf///////f391/39/fr/////Cr37/wW8+/+16/7/////////////////9IVC//SFQv/0hUL/9IVC//SFQv/3pnX///////39/fn9/f36/////wu++/8FvPv/tuz+//////////////////SFQv/0hUL/9IVC//SFQv/0hUL/96p7///////9/f35/f392/////81yfz/CrL5/2uk9v///////////////////////////////////////////////////////f392P39/Zn/////ks/7/zdS7P84Rur/0NT6///////////////////////9/f////////////////////////39/Zb+/v4y//////n5/v9WYu3/NUPq/ztJ6/+VnPT/z9L6/9HU+v+WnfT/Ul7t/+Hj/P////////////////////8wAAAAAP39/Z3/////6Or9/1hj7v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9sdvD////////////9/f2YAAAAAAAAAAD///8K/f39w//////5+f7/paz2/11p7v88Suv/Okfq/1pm7v+iqfX/+fn+///////9/f3B/v7+CQAAAAAAAAAAAAAAAP///wr9/f2d///////////////////////////////////////////9/f2Z/v7+CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f2Z/f392/39/fr9/f36/f392v39/Zj///8wAAAAAAAAAAAAAAAAAAAAAPAPAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAPAPAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/g3+/v5X/f39mf39/cj9/f3q/f39+f39/fn9/f3q/f39yP39/Zn+/v5W////DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f2c/f399f/////////////////////////////////////////////////////9/f31/f39mv7+/iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/gn9/f2K/f39+////////////////////////////////////////////////////////////////////////////f39+v39/Yf///8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4k/f390v////////////////////////////////////////////////////////////////////////////////////////////////39/dD///8iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////MP39/er//////////////////////////+r05v+v16H/gsBs/2WxSf9Wqjj/Vqk3/2OwRv99vWX/pdKV/97u2P////////////////////////////39/ej+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f3q/////////////////////+v15/+Pxnv/VKk2/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/36+Z//d7tf///////////////////////39/ej///8iAAAAAAAAAAAAAAAAAAAAAAAAAAD///8K/f390//////////////////////E4bn/XKw+/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1apN/+x0pv///////////////////////39/dD///8IAAAAAAAAAAAAAAAAAAAAAP39/Yv/////////////////////sdij/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/YKU1/8qOPv/5wZ////////////////////////39/YcAAAAAAAAAAAAAAAD+/v4l/f39+////////////////8Lgt/9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9utlT/n86N/7faqv+426v/pdKV/3u8ZP9UqDX/U6g0/3egN//jiUH/9IVC//SFQv/82MP//////////////////f39+v7+/iMAAAAAAAAAAP39/Z3////////////////q9Ob/W6w+/1OoNP9TqDT/U6g0/1OoNP9nskz/zOXC/////////////////////////////////+Dv2v+osWP/8YVC//SFQv/0hUL/9IVC//WQVP/++fb//////////////////f39mgAAAAD+/v4O/f399v///////////////4LHj/9TqDT/U6g0/1OoNP9TqDT/dblc//L58P/////////////////////////////////////////////8+v/3p3f/9IVC//SFQv/0hUL/9IVC//rIqf/////////////////9/f31////DP7+/ln////////////////f9v7/Cbz2/zOwhv9TqDT/U6g0/2KwRv/v9+z///////////////////////////////////////////////////////738//1kFT/9IVC//SFQv/0hUL/9plg///////////////////////+/v5W/f39nP///////////////4jf/f8FvPv/Bbz7/yG1s/9QqDz/vN2w//////////////////////////////////////////////////////////////////rHqP/0hUL/9IVC//SFQv/0hUL//vDn//////////////////39/Zn9/f3L////////////////R878/wW8+/8FvPv/Bbz7/y7C5P/7/fr//////////////////////////////////////////////////////////////////ere//SFQv/0hUL/9IVC//SFQv/718H//////////////////f39yP39/ez///////////////8cwvv/Bbz7/wW8+/8FvPv/WNL8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//rIqv/////////////////9/f3q/f39+v///////////////we9+/8FvPv/Bbz7/wW8+/993P3///////////////////////////////////////SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/+cGf//////////////////39/fn9/f36////////////////B737/wW8+/8FvPv/Bbz7/33c/f//////////////////////////////////////9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/6xaX//////////////////f39+f39/e3///////////////8cwvv/Bbz7/wW8+/8FvPv/WdP8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//vVv//////////////////9/f3q/f39y////////////////0bN/P8FvPv/Bbz7/wW8+/8hrvn/+/v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////39/cj9/f2c////////////////ht/9/wW8+/8FvPv/FZP1/zRJ6/+zuPf//////////////////////////////////////////////////////////////////////////////////////////////////////////////////f39mf7+/lr////////////////d9v7/B7n7/yB38f81Q+r/NUPq/0hV7P/u8P3////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5X////D/39/ff///////////////9tkPT/NUPq/zVD6v81Q+r/NUPq/2Fs7//y8v7////////////////////////////////////////////09f7//////////////////////////////////////////////////f399f7+/g0AAAAA/f39n////////////////+Tm/P89Suv/NUPq/zVD6v81Q+r/NUPq/1Bc7f/IzPn/////////////////////////////////x8v5/0xY7P+MlPP////////////////////////////////////////////9/f2cAAAAAAAAAAD+/v4n/f39/P///////////////7W69/81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9ZZe7/k5v0/6609/+vtff/lJv0/1pm7v81Q+r/NUPq/zVD6v+GjvL//v7//////////////////////////////f39+/7+/iQAAAAAAAAAAAAAAAD9/f2N/////////////////////6Cn9f81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v+BivL////////////////////////////9/f2KAAAAAAAAAAAAAAAAAAAAAP7+/gv9/f3V/////////////////////7W69/8+S+v/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/P0zr/7q/+P///////////////////////f390v7+/gkAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3r/////////////////////+Xn/P94gfH/NkTq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NkTq/3Z/8f/l5/z///////////////////////39/er+/v4kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f3r///////////////////////////k5vz/nqX1/2p08P9IVez/OEbq/zdF6v9GU+z/aHLv/5qh9f/i5Pz////////////////////////////9/f3q////MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3V/////////////////////////////////////////////////////////////////////////////////////////////////f390v7+/iQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wr9/f2N/f39/P///////////////////////////////////////////////////////////////////////////f39+/39/Yv+/v4JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4n/f39n/39/ff//////////////////////////////////////////////////////f399v39/Z3+/v4lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Dv7+/lr9/f2c/f39y/39/e39/f36/f39+v39/ez9/f3L/f39nP7+/ln+/v4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AA///AAD//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPAAAAD4AAAB/AAAA/4AAAf/AAAP/8AAP//wAP/",
-          "_metaData": {
-              "loadPathHash": "tPc8R6X1ho4dj+0kmHO9RqRidDj6B0cpzAgyNPiDLgM=",
-              "order": 1,
-              "updateexpir": 1627148834815,
-              "alias": "g"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://encrypted.google.com/search?q={searchTerms}&gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50"
-              },
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://suggestqueries.google.com/complete/search?output=firefox&client=firefox&gl=US&hl=en&q={searchTerms}",
-                  "type": "application/x-suggestions+json"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/google.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "YouTube",
-          "_loadPath": "[https]mycroftproject.com/youtube.xml",
-          "description": "YouTube - Videos",
-          "__searchForm": "https://www.youtube.com/index",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AAAD/EAAA/0AAAP9AAAD/cAAA/4AAAP+AAAD/gAAA/4AAAP+AAAD/QAAA/0AAAP8Q////AP///wD///8AAAD/YAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2D///8AAAD/MAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/MAAA/1AAAP//AAD//wAA//8AAP//AAD//wAA//8QEP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2AAAP+AAAD//wAA//8AAP//AAD//wAA//8AAP//4OD//1BQ//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP+AAAD/gAAA//8AAP//AAD//wAA//8AAP//AAD/////////////wMD//yAg//8AAP//AAD//wAA//8AAP//AAD/gAAA/4AAAP//AAD//wAA//8AAP//AAD//wAA/////////////7Cw//8gIP//AAD//wAA//8AAP//AAD//wAA/4AAAP+AAAD//wAA//8AAP//AAD//wAA//8AAP//4OD//0BA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP+AAAD/UAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/YAAA/zAAAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/zD///8AAAD/YAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2D///8A////AP///wAAAP8QAAD/QAAA/0AAAP+AAAD/gAAA/4AAAP+AAAD/gAAA/4AAAP9AAAD/QAAA/xD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAP//AADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMADAAD//wAA//8AAA==",
-          "_metaData": {
-              "loadPathHash": "SUcTrk+xoYKLlCxpxHb3QNBWm7iqF3WIegWKUi+4U4g=",
-              "order": 3,
-              "updateexpir": 1627770839053,
-              "alias": "yt"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://www.youtube.com/results?search_query={searchTerms}&search=Search"
-              },
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://suggestqueries.google.com/complete/search?output=firefox&ds=yt&q={searchTerms}",
-                  "type": "application/x-suggestions+json"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/youtube.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "4pda.to content - Google",
-          "_loadPath": "[https]mycroftproject.com/4pda-content---google.xml",
-          "description": "Searches 4pda.to content through Google",
-          "__searchForm": "https://4pda.to/",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAABMLAAATCwAAAAEAAAAAAAAAAAAA//79AP/8+gD/+vcA//j0AP/18AD/8+wA//DnAP/t4wD/6t4A/+faAP/k1QD/4tEA/9/NAP/dygD/28cA/9nEAGk9JABJKhkAvG5BAK1lPACnYToAol44AJlZNQCNUjEAf0osAHlGKgBlOyMAwHBDALVqPwCdXDcAlVc0AJJVMwCHTy8AdUQpAHNDKABvQScAUC4cAFo1IABXMx8AXTcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRYeHhcfICEZIhAQEBAQEBcgGCEhIRkaJBsPDw8PDw8hGRoiIyMkESgnDg4ODg4ODQ0NDQ0NDQ0NDQ0NDQ0NDQwMDAwMDAwMDAwMDAwMDAwLCwsLCwsLCwsLCwsLCwsLCgoKCgoKCgoKCgoKCgoKCgkJCQkJJiYoJyUJCQkJCQkICAgICAgoJiclCAgICAgIIQcHBwcHByYnJQcHBwcHBx8hBgYGBgYGJRIGBgYGBgYWHyEFBQUFBQUSBQUFBQUFFBYfIQQEBAQEBAQEBAQEBB0UFh8hAwMDAwMDAwMDAwMTHRQWHyECAgICAgICAgICHBMdFBYXGAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-          "_metaData": {
-              "loadPathHash": "X5D6agqwGk0q7w+kthqVyNsqdPSOqY/FQKVhlDRuDwo=",
-              "order": 4,
-              "updateexpir": 1627770889028,
-              "alias": "4pda"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "http://www.google.com/search?q={searchTerms}+site:4pda.to"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/4pda-content-google.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "Google Play - Apps",
-          "_loadPath": "[https]mycroftproject.com/google-play---apps.xml",
-          "description": "Search for Android apps",
-          "__searchForm": "https://play.google.com/store/apps",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLabK/BQ5fvtDejcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADU/2O/z9lu/7JEof+jOK3flTq2YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1P9jv9T/Y//M2nD/o0Wq/5I6uP+FO8C/dz3JQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANT+Y7/U/2P/1P9j/8nacv+UR7T/gjzC/3M9y/9lPtS/WUDcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADR812/0fZe/9P5YP/T/GL/y+Vu/49gsv9xPc3/Yz/W/1NA3/9FQemfdMn/IAAAAAAAAAAAAAAAAAAAAAAAAAAAzeVWv87oV//P7Fn/0O9b/9HzXf/M6mX/gWC5/2A/1/9RQOH/V23x/3XA/+90xv+AdMv/EAAAAAAAAAAAAAAAAMnXT7/K2lD/y95S/8zhVP/N5Vb/zuhX/8jhYf9zX8H/X2Ls/3am//91sP//dbr//3XD/+90xf8wAAAAAAAAAADFyki/xs1J/8fQS//I1E3/yddO/8rbUP/L3lL/teON/3+i9/92lP//dp7//3ao//91s//vdb3/UAAAAAAAAAAAwrxBv8K/Qv/DwkT/xMZG/8XKSP/GzUn/uuB6/6L8zv+f9dT/f5v2/3eN//92mv+fdqT/EAAAAAAAAAAAAAAAAL6vOr+/sjv/wLU9/8G5P//CvEH/uNJr/6Txtf+k87r/o/W//5/tyq93gP8gAAAAAAAAAAAAAAAAAAAAAAAAAAC6ojO/u6U1/7yoNv+9qzj/tsNb/6fmm/+m6KD/puunv6XvsEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt5Usv7eYLv+4mzD/tLRM/6nagP+p3IbfqOCPUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALOIJr+0iyf/sqY8/6zOZe+r03BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwfCCvsJUs767EToCtx1UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsLkyELC5NBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAIAAAACAAAAAgAAAAIAAAACAAfC/gAEAAIABAACAAQAAwAEAAMADBwDwBwAA5mcAAOfjAADv9wAA//8AAA==",
-          "_metaData": {
-              "loadPathHash": "WO1+mC1H0fHj/UzXYK7Tj9EhNqUYO7BDyRMEOsp6Yj0=",
-              "order": 5,
-              "updateexpir": 1627771381940,
-              "alias": "gp"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://play.google.com/store/search?q={searchTerms}&c=apps"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/android-market.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "Wikipedia (ru)",
-          "_loadPath": "[https]mycroftproject.com/wikipedia-ru.xml",
-          "description": "Wikipedia (ru)",
-          "__searchForm": "http://ru.wikipedia.org/",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8F////Yf///8v/////////////////////////////////////////////////////////y////2H///8F////Yf//////////////////////////////////////////////////////////////////////////////Yf///8v/////////////////////2NjY//39/f////////////T09P/k5OT//////////////////////////8v/////////////////////+vr6/xsbG/+QkJD///////////9tbW3/Pj4+/////////////////////////////////////////////////6CgoP8KCgr/RkZG//j4+P/t7e3/CgoK/zk5Of/MzMz///////////////////////////////////////////8sLCz/a2tr/7Ozs/+Tk5P/g4OD/ycnJ//q6ur/ZGRk//////////////////////////////////////+3t7f/AgIC/93d3f//////TU1N/xUVFf+hoaH//////2ZmZv/l5eX/////////////////////////////////QkJC/1RUVP///////////2tra/8UFBT/+/v7///////MzMz/eXl5////////////////////////////zc3N/wAAAP/IyMj///////v7+/8jIyP/Ly8v//f39////////////0pKSv/19fX//////////////////////1lZWf89PT3///////////+ampr/HR0d/62trf+Kior///////////+kpKT/lpaW/////////////////+Dg4P8EBAT/sbGx///////19fX/ICAg/5OTk///////QkJC/+7u7v//////+fn5/zs7O//7+/v//////8/Pz/9AQED/AAAA/5SUlP/9/f3/R0dH/wAAAP+enp7/4uLi/zo6Ov9DQ0P/5eXl/6+vr/8TExP/UFBQ/9fX1//8/Pz/9/f3//f39//4+Pj///////f39//39/f/+vr6//39/f/39/f/9/f3//39/f/6+vr/9/f3//f39//8/Pz/////y///////////////////////////////////////////////////////////////////////////////y////2H//////////////////////////////////////////////////////////////////////////////2H///8F////Yf///8v/////////////////////////////////////////////////////////y////2H///8FwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAA==",
-          "_metaData": {
-              "loadPathHash": "5wkqyB6p/XnOsUgGzMgiGh7Cni/cKPXwufYSY7sswHg=",
-              "order": 12,
-              "updateexpir": 1627772402938,
-              "alias": "wiki"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://ru.wikipedia.org/wiki/Служебная:Search?search={searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://ru.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}",
-                  "type": "application/x-suggestions+json"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/wikipedia-ru.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "Rutracker.org",
-          "_loadPath": "[https]mycroftproject.com/rutrackerorg.xml",
-          "description": "Torrents.ru Search",
-          "__searchForm": "https://rutracker.org/",
-          "_iconURL": "data:image/x-icon;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARiTiAEYk4gZGJOIQRiTiAEYk4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-          "_metaData": {
-              "loadPathHash": "Gyv0ASxEChEpV+8CLDOuloOku0RzTyJ2n8M2ArfqWto=",
-              "order": 7,
-              "updateexpir": 1627772412796,
-              "alias": "rt"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://rutracker.org/forum/tracker.php?nm={searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/torrents_ru_alt.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false,
-          "queryCharset": "windows-1251"
-      },
-      {
-          "_name": "Aliexpress",
-          "_loadPath": "[https]mycroftproject.com/aliexpress.xml",
-          "description": "Aliexpress shopping site",
-          "__searchForm": "https://www.aliexpress.com",
-          "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYlJREFUOI2dkrFrU1EYxX/ffe8lVB/PNluwsxCQOjjlLYXiH5Clcze7FYrSxdmlCoJLRKf+H0Kdki52cnJQCm3aoWDStDxqX+5xeDVG+qLGD+5wv3N/hwPnmt4AFTpc0WSWiejynTSkSgdPk8pMOHiaVOmY3qFv7x3ZR4f8v7HmYO6hZ+GRJ+x/cGT7DrsFNkOAbN9hIVjvQShULHWeY7cBC8sp5egCLL7WDdwkHG+9LGIoL4UxiLdeoOG1LnBj/Qsk60+opC10WcJfQiVtkaw/RV9/7ccGzMPo+IDqSgv6JfH7UF1pMTo+gPkSA6vBcKdNvLpG0FhEpznkxdFpTtBYJF5dY7jTxmoTxr2lUD/PYYCyvV1J0qC9rZPlmk6Waxq0tyVJ2d6uDgM0yVhvKdRkUv8pJ379nDuPNyGaK5ZXGYO3rzjfeIa7/3tDNwwAdJajIwjuFffRZ7C7YMnNeksLtyTEEpAv6nKNKf9imsF43J9lAFeP6P711ZSpR3QdXun/mNQjunilPwCa4aCz/pqWyQAAAABJRU5ErkJggg==",
-          "_metaData": {
-              "loadPathHash": "qgt4AZGU9znEhoGawEKcq5+c96bgQFiEtY34feB3lpg=",
-              "order": 10,
-              "updateexpir": 1627772417840,
-              "alias": "ali"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190730094114&SearchText={searchTerms}&switch_new_app=n"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/aliexpress-us-eng.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "Tinkoff Stock",
-          "_loadPath": "[https]paste.mozilla.org/tinkoff-stock.xml",
-          "description": "",
-          "__searchForm": "https://www.tinkoff.ru",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAt3f8AAAAAACgkIgD///8AmZmZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERETMzMxERERERMyIzERERETNCMyQzERETMjMiMyMxETMjMgAjMjMTMjMgAAIzIzMjIyAAAjIyMzIzIAACMyMzIyMgAAIyMjMyMyIiIjMjMyMjIzMyMjIzMzIyMyMjMzETIzIiIzIxERMyMzMzIzERETMzIjMzERERERMzMRERH4HwAA+B8AAOAHAADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAwAAwAMAAOAHAAD8PwAA",
-          "_metaData": {
-              "loadPathHash": "iPNZSsNIop8ai0XRajD+JatdUgIl8v1s3lvt7d3mU14=",
-              "order": 2,
-              "alias": "t"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://www.tinkoff.ru/invest/catalog/?query={searchTerms}"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": []
-      },
-      {
-          "_name": "Steam",
-          "_loadPath": "[https]mycroftproject.com/steam.xml",
-          "description": "Search for games on Steam",
-          "__searchForm": "https://store.steampowered.com/",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2tiQHqngVSK18FaiufBPks4AT+7OAE/uufBPkrXwVqKt6GEm2tiQHAAAAAAAAAAAAAAAAAAAAAAAAAACfahUYnWwTkqJrEe6eaw//n2wR/6BtE/+gbhP/oG4T/6BuE/+jbRPunWwTkp9qFRgAAAAAAAAAAAAAAACfahUYkl4UsJJfE/+jdzb/sYxU/6V7O/+SYBT/kl8T/5JfE/+SXxP/kl8T/5JfE/+SXhSwn2oVGAAAAACqVVUGhlATkoNPDv+ie0n/z7qh/8y2m//FrY//poBQ/4VSEv+GUxT/hlMU/4ZTFP+GUxT/hlMU/4ZSGJKqVVUGekIRSYJVIe2ge1T/39LE//j18v/9/Pr/0b+s/7icgP9/TRv/ekYS/3tIFP97SBT/e0gU/3tIFP9+RxTtekkYScWwnKjbzsL/+ff1////////////+ff1/8WwoP/d0cf/vKOO/3pKJP9tORD/bzsS/288E/9wPBP/cDwT/289Faf////k///////////w7On/4dfS/8+/tv/WycD//fz8//79/f/Vxr3/jGVN/3BAJP9jMBH/ZDAS/2QxE/9lMRPj//7++uHY1P+slIj/eFA8/2c5I/+LaFf/7ejl////////////+vj4/9/W0v/VyML/nH5v/10sFP9aKBD/Wi0Q+41qYfphNyT/UCAL/08fC/9QIAz/Tx8L/5yCdv/8/Pv/8/Dv/7SgmP+5pZ3/s56V/9vRzf+GZFb/Tx8K/1EmDftJHArjSBsJ/0kcCv9JHAr/SRwK/0gbCf9RJhb/yLq1/8u+uf/Kvbf//////+Pc2f+4pp//s6CZ/0gbCf9JHArjQxsJp0MaCP9DGgj/QxoI/0MaCP9DGgj/QBYE/4tyZ//HurX/yb24///////i3Nn/tqWf/7GgmP9DGQj/QxsJp0IfCkk+HQvtPhkH/z4ZB/8+GQf/PhkH/z0XBf9ZOir/08vH/7Gim/+ypJ3/q5uT/9jQzP94XlH/PBoD7UIfCklVVVUGOxgKkjoYBv86GAb/OhgG/zoYBv86GAb/ORcE/21VR//FvLb/0MjE/83FwP+IdGn/PRwJ/zsYBZJVVVUGAAAAAEo1FRg3GgqwNhkI/zYZCP82GQj/NhkI/zYZCP80Fwb/QCUV/1I6K/9GLBz/NRgH/zcaB7BKNRUYAAAAAAAAAAAAAAAANTUVGDQaDJIzHg/uMxsM/zMbDP8zGwz/MxsM/zIaC/8xGQr/Mh4O7jQaDJI1NRUYAAAAAAAAAAAAAAAAAAAAAAAAAABtJCQHNRwOSDIeD6gwHRPkNBwP+zQcD/wwHRPkMh4PqDQfEUltJCQHAAAAAAAAAAAAAAAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA4AcAAA==",
-          "_metaData": {
-              "loadPathHash": "fIzbOVRtj4W5EnlwQwegpu5ShoRLDUenUfiuAGysTLE=",
-              "order": 9,
-              "updateexpir": 1627773180772,
-              "alias": "st"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://store.steampowered.com/search/?term={searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://store.steampowered.com/search/suggest/?f=JSON&term={searchTerms}",
-                  "type": "application/x-suggestions+json"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/steam.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "VK.com Audio",
-          "_loadPath": "[https]paste.mozilla.org/vkcom-audio.xml",
-          "description": "",
-          "__searchForm": null,
-          "_iconURL": "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEVHcEwnf/cnh/UmhvYmhvUmhvQnh/Unh/QmhvUnh/Ynh+8mhvUmh/Mff/cmhvMlh/Qnh/Unh/V4tPj///+Fu/nX6P7k8P6gyvtqrfhdpffx9/5ClvY0jvby9/6u0vvJ4fx4tPnJ4f2Tw/qgy/smh/MmhfMnhvQnh/cmhvQnh/SYqnhVAAAAKnRSTlMAIG+fz9//77+vIJ+gIHCvz+/////////////////////////PoLAgv69vZQ7BAAAA+UlEQVR4AYXTBQLCMAwF0CAJxX2GO9z/gqS/xVn2kUrefCWfWr3RZJa3tNi16x0K6TgpSRekw1Ia9qInRpzuQMz0aWCDAQ1t0CVngxGxDZjGVQDNZDqdzrSda5uIJtVOhlIAuY4LbWdTjbYL3y7ewHKlE7m2Eay1WcsbwC432gJgB8niA2Cf+QMk+r+VD4CdJksA9HfyBXAWa4AEZ/gNwgWoitn/ANk8akkU32CZRCAL9LbfQBZRxF6x+ADIPoAoNgHwu1hMDusZOut16IyrH/fRBo5ONjhXv7QXG1yInP1SE12spXchL0oX39XXQeq3K7c+NuVjt47yHWMlJVnQk6I1AAAAAElFTkSuQmCC",
-          "_metaData": {
-              "loadPathHash": "nOHIGKmKxkFB7QQ25LeuTbMhtrJdsttg0wN9OK//aNA=",
-              "order": 11,
-              "alias": "mus"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://vk.com/audio?q={searchTerms}"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": []
-      },
-      {
-          "_name": "Rutor (sort by Seeds)",
-          "_loadPath": "[https]mycroftproject.com/rutor-sort-by-seeds.xml",
-          "description": "Поиск по трекеру RuTor.is",
-          "__searchForm": "http://rutor.is/search/0/0/000/2/{searchTerms}",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc4AAMwHNdcQ4vsN3fYS2fUY3fUe3fMj4fkk4fco4PYo5fgk7f5gp8ZuZZtsa59FIXZEGm4kh74PyeoLGp8NHK4PHrwQHr8VIb8XJL4bJrUcKJ8optEdtPMBGcQAIcXeZAPVYwdA3MQFf8EDAJoFAMEEAM0AANIAAM4AAM0EAL8CAI8bXaEV1/cBHMsGDNTVWAOodTIU5/ELuOAJM6sEALsIAMoEALkCBbgFALUGAKshgMcvpNUTzOoFQNIFANqxQgBpkmgKue8IT8UUy+8HO7MHPb8Gt+IG3vQHm9YKi84X4foKI7kRl+AWiMwSDYyxjXZAy84HdNYEALcPguYM+vsL6PgGl/wBWN4K1/EF//8LbdQEALgEVc41zMp0YC+t0N0XxPcCIbwGAMkGGOUGUvQKPPUEANsIU9ENvvAJw/ULnekGAr8FJcIUzfRycEZwzuMFnuYEArQCAdYDANYHAMQFAMwGPcwM2vsHU/QKPegLwvYEEckFBrsOt/Y+kYky5/YGgNAGAKkHAc4JMssSoN0GTb0L2/gHYPkCAPkFKOMP0fIHGc0EAKwLgNAq3OMd/P0Al9ACBqQCAMALbOMG+/8E8v0KjugBAO4CAPAGQ9MNyPYEB8QBAKQCe8cW9//T+/09+/8Aqd8GIbIFAMAKbuUG6f8Ht/IFFeEAAMYPqeYMhOEGB6oCgtUY5fuG0tv//vzs+PlQ9fwAw+4CLLoIALgJR+EFU+wEFcweZNAkquMFMrkArOor4fSrxsvWx8n5/fv5+fn3+/iC8fsLzPIAUscEALMDAL8QPtAsetUFWsUHue1r7/vc6evOzMfFx8n5/fvy+fj89vb/9/e+9/o44/oNi9kBD54CFKQJg9Qu4vu09vr/+ff89fTIz8rFx8n5/fvy+fj59vb49vf/+fbh+vtk6vw1rN03suFn6vnl/f3/+fn49vj18/TIz8rFx8n5/fvy+fj59vb39vf39/f//P3w+fme6/ak8Prv+fj//f369/r39vj18/TIz8rFx8ngBwAA4AMAAMADAADAAwAAwAMAAMABAACAAQAAgAEAAAAAAAAAAAAAgAEAAMADAADgBwAA+B8AAPw/AAD+fwAA",
-          "_metaData": {
-              "loadPathHash": "ilWG1+C894HL2V7JP6KOFq2j8Wv7Jr3t0KyYavpqNBU=",
-              "order": 8,
-              "updateexpir": 1627775947083,
-              "alias": "rutor"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "http://rutor.is/search/0/0/000/2/{searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/rutoris-byseeds.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "addons.mozilla.org FF extensions",
-          "_loadPath": "[https]mycroftproject.com/ado-ff-extensions.xml",
-          "description": "addons.mozilla.org - FF Extensions",
-          "__searchForm": "https://addons.mozilla.org/firefox/?type=extension",
-          "_iconURL": "data:image/x-icon;base64,AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AA9jIAGLcywAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAtjIAKPXyAD/2MgA8tjLADsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAdnIAJ/XyAD/18gA/9fIAP/XyADz2ckAPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfIAJrXyAD/18gA/9fIAP/XyAD/18gA/9fJAPTbyQA5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN/fAAjYyQDw18gA/9fIAP/XyAD/18gA/9fIAP/YyAD82ckAfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAIAAAAA//8AAt7OAB/XyQDs18gA/9fIAP/YyQCKAAAAAAAAAAAAAAAA//8AAwAAAAAAAAAA//8AAtjIAJ7YyADWAAAAAAAAAAAAAAAA2MkAy9fIAP/XyAD/2MgATwAAAAAAAAAA18oATdjJAO/ZyQA9AAAAANfIAJnXyAD/2MkA+OrVAAwAAAAA18oATdfIAP/XyAD/18gA/9fJAMHmzAAKAAAAANfJAHrXyAD/18gA89zLACzYyQDe18gA/9fIAP/YyQDc2MkAt9fJAPnXyAD/18gA/9fIAP/XyAD/2MgA39jJALjXyQD618gA/9fIAP/YyABi2coANdjJAPDXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyQCm//8AAwAAAADZywA22MkA8NfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyACo//8AAwAAAAAAAAAAAAAAANfJAG3XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyQDs//8ABAAAAAAAAAAA28wAMtjJAKLYyQDd18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jIAKzZyAB+AAAAANfIAKfXyAD/18gA/9fIAODYygBv2MkA8dfIAP/XyAD/18gA/9fIAP/XyQCu2MkAiNfIAP/XyAD/18gA/9rNACnXyQBt18gA/9fIAP/YyACjAAAAANnLADbYyQDw18gA/9fIAP/YyQCl//8AA9zKAB3XyAD/18gA/9jIANf/zAAFAAAAANnJAGzXyQCm28wAMgAAAAAAAAAA2coANdjJAN3XyACa//8AAwAAAAAAAAAA2cgAftfJAKDdyQAmAAAAAPx/AAD4PwAA8B8AAPAPAADgDwAA0DsAABwxAAAIEAAAAAAAAAAAAACAAQAAwAMAAAABAAAAAAAACAAAAIwxAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6tUADNjJAK/XyQD62MgAtd/PABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjRAAvYyQDC18gA/9fIAP/XyAD/2MkAy+HSABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmzAAK2MgAv9fIAP/XyAD/18gA/9fIAP/XyAD/18gAzeHSABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4+MACdjJALzXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18kAzuPVABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANvbAAfXyQC518gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MkAz+PVABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/1QAG2MgAttfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MkA0OTJABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjIAKzXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MkAz///AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADdzAAe18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/28gAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAHXyQDA18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyQD918kA9djIAL//zAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADj4wAJ388AENnJAF7YyQD+18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2ckAXv//AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADj4wAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjIALHXyAD/18gA/9fIAP/XyAD/18gA/9jIAL8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6tUADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmzAAK2MkAr9fIAPvXyQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2ckAf9fIAP/XyAD/18gA/9fIAP/XyAD/2MgAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjKAG7XyAD72MgAw+TJABMAAAAAAAAAAAAAAAAAAAAA6NEAC9fJAMDXyAD/18gA/9jIAN8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYyQCY18gA/9fIAP/XyAD/18gA/9fIAP/XyACtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA18kAxtfIAP/XyAD/2MkAz+HSABEAAAAAAAAAAOrVAAzYyQDC18gA/9fIAP/XyAD/2MgA5QAAAAAAAAAAAAAAAAAAAAAAAAAA3MoAHdfIAO7XyAD/18gA/9fIAP/XyAD/18gA/9jIAPfcywAsAAAAAAAAAAAAAAAAAAAAAAAAAADXyADN18gA/9fIAP/XyAD/18gAzN/PABAAAAAA2MgArNfIAP/XyAD/18gA/9fIAP/YyQD92MsAJwAAAAAAAAAAAAAAANjOABrXyQDU18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jJAOPZzAAoAAAAAAAAAAAAAAAA4MwAGdfJAPXXyAD/18gA/9fIAP/XyAD/2MgAtQAAAADYyADy18gA/9fIAP/XyAD/18gA/9fIAP/XyQDs2MgAg9jKAFzXygCB18kA5tfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jJAO/XyQCO18oAYNfJAIDXyADo18gA/9fIAP/XyAD/18gA/9fIAP/XyQD6//8AAdfJAKbXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jJAK8AAAAA5swACtjIAL/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyQDF2NgADQAAAAAAAAAA5swACtfJAMDXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18kAx9jYAA0AAAAAAAAAAAAAAAAAAAAA6NEAC9jJAMLXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAMjbyAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6tUADNjIAMPXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyQDK3cwADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2NgADdjJAOrXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MkA79/PABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2MkAvdfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyQDCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANvbAAfbygA/2csAStnKAHjYyAD818gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jJAP3ZyQBy18sAQNnLADb/zAAFAAAAAAAAAAD//wAB2MkAytfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jJAMv//wACAAAAANjIAEHXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyQD+2MgAxNjJAOvXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jIAOnYyQC418gA+9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9rLAEUAAAAA18kAWtfIAP/XyAD/18gA/9fIAP/XyAD/18gA/9jIAIMAAAAA2NgADdjIAMPXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/18gA/9fIAP/YyADE2NgADQAAAADYygBu18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2ckAXwAAAADdzwAl18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MsATgAAAAAAAAAA6tUADNjJAMLXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/XyAD/2MgAxOrVAAwAAAAAAAAAANfLAEDXyAD/18gA/9fIAP/XyAD/18gA/9fIAP/bygArAAAAAAAAAADYygCP18gA/9fIAP/XyAD/18gA/9fIAP/XywBAAAAAAAAAAAAAAAAA6NEAC9fJAMDXyAD/18gA/9fIAP/XyAD/18gA/9jIAMTY2AANAAAAAAAAAAAAAAAA2coANdfIAP/XyAD/18gA/9fIAP/XyAD/2MkAlwAAAAAAAAAAAAAAAP//AAHYygCP18gA/9fIAP/XyAD/2MkAytvbAAcAAAAAAAAAAAAAAAAAAAAA6NEAC9jIAL/XyAD/18gA/9fIAP/YyADE2NgADQAAAAAAAAAAAAAAAAAAAAD//wAE2MgAw9fIAP/XyAD/18gA/9jJAJf//wADAAAAAAAAAAAAAAAAAAAAAAAAAADczQAk18kAWtjIAEH//wABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5swACtfJAKbYyADy2MgArNjYAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2soAPtfJAFrZzAAoAAAAAAAAAAAAAAAAAAAAAP/+////+D////Af///gD///wAf//4AD//8AAf//AAD//gAA//4AAP//gAf/9/Af38PwH4eD8B+DA+APgQHABwEAAAAAAAAAAQAAAAGAAAADwAAAB+AAAA/wAAAf+AAAP4AAAAMAAAABAAAAAQCAAgEAwAYBgOAOA4DwHgPh+D+P",
-          "_metaData": {
-              "loadPathHash": "42SzcN2rJgLf6A24lkVxqQV1qqd/k4mBvqSh1GSlZUg=",
-              "order": 6,
-              "updateexpir": 1627775982389,
-              "alias": "amo"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://addons.mozilla.org/firefox/search?q={searchTerms}&type=extension"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/firefox_ext_only.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "DNS",
-          "_loadPath": "[https]paste.mozilla.org/dns.xml",
-          "description": "",
-          "__searchForm": null,
-          "_iconURL": "data:image/png;base64,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",
-          "_metaData": {
-              "loadPathHash": "rHl+VokDzwnGVDHUBx9MIRXMkXV+ntLVstMrs1WuopA=",
-              "order": 15,
-              "alias": "dns"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://www.dns-shop.ru/search/?q={searchTerms}"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": []
-      },
-      {
-          "_name": "Яндекс.Маркет",
-          "_loadPath": "[https]mycroftproject.com/gyqwc62qy2u.xml",
-          "description": "Поиск товаров в Яндекс.Маркете",
-          "__searchForm": "https://market.yandex.ru/",
-          "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAISEhABEREQAiIiJpIiIi1yIiInEhISEBIiIiAAAAAAAiIiIAIiIiBiIiIociIiLUIiIiUyIiIgAiIiIAAAAAACIiIgAiIiIKIiIivyIiIv8iIiLHIiIiDiIiIgAAAAAAIiIiACIiIhwiIiLcIiIi/yIiIqUhISECISEhAAAAAAAiIiIAISEhASIiIm4iIiLSIiIidiEhIQIiIiIAAAAAACIiIgAiIiIIIiIiiyIiItAiIiJZIiIiACEhIQAAAAAAAAAAACIiIgAiIiIEIiIiEiIiIgQiIiIAAAAAAAAAAAAAAAAAIiIiACIiIgYiIiIRIiIiAiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAMp3QgDKd0IlyndCTsp3QiDKd0IGy3dCAMd1QQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMl2QQDLeEMAyndCicp3QvzKd0LfyndCsMp3QnTKd0I7yndCE8l2QQLJd0IAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0IAyndCF8p3QtDKd0L/yndC/8p3Qv/Kd0L/yndC8sp3Qs/Kd0KZyndCXcp3QinKd0IHAAAAAAAAAADAcTIAyndCAMp3QlDKd0L4yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvzKd0LmyndCkAAAAAAAAAAAyXdBAMl2QQLKd0KdyndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvcAAAAAAAAAAMp3QgDKd0IiyndC3cp3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/AAAAAMl2QADKd0IAyndCY8p3Qv3Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/wAAAADKd0IAyndCB8p3QrDKd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv8AAAAAyndCAMp3QjDKd0LpyndC+Mp3QuXKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndCBMp3QgLKd0J4yndC/8p3Qp7Kd0IiyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QrPKd0KzyndC5Mp3QvXKd0JGyndCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0L/yndC/8p3Qv/Kd0LLyndCE8p3QgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwcMAAMHBAADBwwAA4+MAAPh/AAD4BwAA8AAAAPAAAADgAAAA4AAAAOAAAADAAAAAwAAAAAAAAAAH/wAAB/8AAA==",
-          "_metaData": {
-              "loadPathHash": "BALQrXve8xY5porJV3jryUSSFPhjTleuCoII+Zqjs3g=",
-              "order": 16,
-              "updateexpir": 1635691307943,
-              "alias": "ym"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://market.yandex.ru/search?cvredirect=2&text={searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/yandex.market.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_filePath": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "TradingViewChart",
-          "_loadPath": "[https]mycroftproject.com/tradingviewchart.xml",
-          "description": "Full screen chart by TradingView.com",
-          "__searchForm": "https://www.tradingview.com/chart/GOOG/",
-          "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAFVSURBVDhPY/hPIqCzhq/ffs7c/iii65pn863EiTfWHXny798/qBwMIDR8//Era/ot9+a7yKhrzf2Hz99DVYABQsOy/U/QVMNR7sxbj19+higDafj79+/NRx8ypt+L7L399v2XRXseo2kI7Lh1+8knqIbnrz+nTAa5xKP59o7TL3/9+vX8zZfQLoTbfFtvXb737vPXn1fuvQVpKJ9/Gyjq1XzrwMWXp2+8Ce642bX63pX774HqgOLeLTfP3Hzz6t3X1Cm3m1Y8/PX7N4NH0y2g3Mlrr1YeeAxkQ0xdsvfRkcuvvJtvHL3y6sHzT9G9NyHi7SvvMiT0Xz11/WXzcqgDoKjp9uFLr168/XL1wYfgToTzfJqvMrx68z59KshVaGjS5qdAF0/chBJ0BbNugkLp4MVX9Uvulix8ioxKFz6evu0JkISLdK6+//LdV5SYJgbQWsP//wBNHnvL5T6fcAAAAABJRU5ErkJggg==",
-          "_metaData": {
-              "loadPathHash": "ZdlAAs3T0rbqIEKdnUglfdYHyBZ068bP9Fdq9VBJq0c=",
-              "order": 21,
-              "updateexpir": 1642164953461,
-              "alias": "tr"
-          },
-          "_urls": [
-              {
-                  "params": [],
-                  "rels": [],
-                  "template": "https://www.tradingview.com/chart/?symbol={searchTerms}"
-              },
-              {
-                  "params": [],
-                  "rels": [
-                      "self"
-                  ],
-                  "template": "https://mycroftproject.com/updateos.php/id0/tradingviewchart.xml",
-                  "type": "application/opensearchdescription+xml"
-              }
-          ],
-          "_isAppProvided": false,
-          "_orderHint": null,
-          "_telemetryId": null,
-          "_updateInterval": null,
-          "_updateURL": null,
-          "_iconUpdateURL": null,
-          "_extensionID": null,
-          "_locale": null,
-          "_definedAliases": [],
-          "_hasPreferredIcon": false
-      },
-      {
-          "_name": "eBay",
-          "_isAppProvided": true,
-          "_metaData": {
-              "hidden": true,
-              "order": 16
-          }
-      }
-  ],
-  "metaData": {
-      "useSavedOrder": true,
-      "current": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
-      "hash": "AoyQxqtJWGRuYzfRWED3MYtZyEakAILD5gkO4MIgAbI="
-  }
+    "version": 6,
+    "engines": [
+        {
+            "_name": "Yandex",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 18
+            }
+        },
+        {
+            "_name": "Amazon.com",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 13
+            }
+        },
+        {
+            "_name": "Wikipedia (en)",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 14
+            }
+        },
+        {
+            "_name": "Bing",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 19
+            }
+        },
+        {
+            "_name": "DuckDuckGo",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 20
+            }
+        },
+        {
+            "_name": "Google",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 17
+            }
+        },
+        {
+            "_name": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
+            "_loadPath": "[https]mycroftproject.com/google-encrypted-ncr-no-pws-safe-off-en-us.xml",
+            "description": "Google Encrypted without Country Redirect, Personalized Results and Safe Search. Language en-US and Suggestions Enabled.",
+            "__searchForm": "https://encrypted.google.com/?gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50",
+            "_iconURL": "data:image/x-icon;base64,AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///zD9/f2W/f392P39/fn9/f35/f391/39/ZT+/v4uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Cf39/Zn///////////////////////////////////////////39/ZX///8IAAAAAAAAAAAAAAAA/v7+Cf39/cH/////+v35/7TZp/92ul3/WKs6/1iqOv9yuFn/rNWd//j79v///////f39v////wgAAAAAAAAAAP39/Zn/////7PXp/3G3WP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP+Or1j//vDo///////9/f2VAAAAAP///zD/////+vz5/3G3V/9TqDT/WKo6/6LQkf/U6cz/1urO/6rUm/+Zo0r/8IZB//adZ////v7///////7+/i79/f2Y/////4nWzf9Lqkj/Vqo4/9Xqzv///////////////////////ebY//SHRv/0hUL//NjD///////9/f2U/f392v////8sxPH/Ebzt/43RsP/////////////////////////////////4roL/9IVC//i1jf///////f391/39/fr/////Cr37/wW8+/+16/7/////////////////9IVC//SFQv/0hUL/9IVC//SFQv/3pnX///////39/fn9/f36/////wu++/8FvPv/tuz+//////////////////SFQv/0hUL/9IVC//SFQv/0hUL/96p7///////9/f35/f392/////81yfz/CrL5/2uk9v///////////////////////////////////////////////////////f392P39/Zn/////ks/7/zdS7P84Rur/0NT6///////////////////////9/f////////////////////////39/Zb+/v4y//////n5/v9WYu3/NUPq/ztJ6/+VnPT/z9L6/9HU+v+WnfT/Ul7t/+Hj/P////////////////////8wAAAAAP39/Z3/////6Or9/1hj7v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9sdvD////////////9/f2YAAAAAAAAAAD///8K/f39w//////5+f7/paz2/11p7v88Suv/Okfq/1pm7v+iqfX/+fn+///////9/f3B/v7+CQAAAAAAAAAAAAAAAP///wr9/f2d///////////////////////////////////////////9/f2Z/v7+CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f2Z/f392/39/fr9/f36/f392v39/Zj///8wAAAAAAAAAAAAAAAAAAAAAPAPAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAPAPAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/g3+/v5X/f39mf39/cj9/f3q/f39+f39/fn9/f3q/f39yP39/Zn+/v5W////DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f2c/f399f/////////////////////////////////////////////////////9/f31/f39mv7+/iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/gn9/f2K/f39+////////////////////////////////////////////////////////////////////////////f39+v39/Yf///8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4k/f390v////////////////////////////////////////////////////////////////////////////////////////////////39/dD///8iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////MP39/er//////////////////////////+r05v+v16H/gsBs/2WxSf9Wqjj/Vqk3/2OwRv99vWX/pdKV/97u2P////////////////////////////39/ej+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f3q/////////////////////+v15/+Pxnv/VKk2/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/36+Z//d7tf///////////////////////39/ej///8iAAAAAAAAAAAAAAAAAAAAAAAAAAD///8K/f390//////////////////////E4bn/XKw+/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1apN/+x0pv///////////////////////39/dD///8IAAAAAAAAAAAAAAAAAAAAAP39/Yv/////////////////////sdij/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/YKU1/8qOPv/5wZ////////////////////////39/YcAAAAAAAAAAAAAAAD+/v4l/f39+////////////////8Lgt/9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9utlT/n86N/7faqv+426v/pdKV/3u8ZP9UqDX/U6g0/3egN//jiUH/9IVC//SFQv/82MP//////////////////f39+v7+/iMAAAAAAAAAAP39/Z3////////////////q9Ob/W6w+/1OoNP9TqDT/U6g0/1OoNP9nskz/zOXC/////////////////////////////////+Dv2v+osWP/8YVC//SFQv/0hUL/9IVC//WQVP/++fb//////////////////f39mgAAAAD+/v4O/f399v///////////////4LHj/9TqDT/U6g0/1OoNP9TqDT/dblc//L58P/////////////////////////////////////////////8+v/3p3f/9IVC//SFQv/0hUL/9IVC//rIqf/////////////////9/f31////DP7+/ln////////////////f9v7/Cbz2/zOwhv9TqDT/U6g0/2KwRv/v9+z///////////////////////////////////////////////////////738//1kFT/9IVC//SFQv/0hUL/9plg///////////////////////+/v5W/f39nP///////////////4jf/f8FvPv/Bbz7/yG1s/9QqDz/vN2w//////////////////////////////////////////////////////////////////rHqP/0hUL/9IVC//SFQv/0hUL//vDn//////////////////39/Zn9/f3L////////////////R878/wW8+/8FvPv/Bbz7/y7C5P/7/fr//////////////////////////////////////////////////////////////////ere//SFQv/0hUL/9IVC//SFQv/718H//////////////////f39yP39/ez///////////////8cwvv/Bbz7/wW8+/8FvPv/WNL8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//rIqv/////////////////9/f3q/f39+v///////////////we9+/8FvPv/Bbz7/wW8+/993P3///////////////////////////////////////SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/+cGf//////////////////39/fn9/f36////////////////B737/wW8+/8FvPv/Bbz7/33c/f//////////////////////////////////////9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/6xaX//////////////////f39+f39/e3///////////////8cwvv/Bbz7/wW8+/8FvPv/WdP8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//vVv//////////////////9/f3q/f39y////////////////0bN/P8FvPv/Bbz7/wW8+/8hrvn/+/v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////39/cj9/f2c////////////////ht/9/wW8+/8FvPv/FZP1/zRJ6/+zuPf//////////////////////////////////////////////////////////////////////////////////////////////////////////////////f39mf7+/lr////////////////d9v7/B7n7/yB38f81Q+r/NUPq/0hV7P/u8P3////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5X////D/39/ff///////////////9tkPT/NUPq/zVD6v81Q+r/NUPq/2Fs7//y8v7////////////////////////////////////////////09f7//////////////////////////////////////////////////f399f7+/g0AAAAA/f39n////////////////+Tm/P89Suv/NUPq/zVD6v81Q+r/NUPq/1Bc7f/IzPn/////////////////////////////////x8v5/0xY7P+MlPP////////////////////////////////////////////9/f2cAAAAAAAAAAD+/v4n/f39/P///////////////7W69/81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9ZZe7/k5v0/6609/+vtff/lJv0/1pm7v81Q+r/NUPq/zVD6v+GjvL//v7//////////////////////////////f39+/7+/iQAAAAAAAAAAAAAAAD9/f2N/////////////////////6Cn9f81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v+BivL////////////////////////////9/f2KAAAAAAAAAAAAAAAAAAAAAP7+/gv9/f3V/////////////////////7W69/8+S+v/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/P0zr/7q/+P///////////////////////f390v7+/gkAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3r/////////////////////+Xn/P94gfH/NkTq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NkTq/3Z/8f/l5/z///////////////////////39/er+/v4kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f3r///////////////////////////k5vz/nqX1/2p08P9IVez/OEbq/zdF6v9GU+z/aHLv/5qh9f/i5Pz////////////////////////////9/f3q////MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3V/////////////////////////////////////////////////////////////////////////////////////////////////f390v7+/iQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wr9/f2N/f39/P///////////////////////////////////////////////////////////////////////////f39+/39/Yv+/v4JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4n/f39n/39/ff//////////////////////////////////////////////////////f399v39/Z3+/v4lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Dv7+/lr9/f2c/f39y/39/e39/f36/f39+v39/ez9/f3L/f39nP7+/ln+/v4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AA///AAD//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPAAAAD4AAAB/AAAA/4AAAf/AAAP/8AAP//wAP/",
+            "_metaData": {
+                "loadPathHash": "tPc8R6X1ho4dj+0kmHO9RqRidDj6B0cpzAgyNPiDLgM=",
+                "order": 1,
+                "updateexpir": 1627148834815,
+                "alias": "g"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://encrypted.google.com/search?q={searchTerms}&gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50"
+                },
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://suggestqueries.google.com/complete/search?output=firefox&client=firefox&gl=US&hl=en&q={searchTerms}",
+                    "type": "application/x-suggestions+json"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/google.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "YouTube",
+            "_loadPath": "[https]mycroftproject.com/youtube.xml",
+            "description": "YouTube - Videos",
+            "__searchForm": "https://www.youtube.com/index",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AAAD/EAAA/0AAAP9AAAD/cAAA/4AAAP+AAAD/gAAA/4AAAP+AAAD/QAAA/0AAAP8Q////AP///wD///8AAAD/YAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2D///8AAAD/MAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/MAAA/1AAAP//AAD//wAA//8AAP//AAD//wAA//8QEP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2AAAP+AAAD//wAA//8AAP//AAD//wAA//8AAP//4OD//1BQ//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP+AAAD/gAAA//8AAP//AAD//wAA//8AAP//AAD/////////////wMD//yAg//8AAP//AAD//wAA//8AAP//AAD/gAAA/4AAAP//AAD//wAA//8AAP//AAD//wAA/////////////7Cw//8gIP//AAD//wAA//8AAP//AAD//wAA/4AAAP+AAAD//wAA//8AAP//AAD//wAA//8AAP//4OD//0BA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP+AAAD/UAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/YAAA/zAAAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/zD///8AAAD/YAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/2D///8A////AP///wAAAP8QAAD/QAAA/0AAAP+AAAD/gAAA/4AAAP+AAAD/gAAA/4AAAP9AAAD/QAAA/xD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAP//AADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMADAAD//wAA//8AAA==",
+            "_metaData": {
+                "loadPathHash": "SUcTrk+xoYKLlCxpxHb3QNBWm7iqF3WIegWKUi+4U4g=",
+                "order": 3,
+                "updateexpir": 1627770839053,
+                "alias": "yt"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.youtube.com/results?search_query={searchTerms}&search=Search"
+                },
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://suggestqueries.google.com/complete/search?output=firefox&ds=yt&q={searchTerms}",
+                    "type": "application/x-suggestions+json"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/youtube.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "4pda.to content - Google",
+            "_loadPath": "[https]mycroftproject.com/4pda-content---google.xml",
+            "description": "Searches 4pda.to content through Google",
+            "__searchForm": "https://4pda.to/",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAABMLAAATCwAAAAEAAAAAAAAAAAAA//79AP/8+gD/+vcA//j0AP/18AD/8+wA//DnAP/t4wD/6t4A/+faAP/k1QD/4tEA/9/NAP/dygD/28cA/9nEAGk9JABJKhkAvG5BAK1lPACnYToAol44AJlZNQCNUjEAf0osAHlGKgBlOyMAwHBDALVqPwCdXDcAlVc0AJJVMwCHTy8AdUQpAHNDKABvQScAUC4cAFo1IABXMx8AXTcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRYeHhcfICEZIhAQEBAQEBcgGCEhIRkaJBsPDw8PDw8hGRoiIyMkESgnDg4ODg4ODQ0NDQ0NDQ0NDQ0NDQ0NDQwMDAwMDAwMDAwMDAwMDAwLCwsLCwsLCwsLCwsLCwsLCgoKCgoKCgoKCgoKCgoKCgkJCQkJJiYoJyUJCQkJCQkICAgICAgoJiclCAgICAgIIQcHBwcHByYnJQcHBwcHBx8hBgYGBgYGJRIGBgYGBgYWHyEFBQUFBQUSBQUFBQUFFBYfIQQEBAQEBAQEBAQEBB0UFh8hAwMDAwMDAwMDAwMTHRQWHyECAgICAgICAgICHBMdFBYXGAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+            "_metaData": {
+                "loadPathHash": "X5D6agqwGk0q7w+kthqVyNsqdPSOqY/FQKVhlDRuDwo=",
+                "order": 4,
+                "updateexpir": 1627770889028,
+                "alias": "4pda"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.google.com/search?q={searchTerms}+site:4pda.to"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/4pda-content-google.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "Google Play - Apps",
+            "_loadPath": "[https]mycroftproject.com/google-play---apps.xml",
+            "description": "Search for Android apps",
+            "__searchForm": "https://play.google.com/store/apps",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLabK/BQ5fvtDejcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADU/2O/z9lu/7JEof+jOK3flTq2YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1P9jv9T/Y//M2nD/o0Wq/5I6uP+FO8C/dz3JQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANT+Y7/U/2P/1P9j/8nacv+UR7T/gjzC/3M9y/9lPtS/WUDcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADR812/0fZe/9P5YP/T/GL/y+Vu/49gsv9xPc3/Yz/W/1NA3/9FQemfdMn/IAAAAAAAAAAAAAAAAAAAAAAAAAAAzeVWv87oV//P7Fn/0O9b/9HzXf/M6mX/gWC5/2A/1/9RQOH/V23x/3XA/+90xv+AdMv/EAAAAAAAAAAAAAAAAMnXT7/K2lD/y95S/8zhVP/N5Vb/zuhX/8jhYf9zX8H/X2Ls/3am//91sP//dbr//3XD/+90xf8wAAAAAAAAAADFyki/xs1J/8fQS//I1E3/yddO/8rbUP/L3lL/teON/3+i9/92lP//dp7//3ao//91s//vdb3/UAAAAAAAAAAAwrxBv8K/Qv/DwkT/xMZG/8XKSP/GzUn/uuB6/6L8zv+f9dT/f5v2/3eN//92mv+fdqT/EAAAAAAAAAAAAAAAAL6vOr+/sjv/wLU9/8G5P//CvEH/uNJr/6Txtf+k87r/o/W//5/tyq93gP8gAAAAAAAAAAAAAAAAAAAAAAAAAAC6ojO/u6U1/7yoNv+9qzj/tsNb/6fmm/+m6KD/puunv6XvsEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt5Usv7eYLv+4mzD/tLRM/6nagP+p3IbfqOCPUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALOIJr+0iyf/sqY8/6zOZe+r03BgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwfCCvsJUs767EToCtx1UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsLkyELC5NBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAIAAAACAAAAAgAAAAIAAAACAAfC/gAEAAIABAACAAQAAwAEAAMADBwDwBwAA5mcAAOfjAADv9wAA//8AAA==",
+            "_metaData": {
+                "loadPathHash": "WO1+mC1H0fHj/UzXYK7Tj9EhNqUYO7BDyRMEOsp6Yj0=",
+                "order": 5,
+                "updateexpir": 1627771381940,
+                "alias": "gp"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://play.google.com/store/search?q={searchTerms}&c=apps"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/android-market.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "Wikipedia (ru)",
+            "_loadPath": "[https]mycroftproject.com/wikipedia-ru.xml",
+            "description": "Wikipedia (ru)",
+            "__searchForm": "http://ru.wikipedia.org/",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8F////Yf///8v/////////////////////////////////////////////////////////y////2H///8F////Yf//////////////////////////////////////////////////////////////////////////////Yf///8v/////////////////////2NjY//39/f////////////T09P/k5OT//////////////////////////8v/////////////////////+vr6/xsbG/+QkJD///////////9tbW3/Pj4+/////////////////////////////////////////////////6CgoP8KCgr/RkZG//j4+P/t7e3/CgoK/zk5Of/MzMz///////////////////////////////////////////8sLCz/a2tr/7Ozs/+Tk5P/g4OD/ycnJ//q6ur/ZGRk//////////////////////////////////////+3t7f/AgIC/93d3f//////TU1N/xUVFf+hoaH//////2ZmZv/l5eX/////////////////////////////////QkJC/1RUVP///////////2tra/8UFBT/+/v7///////MzMz/eXl5////////////////////////////zc3N/wAAAP/IyMj///////v7+/8jIyP/Ly8v//f39////////////0pKSv/19fX//////////////////////1lZWf89PT3///////////+ampr/HR0d/62trf+Kior///////////+kpKT/lpaW/////////////////+Dg4P8EBAT/sbGx///////19fX/ICAg/5OTk///////QkJC/+7u7v//////+fn5/zs7O//7+/v//////8/Pz/9AQED/AAAA/5SUlP/9/f3/R0dH/wAAAP+enp7/4uLi/zo6Ov9DQ0P/5eXl/6+vr/8TExP/UFBQ/9fX1//8/Pz/9/f3//f39//4+Pj///////f39//39/f/+vr6//39/f/39/f/9/f3//39/f/6+vr/9/f3//f39//8/Pz/////y///////////////////////////////////////////////////////////////////////////////y////2H//////////////////////////////////////////////////////////////////////////////2H///8F////Yf///8v/////////////////////////////////////////////////////////y////2H///8FwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAA==",
+            "_metaData": {
+                "loadPathHash": "5wkqyB6p/XnOsUgGzMgiGh7Cni/cKPXwufYSY7sswHg=",
+                "order": 12,
+                "updateexpir": 1627772402938,
+                "alias": "wiki"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://ru.wikipedia.org/wiki/Служебная:Search?search={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://ru.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}",
+                    "type": "application/x-suggestions+json"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/wikipedia-ru.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "Rutracker.org",
+            "_loadPath": "[https]mycroftproject.com/rutrackerorg.xml",
+            "description": "Torrents.ru Search",
+            "__searchForm": "https://rutracker.org/",
+            "_iconURL": "data:image/x-icon;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARiTiAEYk4gZGJOIQRiTiAEYk4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+            "_metaData": {
+                "loadPathHash": "Gyv0ASxEChEpV+8CLDOuloOku0RzTyJ2n8M2ArfqWto=",
+                "order": 7,
+                "updateexpir": 1627772412796,
+                "alias": "rt"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://rutracker.org/forum/tracker.php?nm={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/torrents_ru_alt.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false,
+            "queryCharset": "windows-1251"
+        },
+        {
+            "_name": "Aliexpress",
+            "_loadPath": "[https]mycroftproject.com/aliexpress.xml",
+            "description": "Aliexpress shopping site",
+            "__searchForm": "https://www.aliexpress.com",
+            "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYlJREFUOI2dkrFrU1EYxX/ffe8lVB/PNluwsxCQOjjlLYXiH5Clcze7FYrSxdmlCoJLRKf+H0Kdki52cnJQCm3aoWDStDxqX+5xeDVG+qLGD+5wv3N/hwPnmt4AFTpc0WSWiejynTSkSgdPk8pMOHiaVOmY3qFv7x3ZR4f8v7HmYO6hZ+GRJ+x/cGT7DrsFNkOAbN9hIVjvQShULHWeY7cBC8sp5egCLL7WDdwkHG+9LGIoL4UxiLdeoOG1LnBj/Qsk60+opC10WcJfQiVtkaw/RV9/7ccGzMPo+IDqSgv6JfH7UF1pMTo+gPkSA6vBcKdNvLpG0FhEpznkxdFpTtBYJF5dY7jTxmoTxr2lUD/PYYCyvV1J0qC9rZPlmk6Waxq0tyVJ2d6uDgM0yVhvKdRkUv8pJ379nDuPNyGaK5ZXGYO3rzjfeIa7/3tDNwwAdJajIwjuFffRZ7C7YMnNeksLtyTEEpAv6nKNKf9imsF43J9lAFeP6P711ZSpR3QdXun/mNQjunilPwCa4aCz/pqWyQAAAABJRU5ErkJggg==",
+            "_metaData": {
+                "loadPathHash": "qgt4AZGU9znEhoGawEKcq5+c96bgQFiEtY34feB3lpg=",
+                "order": 10,
+                "updateexpir": 1627772417840,
+                "alias": "ali"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190730094114&SearchText={searchTerms}&switch_new_app=n"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/aliexpress-us-eng.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "Tinkoff Stock",
+            "_loadPath": "[https]paste.mozilla.org/tinkoff-stock.xml",
+            "description": "",
+            "__searchForm": "https://www.tinkoff.ru",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAt3f8AAAAAACgkIgD///8AmZmZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERETMzMxERERERMyIzERERETNCMyQzERETMjMiMyMxETMjMgAjMjMTMjMgAAIzIzMjIyAAAjIyMzIzIAACMyMzIyMgAAIyMjMyMyIiIjMjMyMjIzMyMjIzMzIyMyMjMzETIzIiIzIxERMyMzMzIzERETMzIjMzERERERMzMRERH4HwAA+B8AAOAHAADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAwAAwAMAAOAHAAD8PwAA",
+            "_metaData": {
+                "loadPathHash": "iPNZSsNIop8ai0XRajD+JatdUgIl8v1s3lvt7d3mU14=",
+                "order": 2,
+                "alias": "t"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.tinkoff.ru/invest/catalog/?query={searchTerms}"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": []
+        },
+        {
+            "_name": "Steam",
+            "_loadPath": "[https]mycroftproject.com/steam.xml",
+            "description": "Search for games on Steam",
+            "__searchForm": "https://store.steampowered.com/",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2tiQHqngVSK18FaiufBPks4AT+7OAE/uufBPkrXwVqKt6GEm2tiQHAAAAAAAAAAAAAAAAAAAAAAAAAACfahUYnWwTkqJrEe6eaw//n2wR/6BtE/+gbhP/oG4T/6BuE/+jbRPunWwTkp9qFRgAAAAAAAAAAAAAAACfahUYkl4UsJJfE/+jdzb/sYxU/6V7O/+SYBT/kl8T/5JfE/+SXxP/kl8T/5JfE/+SXhSwn2oVGAAAAACqVVUGhlATkoNPDv+ie0n/z7qh/8y2m//FrY//poBQ/4VSEv+GUxT/hlMU/4ZTFP+GUxT/hlMU/4ZSGJKqVVUGekIRSYJVIe2ge1T/39LE//j18v/9/Pr/0b+s/7icgP9/TRv/ekYS/3tIFP97SBT/e0gU/3tIFP9+RxTtekkYScWwnKjbzsL/+ff1////////////+ff1/8WwoP/d0cf/vKOO/3pKJP9tORD/bzsS/288E/9wPBP/cDwT/289Faf////k///////////w7On/4dfS/8+/tv/WycD//fz8//79/f/Vxr3/jGVN/3BAJP9jMBH/ZDAS/2QxE/9lMRPj//7++uHY1P+slIj/eFA8/2c5I/+LaFf/7ejl////////////+vj4/9/W0v/VyML/nH5v/10sFP9aKBD/Wi0Q+41qYfphNyT/UCAL/08fC/9QIAz/Tx8L/5yCdv/8/Pv/8/Dv/7SgmP+5pZ3/s56V/9vRzf+GZFb/Tx8K/1EmDftJHArjSBsJ/0kcCv9JHAr/SRwK/0gbCf9RJhb/yLq1/8u+uf/Kvbf//////+Pc2f+4pp//s6CZ/0gbCf9JHArjQxsJp0MaCP9DGgj/QxoI/0MaCP9DGgj/QBYE/4tyZ//HurX/yb24///////i3Nn/tqWf/7GgmP9DGQj/QxsJp0IfCkk+HQvtPhkH/z4ZB/8+GQf/PhkH/z0XBf9ZOir/08vH/7Gim/+ypJ3/q5uT/9jQzP94XlH/PBoD7UIfCklVVVUGOxgKkjoYBv86GAb/OhgG/zoYBv86GAb/ORcE/21VR//FvLb/0MjE/83FwP+IdGn/PRwJ/zsYBZJVVVUGAAAAAEo1FRg3GgqwNhkI/zYZCP82GQj/NhkI/zYZCP80Fwb/QCUV/1I6K/9GLBz/NRgH/zcaB7BKNRUYAAAAAAAAAAAAAAAANTUVGDQaDJIzHg/uMxsM/zMbDP8zGwz/MxsM/zIaC/8xGQr/Mh4O7jQaDJI1NRUYAAAAAAAAAAAAAAAAAAAAAAAAAABtJCQHNRwOSDIeD6gwHRPkNBwP+zQcD/wwHRPkMh4PqDQfEUltJCQHAAAAAAAAAAAAAAAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA4AcAAA==",
+            "_metaData": {
+                "loadPathHash": "fIzbOVRtj4W5EnlwQwegpu5ShoRLDUenUfiuAGysTLE=",
+                "order": 9,
+                "updateexpir": 1627773180772,
+                "alias": "st"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://store.steampowered.com/search/?term={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://store.steampowered.com/search/suggest/?f=JSON&term={searchTerms}",
+                    "type": "application/x-suggestions+json"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/steam.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "VK.com Audio",
+            "_loadPath": "[https]paste.mozilla.org/vkcom-audio.xml",
+            "description": "",
+            "__searchForm": null,
+            "_iconURL": "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAflBMVEVHcEwnf/cnh/UmhvYmhvUmhvQnh/Unh/QmhvUnh/Ynh+8mhvUmh/Mff/cmhvMlh/Qnh/Unh/V4tPj///+Fu/nX6P7k8P6gyvtqrfhdpffx9/5ClvY0jvby9/6u0vvJ4fx4tPnJ4f2Tw/qgy/smh/MmhfMnhvQnh/cmhvQnh/SYqnhVAAAAKnRSTlMAIG+fz9//77+vIJ+gIHCvz+/////////////////////////PoLAgv69vZQ7BAAAA+UlEQVR4AYXTBQLCMAwF0CAJxX2GO9z/gqS/xVn2kUrefCWfWr3RZJa3tNi16x0K6TgpSRekw1Ia9qInRpzuQMz0aWCDAQ1t0CVngxGxDZjGVQDNZDqdzrSda5uIJtVOhlIAuY4LbWdTjbYL3y7ewHKlE7m2Eay1WcsbwC432gJgB8niA2Cf+QMk+r+VD4CdJksA9HfyBXAWa4AEZ/gNwgWoitn/ANk8akkU32CZRCAL9LbfQBZRxF6x+ADIPoAoNgHwu1hMDusZOut16IyrH/fRBo5ONjhXv7QXG1yInP1SE12spXchL0oX39XXQeq3K7c+NuVjt47yHWMlJVnQk6I1AAAAAElFTkSuQmCC",
+            "_metaData": {
+                "loadPathHash": "nOHIGKmKxkFB7QQ25LeuTbMhtrJdsttg0wN9OK//aNA=",
+                "order": 11,
+                "alias": "mus"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://vk.com/audio?q={searchTerms}"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": []
+        },
+        {
+            "_name": "Rutor (sort by Seeds)",
+            "_loadPath": "[https]mycroftproject.com/rutor-sort-by-seeds.xml",
+            "description": "Поиск по трекеру RuTor.is",
+            "__searchForm": "http://rutor.is/search/0/0/000/2/{searchTerms}",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc4AAMwHNdcQ4vsN3fYS2fUY3fUe3fMj4fkk4fco4PYo5fgk7f5gp8ZuZZtsa59FIXZEGm4kh74PyeoLGp8NHK4PHrwQHr8VIb8XJL4bJrUcKJ8optEdtPMBGcQAIcXeZAPVYwdA3MQFf8EDAJoFAMEEAM0AANIAAM4AAM0EAL8CAI8bXaEV1/cBHMsGDNTVWAOodTIU5/ELuOAJM6sEALsIAMoEALkCBbgFALUGAKshgMcvpNUTzOoFQNIFANqxQgBpkmgKue8IT8UUy+8HO7MHPb8Gt+IG3vQHm9YKi84X4foKI7kRl+AWiMwSDYyxjXZAy84HdNYEALcPguYM+vsL6PgGl/wBWN4K1/EF//8LbdQEALgEVc41zMp0YC+t0N0XxPcCIbwGAMkGGOUGUvQKPPUEANsIU9ENvvAJw/ULnekGAr8FJcIUzfRycEZwzuMFnuYEArQCAdYDANYHAMQFAMwGPcwM2vsHU/QKPegLwvYEEckFBrsOt/Y+kYky5/YGgNAGAKkHAc4JMssSoN0GTb0L2/gHYPkCAPkFKOMP0fIHGc0EAKwLgNAq3OMd/P0Al9ACBqQCAMALbOMG+/8E8v0KjugBAO4CAPAGQ9MNyPYEB8QBAKQCe8cW9//T+/09+/8Aqd8GIbIFAMAKbuUG6f8Ht/IFFeEAAMYPqeYMhOEGB6oCgtUY5fuG0tv//vzs+PlQ9fwAw+4CLLoIALgJR+EFU+wEFcweZNAkquMFMrkArOor4fSrxsvWx8n5/fv5+fn3+/iC8fsLzPIAUscEALMDAL8QPtAsetUFWsUHue1r7/vc6evOzMfFx8n5/fvy+fj89vb/9/e+9/o44/oNi9kBD54CFKQJg9Qu4vu09vr/+ff89fTIz8rFx8n5/fvy+fj59vb49vf/+fbh+vtk6vw1rN03suFn6vnl/f3/+fn49vj18/TIz8rFx8n5/fvy+fj59vb39vf39/f//P3w+fme6/ak8Prv+fj//f369/r39vj18/TIz8rFx8ngBwAA4AMAAMADAADAAwAAwAMAAMABAACAAQAAgAEAAAAAAAAAAAAAgAEAAMADAADgBwAA+B8AAPw/AAD+fwAA",
+            "_metaData": {
+                "loadPathHash": "ilWG1+C894HL2V7JP6KOFq2j8Wv7Jr3t0KyYavpqNBU=",
+                "order": 8,
+                "updateexpir": 1627775947083,
+                "alias": "rutor"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "http://rutor.is/search/0/0/000/2/{searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/rutoris-byseeds.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "addons.mozilla.org FF extensions",
+            "_loadPath": "[https]mycroftproject.com/ado-ff-extensions.xml",
+            "description": "addons.mozilla.org - FF Extensions",
+            "__searchForm": "https://addons.mozilla.org/firefox/?type=extension",
+            "_iconURL": "data:image/x-icon;base64,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",
+            "_metaData": {
+                "loadPathHash": "42SzcN2rJgLf6A24lkVxqQV1qqd/k4mBvqSh1GSlZUg=",
+                "order": 6,
+                "updateexpir": 1627775982389,
+                "alias": "amo"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://addons.mozilla.org/firefox/search?q={searchTerms}&type=extension"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/firefox_ext_only.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "DNS",
+            "_loadPath": "[https]paste.mozilla.org/dns.xml",
+            "description": "",
+            "__searchForm": null,
+            "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAABGdBTUEAALGPC/xhBQAADydJREFUeAHtXWmwFNUVPr3MzGNRQMQlUVnc15T7EhfiBi5BNG4Yt0RcKqZi9qgxVYmJxkgCf2LMolWiKFoKbrigxA0xMRoXDIlRFCQqCgkIIrzpme7OuQ0P5z3em+4Z+869vPPdqldvZvr2Ped853zT99w+t8dZPWFoTGhAQCgCrlC7YTYQSBAAARAIohEAAUS7H8aDAIgB0QiAAKLdD+NBAMSAaARAANHuh/EgAGJANAIggGj3w3gQADEgGgEQQLT7YTwIgBgQjQAIINr9MB4EQAyIRgAEEO1+GA8CIAZEIwACiHY/jAcBEAOiEQABRLsfxoMAiAHRCIAAot0P40EAxIBoBEAA0e6H8SAAYkA0AiCAaPfDeBAAMSAaARBAtPthPAiAGBCNAAgg2v0wHgRADIhGAAQQ7X4YDwIgBkQjAAKIdj+MBwEQA6IRAAFEux/GgwCIAdEIgACi3Q/jQQDEgGgEQADR7ofxIABiQDQCIIBo98N4EAAxIBoBEEC0+2E8CIAYEI0ACCDa/TAeBEAMiEYABBDtfhgPAiAGRCMAAoh2P4wHARADohEAAUS7H8aDAIgB0QiAAKLdD+NBAMSAaARAANHuh/EgAGJANAIggGj3w3gQADEgGgEQQLT7YTwIgBgQjQAIINr9MB4EQAyIRgAEEO1+GA8CIAZEIwACiHY/jAcBEAOiEQABRLsfxoMAiAHRCIAAot0P40EAxIBoBEAA0e6H8SAAYkA0AiCAaPfDeBAAMSAaARBAtPthPAiAGBCNgK/D+j7fX6hj2LpjxnFMtGYZxas+pPiTJRR/tIjCBU9R9M4corBc99zUg8VNyD/oUvJ2OIacvptTvOI/VJ03jcKXJxPFUerpOjo4g0ZQ2wVPpA7dPvk4ipf+q34/r0TusEPJ2/4Ycrfcg5x+WxD1GcjnOPXP03A0XvkuRe+/RNU5Eyle+Z4GCZ2H1EKAziJa885x2Fl9B3OADmaBuyVC/b3PpThYzSSYTdWXb6Fo0V8aV6bvECqdNY3cgdutP9dpG0BFDpRwp+Oo8tBlFH+8eP2xjeqF45G315lUOPgycvpz0FvQnEHDyeU/b8dRFEy/gKJ3n9eqVa+fAjnFvgmYpdOnUvErk8nZYveGAC0ee02n4K892dvmACqd9yh5O59Q+/HG8bofE3vc3VQ85hprgr8WOKfYnwrHTyQq9Kv9OPfXvZ4AtYh5w4+g0jkzqDDyKr66ZzCdpzsuTwvqteRq8OUbqDB6Ajurb72u1hxzBg6jtrMfJPdz+1ijU3eKuJt+ntztDu7uUG6fZYiC3GRZMZCaKvn7jafiqbcSlTatq5O6FCdTq7q91h709ziNSuc+TM5WX8jQ22AXtrl4ys3kbLKVQSWyi3Y33yV75yZ6iiNAB0be0EP5avAgUf86geCXOrpn+u8OGpbkC/6Bl3L/1ieQWZQsHHU1uZttn6WrFX1UUqyziSWAAtUdOJRKJ99E5LflhrHj+lQ47AdUPGMqf8tundu4eQyk8h9v15PyGKolY8TVdiTBupFWy37F4yflLsbb9qC1CfJOx+c+drMD+vtflHlK16yMPM+rzJ6gfYVN9BWgw1keL2d6e5/X8Ta3/0mCPOZ3VBh1vfkEma9M3ogv5WabzoHiT5ZSMOMyCv9+s04xydjG7gNUX7yJwoWz8zOQk1unzyBy1MrBsMN5hWNfXujxMo9fOOTbFM6bThR8XHNOPvN4f8/TyeUl0+Chb1H8wdya8Vv30uXk3ElJ+pU28ZqPqPr8DRQt+Se/a/FNPr6Xqeb86kZjq5oxAkT/fYOihU/rsfOvvyVnwDbkf/F75O92ciYZijz+gd+g6uxf1fRnj+TUkgR53DSqPjeJA+xGHjW/sbOomDUfCe67kKL3XsgyZK/o02unQPGKd6ny8HcoePCbFFfWZHKWv+/XiPgur67meAVOkH9IxdPvqL/6pEOBfpunjhq3rxAV/AqQXkuADm+H/55BwX0XcclO2PFRj/8dXg3yRhzV4/G8Dnh8c6ft/Jnkcu7Rslaundr1IFVNkVQdkKDW6wmgfJnUAs35TSa3ejseW9MvWw4Qr/5fzTnZXqoEuTTmRk6QecpV6JPtpM/QSxUJpjV106/Id7XVnWIpzVgO0GqAVdLt7TWO3AHb1hXtDjuC7wvwDbCqqiDNNk8v33EKFY64gmuORtcdu7uD/p5nrE2QZ3CC/OFr3XXJ5bOIx1ZXwbSFAW+b/ckb/xSpNXhSFbY6W1Tlyt2lvNT5PueDsymc/zjFy9/WKXGDsUVcARKrw4DCV6ZsAEDXDxz+NnYGDu/6cd338ZrlFNx/CQUzL8+cb9QOqEouSmdNJ/+AS/jjbFed2vMzvVbz+wYqK9V0MMFC4aHrr7QJ35UeQequvPoCUeXdxbE3kTN4x0wm5dFJDgEYrfCtP2fCzOm/ZaZ+XTuFr91J5VtPoOjDf3Q9lPo+SZAPv5wT5Nu1Jcjh3LtS9TDdwdvhaL6B+Ah5+5zfElVEESBe9la2ZLhJAiiPqUt4+faTqfK3P/AMovEphLfdIdTGJdZuE9OptIgJX7+/KXKmjZv3cVVOUjzyp1Q48md5D73BeKIIkMzpeddYWnMyLBnWHSOqUPWZX1Jw91eTHWp1+3Zz0OHdWKWTfk+FY6/LPUEOZv6oqWlaN2pq/8jf5zzy9x2vVY4wAjCWvL0xrcVZlgzTBuHj0aLnqP2WURS+OTND7w27+Lxbq3TOQ+RwvVJeLV4yj4JHvstXpxbf5W3SAH/klQ1vYmpElCwC8AYXp5Be+ZllyTAzyO0fcYJ8MQWPXdHUN69KEktn3Uv+/hezyHwS5OiNR/jeyIW8XXRVZjNMdXR445JKkHU1UQRQO8KytFwJsE5gOHcqlW87sak5eJIgcxAUT1MJcnMJele7I14QKN82hsK3n+h6yLr3apXIGbKbFr1kEWD3U1NBVIlrvGJRar9mOqgkPEmQX/hjcwnyUJUg8x3knBJklbAH079O5amnUpUJGq9a0oxZLTlHbZLX0cTcCHOHjyRVgpDWosUv8eNVlq/rls+Uo5NMlSA/fS1FC57mfQgTeUN6Y9/oHQly+PaTnYb9LG+i917kGqAXqaIG4VII9YQIp20Qz7g02F+rKO+h9ncZww8VSN8z4fJVgLiQMO8mgwC87bGoavIztOjNx2p6Nb6MWXNy3ZfRojlJglwcfT0/b6i2/KLuaesPaqvtV89UUn/rJel9Ebz5KBX9m/mZRPVrsLJWszaqba+fAqn9ASX1OJSMz70J59cSoFE4G+yvEmQu1Aseu7KpBLlBadZ2VyUQaW3t857SejV+vFcTwNv5RCqd/QC5Q3bOhEw4fxbfyFqQqW+encK5d6xNkHmJUmJzB++QbramFaveNQXicl71je8NO4w3f48ld4vsKweqUKzyDN94MtSSBHnKWPJ5Q72/34Ub1d7dpiHzijz/P5G3o56bOoSOlTkl1BgBCqOu4zud16Yanr0Db4lsYAtk13HD1+6ieNn8rh+39n1HgrzwGSoepxJkDbX5fTYjtf3T5apPZ8BQ/YluPQSZAFl9Fi1+pd5ITR8zRgB1g4Otb1rxPE+Mli+kSqetkHmO3vhY0TvPUvvkUUnirh7Im1dz+CFTJS620zWfzkvP7sbRlZvZEYHdWdyiz+LySgruvYCIy4WtaqrEmu/WBo9fxQky1+Z/1qYKzE6YtFEGf8Sb5NWXgo4mmgBxWKHggUt56vOWDmxzGTN8dcq6BFk9paH55my5Jy8G7Nr8AAbPrPLzgYg3z+hoYgkQr17G1ZpnJ9sldQCb55gqNynfPpbUrraGS6zXFb25Q3bJU6WWjaWWSMPXH9AmTyQBIv7BiPKUMQ3tkNLmgawD8462ylO/oOAe/s0DvlGVtcUr30+6boy/YaCeTRTw7y/obKIIoMqcK8/+OqnH0f3QVV1OUxv8228ZzftnZ6WKCNUPgqx70Jf61ZW8yrxTBefQIeSVsPJdZxJVVucwWs9DiCBAHHySTB/a/3QYVfmhWaQ2fG/MjTf1BPeNp2DWT3pMkFWpc+XJn39qJSf7lSf077D6VGBzr9SziSpcKxVMO5+IddbdjC2D6jQsqejkny2KFjyZfFOquhviKUTjTXMxWOMKdTojfOW2ZHVE7Rzztj1w/bFo8atMjh/zb4N1TpzDefdQma+CxaOvbrgIb/3gGl6ozTnqChVxGUp17p0tCfwOM5zVE4bmXvfkjjiyY/zW/VdlzGq7Y1LMtTSfVQN+XKK79d6pNkR8uda1SpEqvKOD0pWfLqHuaagfC0xrDj8exuHHwxu9F8OPnkkei7LqA+1TnZ7w0EKAnoThcyBgGwIicgDbQIc+9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQAAEMgA6R9iAAAtjjC2hiAAEQwADoEGkPAiCAPb6AJgYQ+D++tk7JFNlcCgAAAABJRU5ErkJggg==",
+            "_metaData": {
+                "loadPathHash": "rHl+VokDzwnGVDHUBx9MIRXMkXV+ntLVstMrs1WuopA=",
+                "order": 15,
+                "alias": "dns"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.dns-shop.ru/search/?q={searchTerms}"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": []
+        },
+        {
+            "_name": "Яндекс.Маркет",
+            "_loadPath": "[https]mycroftproject.com/gyqwc62qy2u.xml",
+            "description": "Поиск товаров в Яндекс.Маркете",
+            "__searchForm": "https://market.yandex.ru/",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAISEhABEREQAiIiJpIiIi1yIiInEhISEBIiIiAAAAAAAiIiIAIiIiBiIiIociIiLUIiIiUyIiIgAiIiIAAAAAACIiIgAiIiIKIiIivyIiIv8iIiLHIiIiDiIiIgAAAAAAIiIiACIiIhwiIiLcIiIi/yIiIqUhISECISEhAAAAAAAiIiIAISEhASIiIm4iIiLSIiIidiEhIQIiIiIAAAAAACIiIgAiIiIIIiIiiyIiItAiIiJZIiIiACEhIQAAAAAAAAAAACIiIgAiIiIEIiIiEiIiIgQiIiIAAAAAAAAAAAAAAAAAIiIiACIiIgYiIiIRIiIiAiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAMp3QgDKd0IlyndCTsp3QiDKd0IGy3dCAMd1QQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMl2QQDLeEMAyndCicp3QvzKd0LfyndCsMp3QnTKd0I7yndCE8l2QQLJd0IAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0IAyndCF8p3QtDKd0L/yndC/8p3Qv/Kd0L/yndC8sp3Qs/Kd0KZyndCXcp3QinKd0IHAAAAAAAAAADAcTIAyndCAMp3QlDKd0L4yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvzKd0LmyndCkAAAAAAAAAAAyXdBAMl2QQLKd0KdyndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3QvcAAAAAAAAAAMp3QgDKd0IiyndC3cp3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/AAAAAMl2QADKd0IAyndCY8p3Qv3Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/wAAAADKd0IAyndCB8p3QrDKd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv/Kd0L/yndC/8p3Qv8AAAAAyndCAMp3QjDKd0LpyndC+Mp3QuXKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndC5Mp3QuTKd0LkyndCBMp3QgLKd0J4yndC/8p3Qp7Kd0IiyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QiPKd0IjyndCI8p3QrPKd0KzyndC5Mp3QvXKd0JGyndCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKd0L/yndC/8p3Qv/Kd0LLyndCE8p3QgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwcMAAMHBAADBwwAA4+MAAPh/AAD4BwAA8AAAAPAAAADgAAAA4AAAAOAAAADAAAAAwAAAAAAAAAAH/wAAB/8AAA==",
+            "_metaData": {
+                "loadPathHash": "BALQrXve8xY5porJV3jryUSSFPhjTleuCoII+Zqjs3g=",
+                "order": 16,
+                "updateexpir": 1635691307943,
+                "alias": "ym"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://market.yandex.ru/search?cvredirect=2&text={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/yandex.market.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "TradingViewChart",
+            "_loadPath": "[https]mycroftproject.com/tradingviewchart.xml",
+            "description": "Full screen chart by TradingView.com",
+            "__searchForm": "https://www.tradingview.com/chart/GOOG/",
+            "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAFVSURBVDhPY/hPIqCzhq/ffs7c/iii65pn863EiTfWHXny798/qBwMIDR8//Era/ot9+a7yKhrzf2Hz99DVYABQsOy/U/QVMNR7sxbj19+higDafj79+/NRx8ypt+L7L399v2XRXseo2kI7Lh1+8knqIbnrz+nTAa5xKP59o7TL3/9+vX8zZfQLoTbfFtvXb737vPXn1fuvQVpKJ9/Gyjq1XzrwMWXp2+8Ce642bX63pX774HqgOLeLTfP3Hzz6t3X1Cm3m1Y8/PX7N4NH0y2g3Mlrr1YeeAxkQ0xdsvfRkcuvvJtvHL3y6sHzT9G9NyHi7SvvMiT0Xz11/WXzcqgDoKjp9uFLr168/XL1wYfgToTzfJqvMrx68z59KshVaGjS5qdAF0/chBJ0BbNugkLp4MVX9Uvulix8ioxKFz6evu0JkISLdK6+//LdV5SYJgbQWsP//wBNHnvL5T6fcAAAAABJRU5ErkJggg==",
+            "_metaData": {
+                "loadPathHash": "ZdlAAs3T0rbqIEKdnUglfdYHyBZ068bP9Fdq9VBJq0c=",
+                "order": 21,
+                "updateexpir": 1642164953461,
+                "alias": "tr"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.tradingview.com/chart/?symbol={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/tradingviewchart.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "XDA-Developers",
+            "_loadPath": "[https]paste.mozilla.org/xda-developers",
+            "description": "Search XDA-Developers Forum using Google",
+            "__searchForm": "https://forum.xda-developers.com/search",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAADD0NZ1jJl1jJp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jJp1jJnD0NZxiZcAESkAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAESlxiZd1jJkAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jJl1jZoAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jZp1jZoAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jZp1jZoAhP8AhP8DIzkDIzkAhP8DIzkAhP8AhP8AhP8DIzkAhP8AhP8AhP8AhP91jZp1jZoAGjEAhP8AhP8AhP8DIzkAhP8DIzkDIzkAhP8DIzkAhP8DIzkDIzkAhP91jZp1jZoAGjEDIzkAhP8DIzkDIzkAhP8DIzkDIzkAhP8DIzkAhP8AhP8AhP8AhP91jZp1jZoAGjEAhP8AhP8AhP8DIzkAhP8DIzkDIzkAhP8DIzkDIzkDIzkDIzkAhP91jZp1jZoAhP8AhP8DIzkDIzkAhP8DIzkAhP8AhP8AhP8DIzkAhP8AhP8AhP8AhP91jZp1jZoAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkAhP8DIzkDIzkDIzkDIzkAGjF1jZp1jZoAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jZp1jZoAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jZp1jJkAGjEDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkDIzkAGjF1jJlxiZcAESkAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAGjEAESlxiZfD0NZ1jJl1jJp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jZp1jJp1jJnD0NYAAGxsAABGaQAAZm8AAENyAABoIAAAcG8AAHMAAABaXwAAQVMAAEVQAABURQAAUkUAAEFSAABBUgAAMD0AAFxQ",
+            "_metaData": {
+                "loadPathHash": "/ViG/m9dhDvi6lSiNOOc8SjmNM4CVe+jW/WYD9nRvl8=",
+                "order": 22,
+                "alias": "xda"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "http://www.google.com/search?q={searchTerms}+site:forum.xda-developers.com"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "eBay",
+            "_isAppProvided": true,
+            "_metaData": {
+                "hidden": true,
+                "order": 16
+            }
+        }
+    ],
+    "metaData": {
+        "useSavedOrder": true,
+        "current": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
+        "hash": "AoyQxqtJWGRuYzfRWED3MYtZyEakAILD5gkO4MIgAbI="
+    }
 }
