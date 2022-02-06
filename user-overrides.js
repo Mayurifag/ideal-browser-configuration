@@ -31,6 +31,11 @@ user_pref("browser.shell.shortcutFavicons", true); // 1006 favicons in shortcuts
 // 1021: enable storing extra session data
 user_pref("browser.sessionstore.privacy_level", 0);
 
+/* 1211: enforce OCSP fetching to confirm current validity of certificates
+ * 0=disabled, 1=enabled (default), 2=enabled for EV certificates only */
+user_pref("security.OCSP.enabled", 0); // [DEFAULT: 1]
+user_pref("security.OCSP.require", false);
+
 /*** [SECTION 1600]: HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginPolicy", 0); // 1600 may break websites :( - may use ext. for this
 
@@ -213,6 +218,8 @@ user_pref("media.getusermedia.browser.enabled", true);
 user_pref("media.getusermedia.audiocapture.enabled", true);
 
 user_pref("signon.management.page.breach-alerts.enabled", false); // disable password breach allerts It's annoying
+
+user_pref("dom.security.https_only_mode", false); // [FF76+]
 
 //
 /////// END
