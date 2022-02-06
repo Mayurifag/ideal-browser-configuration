@@ -316,5 +316,5 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/trockerapp/>
 - [ ] Ublock settings one click download link for mobile browsers
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/zoom-redirector/>
-- [ ] Add github.com search (via gh)
-- [ ] Add translations - translate from eng to rus and vice versa (via ten & tru)
+- [x] Add github.com search (via gh)
+- [x] Add translations - translate from eng to rus and vice versa (via ten & tru)
