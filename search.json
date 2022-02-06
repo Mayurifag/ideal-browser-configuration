@@ -600,7 +600,7 @@
                 "loadPathHash": "ZdlAAs3T0rbqIEKdnUglfdYHyBZ068bP9Fdq9VBJq0c=",
                 "order": 21,
                 "updateexpir": 1642164953461,
-                "alias": "tr"
+                "alias": "tw"
             },
             "_urls": [
                 {
@@ -645,6 +645,83 @@
                     "params": [],
                     "rels": [],
                     "template": "http://www.google.com/search?q={searchTerms}+site:forum.xda-developers.com"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_filePath": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "DeepL ANY -> EN",
+            "_loadPath": "[https]mycroftproject.com/deepl-any---en.xml",
+            "description": "DeepL translation to EN",
+            "__searchForm": "https://www.deepl.com/translator",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAACoAAAAqAAAAAAAAAAAAAABILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRSOBFILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRPNg6Id1zPx71ILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRKLwdxXDzTzML7+/rw7upILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRoUS+6sKH5+Pb////////y7+xPNQ9ILQRILQRILQRILQRILQRILQRILQRWPRihkn3v7en////////////////+/f3QyL57aEpJLgZILQRILQRILQRILQRMMgrTzML+/v739vSekHrUzsX////////////////7+/qJeF1ILQRILQRILQRILQRRNxD39fP////v7eliSid6Zknf29T///////////////+nmodILQRILQRILQRILQRRNxD39fP////+/v7v7ern5N6rnovZ08qsn4339vT///+nmodILQRILQRILQRILQRRNxD39fP////////////////r6OSJd11YPxne2dH///+nmodILQRILQRILQRILQRRNxD39fP////7+vm9tKWtoI6XiHHTzcTj3tj+/v7///+nmodILQRILQRILQRILQRQNw/19PH////r6ONSORKThGz7+vn///////////////+nmoZILQRILQRILQRILQRLMAi6sKD5+Pf9/f3b18/z8e7////////////////v7ep6Z0lILQRILQRILQRILQRILQRPNA2BblHd2ND////////////////49/a4rZ1mTy1JLgVILQRILQRILQRILQRILQRILQRILQRSOBKYiHHn4975+ffNxrtyXT1KLwdILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRaQh1xXDxMMgpILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "_metaData": {
+                "loadPathHash": "o1+z9twMirq22qrBS+bjyjmAt3TNHaT0OLfDsB3zXng=",
+                "order": 23,
+                "updateexpir": 1644782471435,
+                "alias": "ten"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.deepl.com/translator#../en/{searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/deepl_autoen.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
+            "_name": "DeepL EN -> RU",
+            "_loadPath": "[https]mycroftproject.com/deepl-en---ru.xml",
+            "description": "DeepL translation from EN to RU",
+            "__searchForm": "https://www.deepl.com/translator",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAACoAAAAqAAAAAAAAAAAAAABILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRSOBFILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRPNg6Id1zPx71ILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRKLwdxXDzTzML7+/rw7upILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRoUS+6sKH5+Pb////////y7+xPNQ9ILQRILQRILQRILQRILQRILQRILQRWPRihkn3v7en////////////////+/f3QyL57aEpJLgZILQRILQRILQRILQRMMgrTzML+/v739vSekHrUzsX////////////////7+/qJeF1ILQRILQRILQRILQRRNxD39fP////v7eliSid6Zknf29T///////////////+nmodILQRILQRILQRILQRRNxD39fP////+/v7v7ern5N6rnovZ08qsn4339vT///+nmodILQRILQRILQRILQRRNxD39fP////////////////r6OSJd11YPxne2dH///+nmodILQRILQRILQRILQRRNxD39fP////7+vm9tKWtoI6XiHHTzcTj3tj+/v7///+nmodILQRILQRILQRILQRQNw/19PH////r6ONSORKThGz7+vn///////////////+nmoZILQRILQRILQRILQRLMAi6sKD5+Pf9/f3b18/z8e7////////////////v7ep6Z0lILQRILQRILQRILQRILQRPNA2BblHd2ND////////////////49/a4rZ1mTy1JLgVILQRILQRILQRILQRILQRILQRILQRSOBKYiHHn4975+ffNxrtyXT1KLwdILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRaQh1xXDxMMgpILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQRILQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "_metaData": {
+                "loadPathHash": "9H0Viqqi/FPDnp1TpfbP6pV1fKH9nEGEqpp26/g7NTw=",
+                "order": 24,
+                "updateexpir": 1644782534733,
+                "alias": "tru"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.deepl.com/translator#en/ru/{searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/deepl_enru.xml",
+                    "type": "application/opensearchdescription+xml"
                 }
             ],
             "_isAppProvided": false,
