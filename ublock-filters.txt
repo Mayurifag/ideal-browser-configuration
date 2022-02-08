@@ -27,6 +27,7 @@ habr.com##.tm-notice_info
 habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 habr.com##.tm-voice-article
 habr.com##section.tm-block_spacing-bottom:has-text(Работа)
+habr.com###promo_block_4
 
 ! https://vk.com — hide subscription shit and advertised functionality
 vk.com###block_aliexpress-recommendations-carousel
@@ -49,9 +50,9 @@ pornolab.net###page_footer
 pornolab.net###vs_here
 pornolab.net##.freeleech-icon
 
-! 2021-08-14 https://www.deepl.com
 deepl.com##.dl_app_popup__content
 deepl.com##.dl_overlay_popup
+deepl.com##.dl_ad_pro_container
 
 ! google.com hide trash sites (there are some more actually)
 google.*#?##search .g:-abp-has(a[href*="askvoprosy.com"])
@@ -70,6 +71,7 @@ eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
 pepper.ru##.tGrid-row.footer
+pepper.ru##.js-telegram-widget
 
 ethermine.org##.tos-container
 
@@ -87,3 +89,10 @@ tapochek.net##.snow-layer
 tapochek.net##.snowman
 
 superuser.com##.s-sidebarwidget__yellow
+
+shoppingcart.aliexpress.com##.survey-link
+
+4pda.to##.poll-frame
+
+forum.xda-developers.com##.tloom-lb_modal
+forum.xda-developers.com##.tloom-lb_overlay
