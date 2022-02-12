@@ -1,0 +1,6 @@
+/* dark color for about:newtab */
+@-moz-document url(about:newtab) {
+  body {
+    background: #1C1B22 !important;
+  }
+}

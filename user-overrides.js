@@ -172,9 +172,6 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // Включить встроенный в адресную строку калькулятор
 user_pref("browser.urlbar.suggest.calculator", true);
 
-// Disable hardware video acceleration
-user_pref("layers.acceleration.disabled", true);
-
 // Compact mode
 user_pref("browser.uidensity", 1);
 
@@ -197,6 +194,12 @@ user_pref("browser.tabs.inTitlebar", 1);
 // Disable picture-in-picture
 user_pref("media.videocontrols.picture-in-picture.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+
+// Cache into RAM
+// src: https://lifehacker.com/speed-up-firefox-by-moving-your-cache-to-ram-no-ram-di-5687850
+user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.memory.enable", true);
+user_pref("browser.cache.memory.capacity", 300000);
 
 // Pref : 2663: enable warning when websites try to install add-ons
 // [SETTING] Privacy & Security>Permissions>Warn you when websites try to install add-ons

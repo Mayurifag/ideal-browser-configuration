@@ -34,6 +34,7 @@ ln -s $BROWSERCONFPATH/user.js/updater.sh $FFPROFILEPATH/updater.sh
 chmod +x $FFPROFILEPATH/updater.sh
 rm $FFPROFILEPATH/search.json.mozlz4
 ln -s $BROWSERCONFPATH/search.json.mozlz4 $FFPROFILEPATH/search.json.mozlz4
+ln -s $BROWSERCONFPATH/chrome $FFPROFILEPATH/chrome
 ln -s $BROWSERCONFPATH/user-overrides.js $FFPROFILEPATH/user-overrides.js
 $FFPROFILEPATH/updater.sh -p $FFPROFILEPATH # -u doesnt work, needs confirmation via 'y'
 
