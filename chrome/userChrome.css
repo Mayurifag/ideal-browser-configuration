@@ -4,6 +4,8 @@
 #content,
 #tabbrowser-tabpanels,
 browser[type=content-primary],
-browser[type=content] > html {
-	background: #1C1B22 !important;
-}
+browser[type=content] > html
+{ background: #1C1B22 !important; }
+
+/* To completely disable fullscreen transition */
+#navigator-toolbox[fullscreenShouldAnimate] { transition: none !important; }
