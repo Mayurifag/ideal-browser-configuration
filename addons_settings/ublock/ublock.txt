@@ -1,8 +1,8 @@
 {
-  "timeStamp": 1641471054804,
-  "version": "1.40.3b3",
+  "timeStamp": 1644763454303,
+  "version": "1.41.3b1",
   "userSettings": {
-    "advancedUserEnabled": true,
+    "uiTheme": "dark",
     "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt\nhttps://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt\nhttps://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
     "importedLists": [
       "https://easylist-downloads.adblockplus.org/bitblock.txt",
@@ -16,6 +16,7 @@
     ],
     "popupPanelSections": 63,
     "showIconBadge": false,
+    "suspendUntilListsAreLoaded": false,
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
@@ -27,15 +28,11 @@
     "ublock-unbreak",
     "easylist",
     "adguard-spyware-url",
+    "easyprivacy",
     "fanboy-thirdparty_social",
     "fanboy-cookiemonster",
     "ublock-annoyances",
-    "dpollock-0",
-    "mvps-0",
-    "plowe-0",
     "RUS-0",
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
-    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://raw.githubusercontent.com/bcye/Hello-Goodbye/master/filterlist.txt",
     "https://www.i-dont-care-about-cookies.eu/abp/",
@@ -43,10 +40,7 @@
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt"
   ],
-  "hiddenSettings": {
-    "uiStyles": "dark",
-    "uiTheme": "dark"
-  },
+  "hiddenSettings": {},
   "whitelist": [
     "192.168.0.1",
     "about-scheme",
