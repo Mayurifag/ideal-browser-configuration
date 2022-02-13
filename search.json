@@ -777,6 +777,44 @@
             "_hasPreferredIcon": false
         },
         {
+            "_name": "SeekingAlpha (Quote)",
+            "_loadPath": "[https]mycroftproject.com/seekingalpha-quote.xml",
+            "description": "Search for quotes on SeekingAlpha",
+            "__searchForm": "http://seekingalpha.com",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAQAABQYAAQQAAwAABwACAgAGAwUCAAEEAgECAQAEAgIGAQMEAAAAAAcAABEGBAACAAoCDEgGBU8PFFkOFV4UKWYcMHEfMXAjN3EiNHMbKnIWJmsNH14WGlUQEkwAAAYAAAMAC0kFDlcQH2QfLXknN3oxQ4AoO3QuP34rOn8nM3kgLXEeK28RIWQQGloGCBIAAAQCEU8NGlgkNG8wPoA2SIctRHQ1TXsxQoEvP4EsQHcpPnIeLnAVK2wOIFsDCxICAAMKGVcgLmkxQH5DUYuYrdqsxOigt912ibxDV4ZviKinveFoeawZL3EYKmcNFB0CAAcSImUlN3Q2SIOqw+XK6/+gvdx6lLy82fiy0+bC5fPO7v+41PMeMmwdLWIVHB8CAAQeL3IpQH5OaJ7N8P2/3/JIXZBMXptvia3Q7v/P6v9ogKSdtdkoMH0jK24WGCIAAQAlOHwuQ3qMp8nQ7fudutVNY5dHW6JUbp3M7vvP6v9BVYwtQH0pN3kaLG0YICAAAwEjNnozSH+qxOjQ7v+ZtNZOZZVLXqFHXZfN7P/U9f5shqssO4MmNHYZK2wXHx8AAQAjM3gyRn+IoMrQ6/+31e5DWY1IW55ddKbQ7f/N7vefu9oqO34kMnQZKWsWHh4DBAIfL3QmOHNKYJDE3P/P7f94kb1CW42VsNXG4fvR7v3H4v0oPHYkMHIZKWsXHB0CAAATImcrPXovQ3pUaJe71+/N7f/J7P+Ws9Jfd5vT7//Q7f8uQ3oiLnAZJ2kUGRoEAAAJFVsWJ2YpO3gwQ3w0RH9QZZxBWY0zR4E0QYUtOXspN3kdK3cgKWwVI2UPExQEAAAFEVcQHmAeLnElNXctQHMpPHUtQ30qQXMnO2srN3ceK28cMWQZImUOHF4JDQ4FAAEACU8DEFQOHWIaKW4jL3chMHUhL3seLXYhMWwhLW0cKHATJGMVHWAKFlgECAkEBAQAAAAAAAAHBwcSEhIWHSAYHyIbIiUdJCcbIiUWHSAQFxoNFBcNDQ0EBAQDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "_metaData": {
+                "loadPathHash": "9kswGSD4TLorTQXop3u3zz4yjsf4QnqkLIc1cDr0ZK8=",
+                "order": 26,
+                "updateexpir": 1645386688342,
+                "alias": "s"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "http://seekingalpha.com/symbol/{searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/seekingalpha.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_isAppProvided": false,
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null,
+            "_extensionID": null,
+            "_locale": null,
+            "_definedAliases": [],
+            "_hasPreferredIcon": false
+        },
+        {
             "_name": "eBay",
             "_isAppProvided": true,
             "_metaData": {
