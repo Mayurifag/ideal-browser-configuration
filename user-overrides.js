@@ -5,6 +5,7 @@ user_pref("_user.js.parrot", "overrides section syntax error");
 /*** my user.js overrides ***/
 user_pref("intl.accept_languages", "en-US, en, ru"); // 0204 i need russian maybe
 user_pref("javascript.use_us_english_locale", false); // 0211 dont see any profit
+user_pref("browser.download.skipConfirmLaunchExecutable", true);
 
 // 0400 safe browsing
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -38,6 +39,7 @@ user_pref("security.OCSP.require", false);
 
 /*** [SECTION 1600]: HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginPolicy", 0); // 1600 may break websites :( - may use ext. for this
+user_pref("network.http.referer.XOriginTrimmingPolicy", 0);
 
 /*** [SECTION 1700]: CONTAINERS ***/
 user_pref("privacy.userContext.enabled", false); // no need for containers
