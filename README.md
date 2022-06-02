@@ -317,3 +317,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] <https://addons.mozilla.org/en-US/firefox/addon/zoom-redirector/>
 - [x] Add github.com search (via gh)
 - [x] Add translations - translate from eng to rus and vice versa (via ten & tru)
+- [ ] https://www.userchrome.org/megabar-styling-firefox-address-bar.html
