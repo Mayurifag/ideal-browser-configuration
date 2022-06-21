@@ -64,7 +64,7 @@ $FFPROFILEPATH/updater.sh -p $FFPROFILEPATH # -u doesnt work, needs confirmation
 упоминания. Значки перед названием аддона:
 
 - :page_facing_up: — Бекапы настроек для расширений имеются в директории
-  `addons_settings`. Часть зашифрована git-crypt.
+  `addons_settings`. Часть зашифрована agebox.
 - :exclamation: — Расширение требует доп. настройки / не умеет в бекап / проч.
 - Если значка нет, то скорее всего расширение удовлетворительно работает на
   дефолтных настройках.
@@ -197,13 +197,14 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 полный URL.
 
 [:exclamation: **ff2mpv**](https://github.com/woodruffw/ff2mpv) — открыть
-контент в mpv. Нужно дополнительно поставить в систему хелпер.
+контент в mpv. Нужно дополнительно поставить в систему хелпер c Github.
 
 [:page_facing_up: **Tab Session Manager**](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
 — открытие сессии при случайном закрытии браузера или запоминание текущей сессии
 при необходимости.
 
-[**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail
+<!--
+[**Bloody Vikings!**](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/) 10 min mail -->
 
 [:page_facing_up: **FoxyProxy Standard**](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
 — аддон для прокси. В бекапе список сайтов на которых прокси должен включаться.
@@ -318,3 +319,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [x] Add github.com search (via gh)
 - [x] Add translations - translate from eng to rus and vice versa (via ten & tru)
 - [ ] https://www.userchrome.org/megabar-styling-firefox-address-bar.html
+- [ ] Redirects: meduza -> <https://infomate.club/news/> and so on
