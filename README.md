@@ -72,9 +72,7 @@ $FFPROFILEPATH/updater.sh -p $FFPROFILEPATH # -u doesnt work, needs confirmation
 ### Must have
 
 [:page_facing_up: **uBlock Origin**](https://github.com/gorhill/uBlock/releases)
-— блокировка мусорного контента. Возможно больше подошёл бы форк AdNauseam.
-Встроенный, думаю, лучше удалить и поставить из github, т.к. тёмная тема пока
-только в dev билде.
+— блокировка мусорного контента. Тёмная тема пока только в dev билде, ставим с Github.
 
 Импортируемые настройки с бекапа включают сторонние фильтры, включая и мои
 собственные из файла `ublock-filters.txt`, которые можно импортировать в uBlock
