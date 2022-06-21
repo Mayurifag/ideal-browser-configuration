@@ -6,4 +6,5 @@ file_ids:
 - addons_settings/floccus/floccus.export.json
 - addons_settings/foxyproxy/FoxyProxy Standard.json
 - addons_settings/sponsor-block/sponsor-block-backup.json
+- addons_settings/violentmonkey/scripts_2022-06-21_21.02.50.zip
 version: "1"

@@ -111,11 +111,14 @@ https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ubl
 - Firemonkey: опенсорс, наиболее перспективное из упомянутых. Так же может быть
   использовано для стилей.
 
-Из скриптов сейчас я использую только:
+Из скриптов сейчас я использую:
 
 - [:page_facing_up: **Dollchan Extension Tools**](https://raw.githubusercontent.com/SthephanShinkufag/Dollchan-Extension-Tools/master/src/Dollchan_Extension_Tools.es6.user.js).
   Скрипту обновления приходят лучше, чем расширению.
 - [**Back2source**](https://github.com/vladgba/Back2source)
+- [**VKOpt Reloaded**](https://github.com/xiadosw/VKOpt-Reloaded)
+- [**LinkedIn unsponsored**](https://greasyfork.org/en/scripts/379003-linkedin-unsponsored)
+- [**Lovely Forks**](https://github.com/musically-ut/lovely-forks)
 
 #### Userstyles
 
@@ -167,8 +170,6 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 [**Global Aliexpress**](https://addons.mozilla.org/en-US/firefox/addon/global-aliexpress/)
 — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний
 автоперевод.
-
-[:page_facing_up: **VkOpt** -> https://vk.com](https://vkopt.net/download/)
 
 [:exclamation: **Pushbullet**](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
 
