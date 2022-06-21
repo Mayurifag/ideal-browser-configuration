@@ -19,6 +19,7 @@
   "autoSaveWhenExitBrowserLimit": "3",
   "useTabTitleforAutoSave": true,
   "startupBehavior": "none",
+  "shouldTrackNewWindow": true,
   "ifBackup": false,
   "individualBackup": true,
   "backupFolder": "TabSessionManager - Backup",
