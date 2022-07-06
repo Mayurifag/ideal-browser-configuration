@@ -319,3 +319,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [x] Add translations - translate from eng to rus and vice versa (via ten & tru)
 - [ ] https://www.userchrome.org/megabar-styling-firefox-address-bar.html
 - [ ] Redirects: meduza -> <https://infomate.club/news/> and so on
+- [ ] Adaptive Tab Bar Color
