@@ -3,9 +3,17 @@
 user_pref("_user.js.parrot", "overrides section syntax error");
 
 /*** my user.js overrides ***/
+user_pref("privacy.clearOnShutdown.cookies", false);
+
 user_pref("intl.accept_languages", "en-US, en, ru"); // 0204 i need russian maybe
 user_pref("javascript.use_us_english_locale", false); // 0211 dont see any profit
 user_pref("browser.download.skipConfirmLaunchExecutable", true);
+// src: https://libreddit.spike.codes/r/firefox/comments/ufozuh/disable_browser_cache_in_firefox_so_you_dont/
+user_pref("browser.cache.disk.smart_size.enabled", false);
+user_pref("browser.cache.disk_cache_ssl", false);
+user_pref("browser.cache.offline.enable", false);
+user_pref("browser.cache.memory.enable", true);
+user_pref("browser.cache.memory.capacity", 1024000);
 
 // 0400 safe browsing
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -68,10 +76,6 @@ user_pref("browser.download.useDownloadDir", true);
 
 user_pref("extensions.webextensions.restrictedDomains", ""); // 2662: disable webextension restrictions on certain mozilla domains (you also need 4503)
 
-/* 2801: save cookies
- * 0=keep until they expire (default), 2=keep until you close Firefox
- */
-user_pref("network.cookie.lifetimePolicy", 0);
 /* 2810: enable Firefox to clear items on shutdown (2811)
  * [SETTING] Privacy & Security>History>Custom Settings>Clear history when Firefox closes ***/
 user_pref("privacy.sanitize.sanitizeOnShutdown", false);

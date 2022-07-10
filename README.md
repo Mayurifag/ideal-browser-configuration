@@ -29,7 +29,7 @@ export BROWSERCONFPATH=$(pwd)
 файлы софтлинком или копированием.
 
 ```sh
-export FFPROFILEPATH="/home/user/.mozilla/firefox/ide54w4i.test" # директория профиля
+export FFPROFILEPATH="/home/user/.mozilla/firefox/ide54w4i.test" # директория профиля (about:profiles)
 ln -s $BROWSERCONFPATH/user.js/updater.sh $FFPROFILEPATH/updater.sh
 chmod +x $FFPROFILEPATH/updater.sh
 rm $FFPROFILEPATH/search.json.mozlz4
