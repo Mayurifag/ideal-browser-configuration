@@ -321,3 +321,4 @@ docker run -v ${PWD}:/tmp:ro --rm -i ghcr.io/tcort/markdown-link-check:stable /t
 - [ ] Redirects: meduza -> <https://infomate.club/news/> and so on
 - [ ] Adaptive Tab Bar Color
 - [ ] Add kino.pub search
+- [ ] firefox --new-instance --profile $(mktemp -d) <https://news.ycombinator.com/item?id=18898865>
