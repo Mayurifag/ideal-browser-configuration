@@ -310,15 +310,7 @@
                 {
                     "params": [],
                     "rels": [],
-                    "template": "https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190730094114&SearchText={searchTerms}&switch_new_app=n"
-                },
-                {
-                    "params": [],
-                    "rels": [
-                        "self"
-                    ],
-                    "template": "https://mycroftproject.com/updateos.php/id0/aliexpress-us-eng.xml",
-                    "type": "application/opensearchdescription+xml"
+                    "template": "https://aliexpress.ru/wholesale?SearchText={searchTerms}"
                 }
             ],
             "_orderHint": null,
@@ -330,7 +322,7 @@
             "_extensionID": null,
             "_locale": null,
             "_definedAliases": [],
-            "__searchForm": "https://www.aliexpress.com",
+            "__searchForm": "https://www.aliexpress.ru",
             "_hasPreferredIcon": false
         },
         {
