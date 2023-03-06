@@ -8,6 +8,8 @@ user_pref("javascript.use_us_english_locale", false); // 0211 dont see any profi
 user_pref("browser.download.skipConfirmLaunchExecutable", true);
 user_pref("devtools.selfxss.count", 1000); // disable 'allow pasting' protection in devtools
 user_pref("layout.css.has-selector.enabled", true) // for youtube enhancer to hide shorts
+user_pref("browser.tabs.loadInBackground", true)
+user_pref("browser.tabs.loadBookmarksInBackground", true)
 
 // 0400 safe browsing
 user_pref("browser.safebrowsing.malware.enabled", false);
