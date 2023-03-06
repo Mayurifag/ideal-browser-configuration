@@ -163,7 +163,7 @@ Cтили можно искать на <https://userstyles.org>, но лучше
 
 [:page_facing_up: **Better Tweetdeck** -> https://tweetdeck.twitter.com](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
 
-[:page_facing_up: **BetterTTV** -> https://twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/betterttv/)
+[:page_facing_up: **FrankerFaceZ** -> https://twitch.tv](https://www.frankerfacez.com)
 
 [**Global Aliexpress**](https://addons.mozilla.org/en-US/firefox/addon/global-aliexpress/)
 — редирект ru->en на алиэкспрессе, тем самым убирая всратый тамошний
