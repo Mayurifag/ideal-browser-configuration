@@ -36,6 +36,20 @@ user_pref("browser.shell.shortcutFavicons", true); // 1006 favicons in shortcuts
 // 1021: enable storing extra session data
 user_pref("browser.sessionstore.privacy_level", 0);
 
+/** SSL (Secure Sockets Layer) / TLS (Transport Layer Security) ***/
+/* 1201: require safe negotiation
+ * Blocks connections (SSL_ERROR_UNSAFE_NEGOTIATION) to servers that don't support RFC 5746 [2]
+ * as they're potentially vulnerable to a MiTM attack [3]. A server without RFC 5746 can be
+ * safe from the attack if it disables renegotiations but the problem is that the browser can't
+ * know that. Setting this pref to true is the only way for the browser to ensure there will be
+ * no unsafe renegotiations on the channel between the browser and the server.
+ * [STATS] SSL Labs (July 2021) reports over 99% of top sites have secure renegotiation [4]
+ * [1] https://wiki.mozilla.org/Security:Renegotiation
+ * [2] https://datatracker.ietf.org/doc/html/rfc5746
+ * [3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555
+ * [4] https://www.ssllabs.com/ssl-pulse/ ***/
+ user_pref("security.ssl.require_safe_negotiation", false);
+
 /* 1211: enforce OCSP fetching to confirm current validity of certificates
  * 0=disabled, 1=enabled (default), 2=enabled for EV certificates only */
 user_pref("security.OCSP.enabled", 0); // [DEFAULT: 1]
