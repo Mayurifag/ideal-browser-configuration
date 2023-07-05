@@ -118,8 +118,8 @@ shoppingcart.aliexpress.com##.survey-link
 forum.xda-developers.com##.tloom-lb_modal
 forum.xda-developers.com##.tloom-lb_overlay
 
-twitter.com##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
-twitter.com##:xpath(//span[text()='Показать']/../../../../..)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../..)
 
 ||www.nexusmods.com/assets/images/premiumbanner/billboard.png$image
 www.nexusmods.com###mainContent > div.clearfix
