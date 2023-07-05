@@ -75,19 +75,6 @@ deepl.com##.dl_app_popup__content
 deepl.com##.dl_overlay_popup
 deepl.com##.dl_ad_pro_container
 
-! google.com hide trash sites (there are some more actually)
-google.*#?##search .g:-abp-has(a[href*="askvoprosy.com"])
-google.*#?##search .g:-abp-has(a[href*="coderedirect.com"])
-google.*#?##search .g:-abp-has(a[href*="coderoad.ru"])
-google.*#?##search .g:-abp-has(a[href*="issue.life"])
-google.*#?##search .g:-abp-has(a[href*="overcoder.net"])
-google.*#?##search .g:-abp-has(a[href*="progi.pro"])
-google.*#?##search .g:-abp-has(a[href*="programmerz.ru"])
-google.*#?##search .g:-abp-has(a[href*="qaru.site"])
-google.*#?##search .g:-abp-has(a[href*="qastack.ru"])
-google.*#?##search .g:-abp-has(a[href*="quares.ru"])
-google.*#?##search .g:-abp-has(a[href*="stackoverrun.com"])
-
 eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
 
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
