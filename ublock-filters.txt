@@ -15,6 +15,7 @@
 2ch.*/makaba/templates/js/events/*.js
 2ch.*/music/**
 2ch.*/ololo/**
+2ch.*/static/js/events/*
 
 habr.com###subcriptions_block
 habr.com##.megapost-teasers
@@ -27,7 +28,26 @@ habr.com##.tm-notice_info
 habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 habr.com##.tm-voice-article
 habr.com##section.tm-block_spacing-bottom:has-text(Работа)
+habr.com##.tm-promo-block__content-wrapper
+habr.com##.tm-project-block
+habr.com##.tm-header-user-menu__item.tm-tracker-dropdown > .tm-dropdown
+habr.com##.tm-project-block_variant-salary
+habr.com##.tm-feature__link
+habr.com##.tm-top-link
+habr.com##.swiper-wrapper
+habr.com###stories_block_14
+! this needs regexp
+habr.com###promo_block_1
+habr.com###promo_block_2
+habr.com###promo_block_3
 habr.com###promo_block_4
+habr.com###promo_block_5
+habr.com###promo_block_6
+habr.com###promo_block_7
+habr.com###promo_block_8
+habr.com###promo_block_9
+habr.com###promo_block_10
+habr.com###promo_block_11
 
 ! https://vk.com — hide subscription shit and advertised functionality
 vk.com###block_aliexpress-recommendations-carousel
@@ -40,6 +60,7 @@ vk.com##.audio_promo
 vk.com##.feed_blog_reminder
 vk.com##.feed_groups_recomm.page_block
 vk.com##.profile_friends_recomm
+vk.com##.apps_feedRightAppsBlock_single_app--.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
 
 pornhub.com###relateRecommendedItems>.alpha
 pornhub.com###welcome
@@ -96,3 +117,34 @@ shoppingcart.aliexpress.com##.survey-link
 
 forum.xda-developers.com##.tloom-lb_modal
 forum.xda-developers.com##.tloom-lb_overlay
+
+twitter.com##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
+twitter.com##:xpath(//span[text()='Показать']/../../../../..)
+
+||www.nexusmods.com/assets/images/premiumbanner/billboard.png$image
+www.nexusmods.com###mainContent > div.clearfix
+
+reddit.com##.premium-banner-outer
+
+svtv.org##.post-fullpage-support
+svtv.org##.page__fuck-rkn
+@@||api.russiafossiltracker.com/v0/counter_last$xhr,domain=svtv.org
+
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##.yt-live-chat-viewer-engagement-message-renderer
+
+pawelurbanek.com##.post-content > div.center > .footer-special
+pawelurbanek.com##.post-content > div.center > .footer-specialer
+pawelurbanek.com##.measure > div.center > .footer-specialer
+pawelurbanek.com##.twitter-avatar.center
+pawelurbanek.com##.measure > div.center > .footer-special
+
+imgbin.com##.overlay_registration
+
+tbconline.ge##[href="https://www.products.tbconline.ge/loan-refinance"]
+
+jira.bgaming.com##.aui-message-error
+
+www.pepper.ru##.js-newsletter-widget
+
+www.xvideos.com##.premium-results-line
