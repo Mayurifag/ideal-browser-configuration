@@ -1,7 +1,8 @@
 {
-    "version": 6,
+    "version": 8,
     "engines": [
         {
+            "id": "google@search.mozilla.orgdefault",
             "_name": "Google",
             "_isAppProvided": true,
             "_metaData": {
@@ -10,6 +11,7 @@
             }
         },
         {
+            "id": "amazondotcom@search.mozilla.orgdefault",
             "_name": "Amazon.com",
             "_isAppProvided": true,
             "_metaData": {
@@ -18,6 +20,7 @@
             }
         },
         {
+            "id": "wikipedia@search.mozilla.orgdefault",
             "_name": "Wikipedia (en)",
             "_isAppProvided": true,
             "_metaData": {
@@ -26,6 +29,7 @@
             }
         },
         {
+            "id": "bing@search.mozilla.orgdefault",
             "_name": "Bing",
             "_isAppProvided": true,
             "_metaData": {
@@ -34,6 +38,7 @@
             }
         },
         {
+            "id": "ddg@search.mozilla.orgdefault",
             "_name": "DuckDuckGo",
             "_isAppProvided": true,
             "_metaData": {
@@ -42,6 +47,7 @@
             }
         },
         {
+            "id": "0dd096c5-490e-42d9-973a-7bd022141e6a",
             "_name": "Google Encrypted (NCR, No PWS, Safe Off, en-US)",
             "_loadPath": "[https]mycroftproject.com/google-encrypted-ncr-no-pws-safe-off-en-us.xml",
             "description": "Google Encrypted without Country Redirect, Personalized Results and Safe Search. Language en-US and Suggestions Enabled.",
@@ -50,7 +56,7 @@
             "_metaData": {
                 "loadPathHash": "p/cIHh3YVMR7Qo2uevBKW0JViaHiWBNRdNGaZ0BKfhg=",
                 "order": 1,
-                "updateexpir": 1669656344504,
+                "updateexpir": 1690554221817,
                 "alias": "g"
             },
             "_urls": [
@@ -76,17 +82,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://encrypted.google.com/?gws_rd=cr&pws=0&safe=off&gl=us&hl=en&num=50",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "fc279932-5df0-431b-a02b-82f3910abcca",
             "_name": "YouTube",
             "_loadPath": "[https]mycroftproject.com/youtube.xml",
             "description": "YouTube - Videos",
@@ -95,7 +100,7 @@
             "_metaData": {
                 "loadPathHash": "SUcTrk+xoYKLlCxpxHb3QNBWm7iqF3WIegWKUi+4U4g=",
                 "order": 3,
-                "updateexpir": 1669656344504,
+                "updateexpir": 1690554221818,
                 "alias": "yt"
             },
             "_urls": [
@@ -121,17 +126,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://www.youtube.com/index",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "48522b93-5ad4-4db7-b0aa-c4b6fc81ae3c",
             "_name": "4pda.to content - Google",
             "_loadPath": "[https]mycroftproject.com/4pda-content---google.xml",
             "description": "Searches 4pda.to content through Google",
@@ -140,7 +144,7 @@
             "_metaData": {
                 "loadPathHash": "X5D6agqwGk0q7w+kthqVyNsqdPSOqY/FQKVhlDRuDwo=",
                 "order": 4,
-                "updateexpir": 1669656344504,
+                "updateexpir": 1690554221819,
                 "alias": "4pda"
             },
             "_urls": [
@@ -160,17 +164,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://4pda.to/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "7bf81c4c-576f-4d7c-b361-3fe910ad821f",
             "_name": "Google Play - Apps",
             "_loadPath": "[https]mycroftproject.com/google-play---apps.xml",
             "description": "Search for Android apps",
@@ -179,7 +182,7 @@
             "_metaData": {
                 "loadPathHash": "WO1+mC1H0fHj/UzXYK7Tj9EhNqUYO7BDyRMEOsp6Yj0=",
                 "order": 5,
-                "updateexpir": 1669656344504,
+                "updateexpir": 1690554221819,
                 "alias": "gp"
             },
             "_urls": [
@@ -199,17 +202,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://play.google.com/store/apps",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "93feeb23-7cfa-4bed-92c2-c2f153af2e5d",
             "_name": "Wikipedia (ru)",
             "_loadPath": "[https]mycroftproject.com/wikipedia-ru.xml",
             "description": "Wikipedia (ru)",
@@ -218,7 +220,7 @@
             "_metaData": {
                 "loadPathHash": "5wkqyB6p/XnOsUgGzMgiGh7Cni/cKPXwufYSY7sswHg=",
                 "order": 12,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221819,
                 "alias": "wiki"
             },
             "_urls": [
@@ -244,17 +246,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "http://ru.wikipedia.org/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "6c701973-6940-4323-ad03-efeaacf47732",
             "_name": "Rutracker.org",
             "_loadPath": "[https]mycroftproject.com/rutrackerorg.xml",
             "description": "Torrents.ru Search",
@@ -263,7 +264,7 @@
             "_metaData": {
                 "loadPathHash": "Gyv0ASxEChEpV+8CLDOuloOku0RzTyJ2n8M2ArfqWto=",
                 "order": 7,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221819,
                 "alias": "rt"
             },
             "_urls": [
@@ -283,18 +284,17 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://rutracker.org/",
             "_hasPreferredIcon": false,
-            "queryCharset": "windows-1251"
+            "queryCharset": "windows-1251",
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "8671c380-6b39-458f-8578-4a334623fb3e",
             "_name": "Aliexpress",
             "_loadPath": "[https]mycroftproject.com/aliexpress.xml",
             "description": "Aliexpress shopping site",
@@ -315,17 +315,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://www.aliexpress.ru",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "4e4ebb44-ff8a-435e-8106-8448b110763b",
             "_name": "Tinkoff Stock",
             "_loadPath": "[https]paste.mozilla.org/tinkoff-stock.xml",
             "description": "",
@@ -345,16 +344,15 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
+            "_filePath": null,
+            "_definedAliases": [],
+            "__searchForm": "https://www.tinkoff.ru",
             "_updateInterval": null,
             "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
-            "_definedAliases": [],
-            "__searchForm": "https://www.tinkoff.ru"
+            "_iconUpdateURL": null
         },
         {
+            "id": "9b29f06d-dfc0-4b54-9966-6d53dae9aa43",
             "_name": "Steam",
             "_loadPath": "[https]mycroftproject.com/steam.xml",
             "description": "Search for games on Steam",
@@ -363,7 +361,7 @@
             "_metaData": {
                 "loadPathHash": "fIzbOVRtj4W5EnlwQwegpu5ShoRLDUenUfiuAGysTLE=",
                 "order": 9,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221819,
                 "alias": "st"
             },
             "_urls": [
@@ -389,17 +387,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://store.steampowered.com/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "8c3c6ef6-5de1-49b2-a654-9312732a435e",
             "_name": "VK.com Audio",
             "_loadPath": "[https]paste.mozilla.org/vkcom-audio.xml",
             "description": "",
@@ -419,16 +416,15 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
+            "_filePath": null,
+            "_definedAliases": [],
+            "__searchForm": "https://vk.com",
             "_updateInterval": null,
             "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
-            "_definedAliases": [],
-            "__searchForm": "https://vk.com"
+            "_iconUpdateURL": null
         },
         {
+            "id": "e2e5aa67-77bc-4934-9fee-3be2a65fe7b4",
             "_name": "Rutor (sort by Seeds)",
             "_loadPath": "[https]mycroftproject.com/rutor-sort-by-seeds.xml",
             "description": "Поиск по трекеру RuTor.is",
@@ -437,7 +433,7 @@
             "_metaData": {
                 "loadPathHash": "ilWG1+C894HL2V7JP6KOFq2j8Wv7Jr3t0KyYavpqNBU=",
                 "order": 8,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221819,
                 "alias": "rutor"
             },
             "_urls": [
@@ -457,17 +453,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "http://rutor.is/search/0/0/000/2/{searchTerms}",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "5d23c41d-f76e-4ac2-9595-9caef4bc78fa",
             "_name": "addons.mozilla.org FF extensions",
             "_loadPath": "[https]mycroftproject.com/ado-ff-extensions.xml",
             "description": "addons.mozilla.org - FF Extensions",
@@ -476,7 +471,7 @@
             "_metaData": {
                 "loadPathHash": "42SzcN2rJgLf6A24lkVxqQV1qqd/k4mBvqSh1GSlZUg=",
                 "order": 6,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221820,
                 "alias": "amo"
             },
             "_urls": [
@@ -496,17 +491,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://addons.mozilla.org/firefox/?type=extension",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "ed474954-6e17-4741-bf3b-f582685d0929",
             "_name": "DNS",
             "_loadPath": "[https]paste.mozilla.org/dns.xml",
             "description": "",
@@ -526,16 +520,15 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
+            "_filePath": null,
+            "_definedAliases": [],
+            "__searchForm": "https://www.dns-shop.ru",
             "_updateInterval": null,
             "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
-            "_definedAliases": [],
-            "__searchForm": "https://www.dns-shop.ru"
+            "_iconUpdateURL": null
         },
         {
+            "id": "6d139149-23e3-4190-8ece-51cf1704293c",
             "_name": "Яндекс.Маркет",
             "_loadPath": "[https]mycroftproject.com/gyqwc62qy2u.xml",
             "description": "Поиск товаров в Яндекс.Маркете",
@@ -544,7 +537,7 @@
             "_metaData": {
                 "loadPathHash": "BALQrXve8xY5porJV3jryUSSFPhjTleuCoII+Zqjs3g=",
                 "order": 16,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221820,
                 "alias": "ym"
             },
             "_urls": [
@@ -564,17 +557,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://market.yandex.ru/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "170dc533-9095-451d-8faf-83585202ab2e",
             "_name": "TradingViewChart",
             "_loadPath": "[https]mycroftproject.com/tradingviewchart.xml",
             "description": "Full screen chart by TradingView.com",
@@ -583,7 +575,7 @@
             "_metaData": {
                 "loadPathHash": "ZdlAAs3T0rbqIEKdnUglfdYHyBZ068bP9Fdq9VBJq0c=",
                 "order": 20,
-                "updateexpir": 1669656344505,
+                "updateexpir": 1690554221820,
                 "alias": "tw"
             },
             "_urls": [
@@ -603,17 +595,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://www.tradingview.com/chart/GOOG/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "e1a7b0cd-09db-4da1-b3b6-f7cca3859306",
             "_name": "XDA-Developers",
             "_loadPath": "[https]paste.mozilla.org/xda-developers",
             "description": "Search XDA-Developers Forum using Google",
@@ -633,17 +624,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://forum.xda-developers.com/search",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "7f0f13ac-90d5-4fa6-916f-846efaad5911",
             "_name": "DeepL ANY -> EN",
             "_loadPath": "[https]mycroftproject.com/deepl-any---en.xml",
             "description": "DeepL translation to EN",
@@ -652,7 +642,7 @@
             "_metaData": {
                 "loadPathHash": "o1+z9twMirq22qrBS+bjyjmAt3TNHaT0OLfDsB3zXng=",
                 "order": 22,
-                "updateexpir": 1669656344506,
+                "updateexpir": 1690554221821,
                 "alias": "ten"
             },
             "_urls": [
@@ -672,17 +662,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://www.deepl.com/translator",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "b3c99238-f413-443a-8d6e-c4becd5c0bef",
             "_name": "DeepL EN -> RU",
             "_loadPath": "[https]mycroftproject.com/deepl-en---ru.xml",
             "description": "DeepL translation from EN to RU",
@@ -691,7 +680,7 @@
             "_metaData": {
                 "loadPathHash": "9H0Viqqi/FPDnp1TpfbP6pV1fKH9nEGEqpp26/g7NTw=",
                 "order": 23,
-                "updateexpir": 1669656344506,
+                "updateexpir": 1690554221821,
                 "alias": "tru"
             },
             "_urls": [
@@ -711,17 +700,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://www.deepl.com/translator",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "e26027bc-d613-4dde-a753-205339562a16",
             "_name": "GitHub - Code",
             "_loadPath": "[https]mycroftproject.com/github---code.xml",
             "description": "Search for code on GitHub",
@@ -730,7 +718,7 @@
             "_metaData": {
                 "loadPathHash": "Hb6SBKV6GndnruwSUnaJKKLPUyayerkKtPVztoEKeIE=",
                 "order": 24,
-                "updateexpir": 1669656344506,
+                "updateexpir": 1690554221821,
                 "alias": "gh"
             },
             "_urls": [
@@ -750,17 +738,16 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "https://github.com/search",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "d23f6626-5912-4060-b768-2a0343360a74",
             "_name": "SeekingAlpha (Quote)",
             "_loadPath": "[https]mycroftproject.com/seekingalpha-quote.xml",
             "description": "Search for quotes on SeekingAlpha",
@@ -769,7 +756,7 @@
             "_metaData": {
                 "loadPathHash": "9kswGSD4TLorTQXop3u3zz4yjsf4QnqkLIc1cDr0ZK8=",
                 "order": 25,
-                "updateexpir": 1669656344506,
+                "updateexpir": 1690554221821,
                 "alias": "sa"
             },
             "_urls": [
@@ -789,25 +776,25 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
             "_filePath": null,
-            "_extensionID": null,
-            "_locale": null,
             "_definedAliases": [],
             "__searchForm": "http://seekingalpha.com",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "88aaeaba-35c6-4fb3-8e28-c2a9e68fc5dd",
             "_name": "Twitch",
             "_loadPath": "[https]mycroftproject.com/twitch.xml",
             "description": "Twitch",
             "_iconURL": "data:image/x-icon;base64,AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0aPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpH//0WPkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aRz/9AjxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aRz/9IjyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR3/9IjyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkd//SI8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkd//SI8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//o8j//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkd//QI8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR////////qMzv/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkc//QI8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH/////////////sNDf/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkc//QI8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//////////////////y+Cw/0WR7/9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gj6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH///////////////////////////////////////////////////////////////////////+jyP//RpH//0aR//9Gj6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf////////////////////////////////////////////////////////////////////////////+jyP//RpH//0aR//9Fj5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//////////////////////////////////////////////////////////////////////////////////+jyP//RpH//0aR//9Gj4AAAAAAAAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH///////////////////////////////////////////////////////////////////////////////////////+jyP//RpH//0aR//9Gj4AAAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf////////////////////////////////////////////////////////////////////////////////////////////+Xwf//RpH//0aR/wAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//////////////////////////////////////////////////////////////////////////////////////////////////9Gkf//RpH/AAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//////////////////////////////////////////////////////////////////////////////////////////////////0aR//9Gkf8AAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//////////////////////////////////////////////////////////////////////////////////////////////////RpH//0aR/wAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//////////////////////////////////9Gkf//RpH///////////////////////9Gkf//RpH///////////////////////9Gkf//RpH/AAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//////////////////////////////////0aR//9Gkf///////////////////////0aR//9Gkf///////////////////////0aR//9Gkf8AAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//////////////////////////////////RpH//0aR////////////////////////RpH//0aR////////////////////////RpH//0aR/wAAAAAAAAAAAAAAAAAAAAD/RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//////////////////////////////////9Gkf//RpH///////////////////////9Gkf//RpH///////////////////////9Gkf//RpH/AAAAAAAAAAAAAAAAAAAAAP9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//////////////////////////////////0aR//9Gkf///////////////////////0aR//9Gkf///////////////////////0aR//9Gkf8AAAAAAAAAAAAAAAAAAAAA/0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//////////////////////////////////RpH//0aR////////////////////////RpH//0aR////////////////////////RpH//0aR/wAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//////////////////////////////////////////////////////////////////////////////////////////////////9Gkf//RpH/AAAAAAAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//9Gkf//RpH//////////////////////////////////////////////////////////////////////////////////////////////////0aR//9Gkf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//9Gkf//////////////////////////////////////////////////////////////////////////////////////////////////RpH//0aR/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//////////////////////////////////////////////////////////////////////////////////////////////////9Gkf//RpH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/RpN//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR//9Gkf//RpH//0aR/wAAAAAAAAAA/9/////P////x////8H////A////wH//wAAD/8AAAf/AAAD/wAAAf8AAAD/AAAA/wAAAH8AAAA/AAAAHwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAA/AAAAP4AAAD/AAAA/4AAAM=",
+            "_iconMapObj": null,
             "_metaData": {
                 "loadPathHash": "xOGxgHUPUlNIPE2UWwBb/MnsUjpdX9JL9NKslJw+4rU=",
                 "order": 26,
-                "updateexpir": 1669847365367,
+                "updateexpir": 1690554221821,
                 "alias": "twi"
             },
             "_urls": [
@@ -827,20 +814,21 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_extensionID": null,
-            "_locale": null,
+            "_filePath": null,
             "_definedAliases": [],
             "__searchForm": "https://www.twitch.tv/",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
+            "id": "b1c4af55-da87-4de0-ae9f-19719163e329",
             "_name": "KinoPub",
             "_loadPath": "[https]paste.mozilla.org/kinopub.xml",
             "description": "",
             "_iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAAG0OVFdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3RjVCQzE3OTE0MTQxMUU2OENFRUUxNDlFRTFGOTZEQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3RjVCQzE3QTE0MTQxMUU2OENFRUUxNDlFRTFGOTZEQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjdGNUJDMTc3MTQxNDExRTY4Q0VFRTE0OUVFMUY5NkRDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjdGNUJDMTc4MTQxNDExRTY4Q0VFRTE0OUVFMUY5NkRDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+R+5+fwAAD2NJREFUeNq0U0EO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",
+            "_iconMapObj": null,
             "_metaData": {
                 "loadPathHash": "ia8iscQfM0pYfussDxVHPN/En0XYfLZAeIj2LUNnISo=",
                 "order": 27,
@@ -855,18 +843,20 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
+            "_filePath": null,
+            "_definedAliases": [],
+            "__searchForm": "https://kino.pub",
             "_updateInterval": null,
             "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_extensionID": null,
-            "_locale": null,
-            "_definedAliases": []
+            "_iconUpdateURL": null
         },
         {
+            "id": "7c28443f-0f69-4515-857a-b70a8c19141d",
             "_name": "eshop-prices.com",
             "_loadPath": "[https]paste.mozilla.org/eshop-pricescom.xml",
             "description": "",
             "_iconURL": "data:image/vnd.microsoft.icon;base64,AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABAAgAqAgAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAGQD8ABJvaAAApv8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAIIbiAAgE5QDcOwAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAQEBAQQEBAQBAQEBBAQEBAQBAQEEBAQEAQEBBAQEBAQEBAAAAAQEAAAABAQEBAQEAgIAAAAAAAAAAAICBAQEBAICAgAAAAAAAAICAgQEBAQCAgEAAgAAAgABAgIEBAQEAQEBAQAAAAABAQEBBAQEBAQBAQEAAQEAAQEBBAQEBAQEBAEBAAEBAQQEBAQEBAQEBAQEAgICAgICAgQEBAQEBAQBAQICAgIBAQEBBAQEBAQEAQIBAQICAgECAgIEBAQEBAECAQICAgECAgIEBAQEBAQEAQEBAgIBAgQEBAQEBAQEBAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAEBAQEBATDwwAA48cAAPGPAADAAwAAwAMAAMADAADAAwAA4AcAAPA/AAD4DwAA4AcAAOADAADgBwAA8B8AAPAHAAD4PwAAKAAAACAAAABAAAAAAQAIAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAABJvaAAZAPwAAKb/AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAEBAQEBAQEBAQEAAAAAAAABAQEBAQEBAQAAAAAAAAEBAQEBAQEBAQEBAQAAAAAAAAEBAQEBAQEBAAAAAAAAAQEBAQEBAQEBAQEBAQEAQEBAQEBBAQEBAEBAQEBAQQEBAQEBAQEBAQEBAQEBAQBAQEBAQEEBAQEAQEBAQEBBAQEBAQEBAQEBAQEAgICAgEBAQEBAQEBAQEBAQEBAQECAgICBAQEBAQEBAQCAgICAQEBAQEBAQEBAQEBAQEBAQICAgIEBAQEBAQEBAICAgICAgEBAQEBAQEBAQEBAQICAgICAgQEBAQEBAQEAgICAgICAQEBAQEBAQEBAQEBAgICAgICBAQEBAQEBAQCAgICAAABAQICAQEBAQICAQEAAAICAgIEBAQEBAQEBAICAgIAAAEBAgIBAQEBAgIBAQAAAgICAgQEBAQEBAQEAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAEBAQEBAQEBAQEAAAAAAAAAQEAAAAAAQEAAAAAAAAEBAQEBAQEBAQEBAQAAAAAAAABAQAAAAABAQAAAAAAAAQEBAQEBAQEBAQEBAQEAAAAAAEBAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAQEAAAAAAAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAgICAgICAgICAgICAgIEBAQEBAQEBAQEBAQEBAQEBAQCAgICAgICAgICAgICAgQEBAQEBAQEBAQEBAQEAAAAAAICAgICAgICAAAAAAAAAAAEBAQEBAQEBAQEBAQAAAAAAgICAgICAgIAAAAAAAAAAAQEBAQEBAQEBAQEBAAAAgIAAAAAAgICAgICAAACAgICAgIEBAQEBAQEBAQEAAACAgAAAAACAgICAgIAAAICAgICAgQEBAQEBAQEBAQAAAICAAACAgICAgIAAAICAgICAgQEBAQEBAQEBAQEBAAAAgIAAAICAgICAgAAAgICAgICBAQEBAQEBAQEBAQEBAQAAAAAAAACAgICAAACAgQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAICAgIAAAICBAQEBAQEBAQEBAQEBAQEBAQEAQEBAQEBAQEBAQEBAQEBAQEBBAQEBAQEBAQEBAQEBAQBAQEBAQEBAQEBAQEBAQEBAQEEBAQEBAQEBAQEBAQEBAQEAQEBAQEBAQEBAQQEBAQEBAQEBAQEBAQEBAQEBAQEBAQBAQEBAQEBAQEBBAQEBAQEBAQEBAQE8A/wD/AP8A/8D/A//A/wP/8DwP//A8D/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/8AAA//AAAP/8AD///AA///8AA///AAP/8AAA//AAAP/wAAA/8AAAP/AAAP/wAAD//AAP//wAD//8AAD//AAA//8AP///AD/8=",
+            "_iconMapObj": null,
             "_metaData": {
                 "loadPathHash": "QaeYteODUsmC/x6AqrC2R7ZMKQ9VsU4l2vAH/eXjrRE=",
                 "order": 28,
@@ -881,22 +871,24 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
+            "_filePath": null,
+            "_definedAliases": [],
+            "__searchForm": "https://eshop-prices.com",
             "_updateInterval": null,
             "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_extensionID": null,
-            "_locale": null,
-            "_definedAliases": []
+            "_iconUpdateURL": null
         },
         {
+            "id": "a3c0c1a7-9ebc-4bbe-9606-e4aa71256a4b",
             "_name": "NNM-Club.TO",
             "_loadPath": "[https]mycroftproject.com/nnm-clubto.xml",
             "description": "NNM-Club.TO",
             "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAREQCQMxAgEAGgAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBARKvZgfp8JIA/8ZQAP3AcAHoHhECLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAwIyuXUA//7aAP/6nQH//r4L/2xbApY7IwNXHg8CLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAJH9BAP7+7QD//esb//rvdf+Xhh7j99sB/s1/Bu4uFQZrAAAABAAAAAAAAAAAAAAAABAEAj8OBQRUAwICSAAAABpQFArl+bAA//7pB//qniT//cQK//7cAP/9ogD/9IIA/p4tBNk0AwGyAwICOAYDARuFOAL4wi8A/5I6AP9SDQTuVCcW88E7AP/UUwD/zB0A/8ooAP+5NQD/zDoA//NuAP/2TAD/jBEF9gYEBDwVCwU/xlIA//7UAP/+3gD/+MUA/7x1AP8OBQX/VA0E8WcJAPNUBQD8XQcC/pEkBPypgQvoVygBog0EAy8AAAAAEQgEN79DAP/oWgD/+XcA//3gIv/3nAD/VREE6AAAAI0AAAA6AAAAHwEBAVIBAQEkAAAABgAAAAAAAAAAAAAAAAEAAA6jOQHiuyYA/8B0Gf/oxjT/+sAB/3wdAdMAAAA/AAAALgAAAEIAAAAwAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAYDJFYzCqXVURD9+c8B//qnAP95EQTOAAAAIgAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCMgGy6UoA/+t3AP/xagD/ahEExQAAAFEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAgAOswyAPzKPQD/9HkA/1MYA64AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFGBgKokhgA//i0AP89JA99AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgMDZto0AP/IdgX2BwQEIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAlRmBwD8KwkCbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAwICKwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+H+sQfA/rEHwD6xB8AOsQYAArEEAAKxBAAGsQQAHrEEAD6xBgH+sQcB/rEHA/6xBwf+sQeH/rEHj/6xB4/+sQQ==",
+            "_iconMapObj": null,
             "_metaData": {
                 "loadPathHash": "ixKpVWlcwDc1m1WCAd3HOKLRndG97oWxnk9X7Rg0xek=",
                 "order": 29,
-                "updateexpir": 1669848063014,
+                "updateexpir": 1690554221821,
                 "alias": "nn"
             },
             "_urls": [
@@ -916,14 +908,85 @@
             ],
             "_orderHint": null,
             "_telemetryId": null,
-            "_updateInterval": null,
-            "_updateURL": null,
-            "_iconUpdateURL": null,
-            "_extensionID": null,
-            "_locale": null,
+            "_filePath": null,
             "_definedAliases": [],
             "__searchForm": "https://nnmclub.to",
-            "_hasPreferredIcon": false
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
+        },
+        {
+            "id": "b8ec70fb-94a8-414a-837a-623c44962fbd",
+            "_name": "CoinMarketCap",
+            "_loadPath": "[https]mycroftproject.com/coinmarketcap.xml",
+            "description": "Search for currency in CoinMarketCap",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/MgVg/zQHz/81CP//Nwn//zgK//85C///Owz//zwN//8+Dv//Pw7//0EP//9CEf//RBH//0UT//9GE///SBT//0kV//9LFv//TBf//04Y//9PGf//URr//1Ib//9THP//VR2//1YegP9QIBAAAAAAAAAAAAAAAAD/MAgg/zIG3/80B///NQj//zcJ//84Cv//Ogv//zsM//89Df//Pg7//0AP//9BD///QhH//0QS//9FEv//RxT//0gU//9JFf//Sxf//0wX//9OGP//Txn//1Eb//9SG///VBz//1Ud//9XHv//WB///1kg3/9YICAAAAAA/zAAEP8yBt//NAf//zUI//83Cf//OAr//zoL//87DP//PQ3//z4O//9AD///QRD//0IR//9EEv//RRP//0cU//9IFf//Shb//0sW//9NGP//Thj//1Aa//9RG///Uhv//1Qd//9VHv//Vx7//1gf//9aIP//WyH//10i3wAAAAD/NAaA/zQH//82CP//Nwn//zkK//86C///Owz//z0N//8+Dv//QA///0EQ//9CEf//RBL//0YT//9HFP//SBX//0oW//9LF///TRj//04Z//9QGv//URv//1Mc//9UHf//VR7//1cf//9YIP//WiH//1si//9dIv//XiT//2EmX/80CL//Ngj//zcJ//85Cv//Ogv//zwM//89Df//Pw7//0AP//9BEP//QxH//0QS//9GE///RxT//0kV//9KFv//TBf//00Y//9OGf//UBr//1Eb//9THP//VB3//1Ye//9XH///WSD//1oh//9bIv//XSP//14k//9gJf//YSXP/zYI//84Cf//OQr//zoL//88DP//PQ3//z8O//9AD///QRD//0MR//9EEv//RhP/+FEi//h/Xf/3po7/97mn//e5p//3sJv/+JZ4//ZgMP/+Uhz//1Qd//9WHv//Vx///1kg//9aIf//XCL//10j//9eJP//YCX//2Em//9jJ///OAn//zkK//87C///PAz//z0N//8/Dv//QA///0IQ//9DEf//RRL/+Vsw//m3pf/++Pf///////////////////////////////////////rTxv/4flX//lcf//9ZIP//WiH//1wi//9dI///XyT//2Al//9iJv//Yyf//2Qo//85Cv//Owv//zwM//8+Df//Pw7//0AP//9CEP//QxH//0US//qGZ//86OL/////////////zsD//5t+//+AWv//g13//5Rx//+9p///9PH////////////4sJb//Fkh//9cIv//XSP//18k//9gJf//Yib//2Mn//9lKP//Zin//zsM//88Df//Pg3//z8P//9BD///QhD//0QS//9FEv/6lnv/////////////var//2M0//9OGP//Txn//1Ea//9SG///Uxz//1Ud//9eKP//q4////Xy///////7sZb//14j//9fJP//YCX//2Im//9jJ///ZSj//2Yp//9oKv//PA3//z4O//9AD///QRD//0IR//9EEv//RRL/+nxZ/////////////5p9//9MF///Thj//1AZ//9RG///Uhv//1Qc//9VHf//Vh7//1gf//9ZIP//dEL//+HW//+lg///XyT//2El//9iJv//ZCf//2Uo//9mKf//aCr//2kr//8+Dv//QA///0EQ//9CEf//RBL//0UT//1SIv/+6+f///////7n4f/8TBf//04Y//9QGf//URr//1Ic//9UHP//VR3//1ce//9YH///WiD//1sh//9cIv//XiP//2Ak//9hJf//Yib//2Qn//9lKP//Zyn//2gq//9pK///ayz//0AP//9BEP//QhH//0QS//9FE///RxT//KKJ//////////////////ymi///UBr//1Eb//9SHP/9VBz/+XVK//pgLP//WCD//1kg//9bIv//XCL//14j//lnMv/4dkb/+mgw//9kJ///ZSj//2cp//9oKv//aSv//2ss//9sLf//QhD//0MR//9EEv//RhP//0cU//5IFf/+7ej///////+Rcf///////fHu//pmN///Uxz//1Qd//yaev///////Onj//ttPP//WyL//10j//5eJP/3rJD//vv7///////99PH/+513//9nKf//aCv//2or//9rLP//bS7//24u//9DEf//RBL//0YT//9HFP//SRX//W9G////////4dj//04Z//+xmf//////+se2//5UHf//Vh7//tfK////////////+tDB//5dI///XiT/+oZa/////////////+Xb////////////+n5L//9qLP//ay3//20u//9uL///cDD//0US//9GE///RxT//0kV//9KFv/+j27///////+ymv//UBr//2Av///p4///////+5Ry//9XH//+3tP///////718v//////+5l1//9gJf/+xK////////+nhP//Zin//7SV///////9waj//2wt//9tLv//bi///3Aw//9xMf//RhP//0gU//9JFf//Shb//0wX//+kiP///////51+//9SG///Uxz//5Vx///////86eP//ms4//7e0////////qyO///////97OX//3VB///Yyf///////n1J//9nKv//hlT///////7e0f//bS7//28v//9wMP//cTH//3My//9IFP//SRX//0sW//9MF///TRj//6eM///////+nX7//1Mc//9VHf//Vh7//8Sw///////6vqn//t/T///////+dUL//8St///////6vaT//9jJ///////+fUn//2kr//5+Sf///////uLW//9vL///cDD//3Ix//9zMv//dDP//0oW//9LF///TBf//04Z//9QGf//l3j///////2rkv//VR3//1ce//9YH///bjz///Xx///////98u////////52Q///dkH///f0///////+9vP///////5+Sf//ayz//pdr////////y7T//3Ew//9yMf//czL//3Uz//92NP//Sxb//00Y//9OGf//UBn//1Ea//99VP///////djL//9XHv//WB///1og//9bIf//pYX//////////////////nhE//9kJ///on///////////////////3pB//9sLf/9tZX///////+4mP//cjH//3Qy//91M///djT//3g1//9NGP//Thn//1Aa//9RGv//Uhv//1Qd///t5///////+2w7//9aIP//WyL//1wi//9eI///6eL/////////////eEL//2Uo//9nKf//tJX////////Fq///bC3//m4u//vh1f///////5Vl//90Mv//dTP//3c0//94Nf//eTb//04Z//9QGv//URv//1Mc//9UHf//VR7//7mh///////6v6v//1sh//9dI///XiP//2Ak//91Qf//283//7yh//9lKf//Zyn//2gq//9qK///bS7//20t//9uLv/5m3H////////j1///dDL//3Uz//93NP//eDX//3o2//96Nv//UBr//1Eb//9THP//VB3//1Ye//9XH///bTv//+vl///////6k23//14k//9gJf//YSb//2Mn//9kKP//Zin//2cq//9oK///aiz//2st//9tLf//bi//+4BJ//3y7v///////5lo//91M///dzX//3g1//96Nv//ejb//3o2//9RG///Uxz//1Qd//9WHv//Vx///1kg//9aIf//nnv///////718v/4hFn//2Em//9jJ///ZCj//2Yp//9nKv//aSv//2os//9sLf//bS7//24v//mASP/97OX////////LtP//djT//3c0//94Nf//ejb//3o2//96Nv//ejb//1Mc//9VHf//Vh7//1gf//9ZIP//WiH//1wi//9dI///r5H////////+/v/5tp3/+msz//9mKf//Zyr//2kr//9qLP//bC3//20u//xtLv/5o3z//Ovl////////5dn//34///93Nf//eTX//3o2//96Nv//ejb//3o2//96Nv//VR3//1Ye//9YH///WSD//1oh//9cIv//XSP//18k//9gJf//p4X///v5///////+9PL/97ed//mXb//4gE7/+YNR//eOYP/3qYj/++ni/////////////8iu//99P///dzX//3k2//96Nv//ejb//3o2//96Nv//ejb//3o2//9WHv//WB///1kg//9bIf//XCL//14j//9fJP//YCX//2Im//9jJ///h1n//9nK/////////////////////////////////////////////+7l//+pgP//djT//3g1//95Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//1gf//9aIP//WyH//1wi//9eI///XyT//2El//9iJv//ZCf//2Uo//9nKf//aCr//4RQ//+siP//0b3//+PX///i1P//3Mv//7+h//+Zav//dTP//3Y0//94Nf//eTb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//WyDP/1sh//9dIv//XiP//2Ak//9hJv//Yib//2Qn//9lKP//Zyn//2gq//9qK///ayz//2wt//9uLv//by///3Ew//9yMf//dDL//3Uz//93NP//eDX//3k2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3k1v/9aIGD/XSP//14j//9gJP//YSX//2Mn//9kJ///ZSj//2cp//9oKv//aiv//2ss//9sLf//bi7//3Av//9xMP//cjH//3Qy//91M///dzT//3g1//95Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//eTaAAAAAAP9fI9//YCT//2Em//9jJ///ZCf//2Yp//9nKv//aCr//2or//9rLP//bS3//24u//9wL///cTD//3My//90Mv//dTP//3c0//94Nf//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o23/9wMBAAAAAA/2AoIP9hJt//Yyf//2Qo//9mKf//Zyr//2gr//9qLP//bC3//20u//9uL///cDD//3Ex//9zMf//dDL//3Uz//93NP//eTb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nt//dzAgAAAAAAAAAAAAAAAA/3AgEP9kKH//ZSm//2cq//9pK///aiz//2st//9tLv//by///3Aw//9xMf//czL//3Qz//92NP//dzX//3g1//96Nv//ejb//3o2//96Nv//ejb//3o2//96Nv//ejb//3o2//96Ns//ezZfAAAAAAAAAAAAAAAA4AAAA4AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAcAAAAc=",
+            "_metaData": {
+                "loadPathHash": "eaywTyB6XrOXV/yz4xsILUbbxMPWeIA7e9C0rpQc3rQ=",
+                "order": 30,
+                "updateexpir": 1690639228386,
+                "alias": "c"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://coinmarketcap.com/search/?q={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/coinmarketcap.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_definedAliases": [],
+            "__searchForm": "https://coinmarketcap.com",
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
+        },
+        {
+            "id": "46fef6fb-8158-43d3-93f7-f5aa0424b7c7",
+            "_name": "PornHub",
+            "_loadPath": "[https]mycroftproject.com/pornhub.xml",
+            "description": "Video search",
+            "_iconURL": "data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABorAAACAwAAwP8AAG+5AAA0VgAAUYkAAInkAAA/aQAAMFEAAJf/AABZlAAAmv8AAGSnAAAaLAAAERwAAKP/AABHZAAABAcAAC0xAACp/wAArP8AALL/AABDcAAAbowAAI/uAAAKEAAAht4AALv/AAAtSwAAiOEAAI3sAACV/wAAmP8AAJv/AAABAQAAnv8AAHrHAABlpwAA//8AAND/AACh/wAAiOIAAC9PAABqsgAApP8AAEVkAABJegAAp/8AADFSAACq/wAAGSoAAAECAACt/wAAM1UAAIjjAAA+aAAAfcgAALb/AAAdMAAAT4MAADpjAABAawAAuf8AAAsQAAC//wAAAAYAAML/AAADBgAACQ4AAMX/AACW/wAAmf8AADdcAACc/wAAn/8AABAcAABRhwAAov8AAIXdAADX/wAAqP8AAKv/AACQ8AAAWI0AAC5NAACx/wAAIEMAALT/AACF3gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISAxISEhISCIiSEgMIkhICkpWLSBIIUg1MEcgEDUiCk4ZCAQUSCQiMTwUNQ0xHxBSTwAvQ0sQSgAzWBw4AFkyUSoABjpOPykANihQCwA3UVEHAjRCRVQyD0wuETs0B1FRNyNVGAkAJh0CGkASAgdRUR4ALCdOAD0BVUFGTQA3UVIbAEQTAAA5AA4/Az4AWTJOUxcFV0klNSs8FDUNMR8QCkoWFhZYNSEVMEcgEDUiCkhIDAwMSEhIIiJISAwiSEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+            "_metaData": {
+                "loadPathHash": "sgYkYiamipfx0QkDI2azrDU1cff0jFlR+t2VULJBC50=",
+                "order": 31,
+                "updateexpir": 1690639472452,
+                "alias": "ph"
+            },
+            "_urls": [
+                {
+                    "params": [],
+                    "rels": [],
+                    "template": "https://www.pornhub.com/video/search?search={searchTerms}"
+                },
+                {
+                    "params": [],
+                    "rels": [
+                        "self"
+                    ],
+                    "template": "https://mycroftproject.com/updateos.php/id0/pornhub-video.xml",
+                    "type": "application/opensearchdescription+xml"
+                }
+            ],
+            "_orderHint": null,
+            "_telemetryId": null,
+            "_definedAliases": [],
+            "__searchForm": "https://www.pornhub.com/video/search",
+            "_hasPreferredIcon": false,
+            "_updateInterval": null,
+            "_updateURL": null,
+            "_iconUpdateURL": null
         },
         {
             "_name": "Yandex",
@@ -951,6 +1014,11 @@
         "channel": "release",
         "experiment": "",
         "distroID": "",
-        "appDefaultEngine": "Google"
+        "appDefaultEngine": "Google",
+        "defaultEngineId": "0dd096c5-490e-42d9-973a-7bd022141e6a",
+        "defaultEngineIdHash": "Ky6ej44yHCNSdrz1OeTH6qkJi6/a2ohuceXdYTW02ps=",
+        "privateDefaultEngineId": "",
+        "privateDefaultEngineIdHash": "VeZK2LsAZlZiokTV4tsJyLrx0exYsINTGpb1fvPx5Gk=",
+        "appDefaultEngineId": "google@search.mozilla.orgdefault"
     }
 }
