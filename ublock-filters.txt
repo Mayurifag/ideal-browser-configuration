@@ -5,10 +5,6 @@
 !
 ! Keep sorted alphabetically if possible
 
-2ch.*###plashque
-2ch.*##.board-banner
-2ch.*##.desktop.tti_info
-2ch.*##audio
 2ch.*/banners/**
 2ch.*/images/**
 2ch.*/makaba/templates/img/santa_hat.png
@@ -16,28 +12,43 @@
 2ch.*/music/**
 2ch.*/ololo/**
 2ch.*/static/js/events/*
+2ch.*##.board-banner
+2ch.*##.desktop.tti_info
+2ch.*###plashque
+2ch.*##audio
 
-habr.com###subcriptions_block
+4pda.to##.poll-frame
+
+deepl.com##.dl_ad_pro_container
+deepl.com##.dl_app_popup__content
+deepl.com##.dl_overlay_popup
+
+ethermine.org##.tos-container
+
+eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
+
+forum.xda-developers.com##.tloom-lb_modal
+forum.xda-developers.com##.tloom-lb_overlay
+
 habr.com##.megapost-teasers
 habr.com##.promo-block
 habr.com##.subscription
+habr.com##.swiper-wrapper
 habr.com##.tm-company-card__branding-image
 habr.com##.tm-company-widgets
+habr.com##.tm-feature__link
+habr.com##.tm-header-user-menu__item.tm-tracker-dropdown > .tm-dropdown
 habr.com##.tm-most-reading-block__promo-post:upward(.tm-article-list-block__item)
 habr.com##.tm-notice_info
-habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
-habr.com##.tm-voice-article
-habr.com##section.tm-block_spacing-bottom:has-text(Работа)
-habr.com##.tm-promo-block__content-wrapper
 habr.com##.tm-project-block
-habr.com##.tm-header-user-menu__item.tm-tracker-dropdown > .tm-dropdown
 habr.com##.tm-project-block_variant-salary
-habr.com##.tm-feature__link
+habr.com##.tm-promo-block__content-wrapper
+habr.com##.tm-sexy-sidebar > .tm-block:has-text(Лучшие блоги)
 habr.com##.tm-top-link
-habr.com##.swiper-wrapper
-habr.com###stories_block_14
-! this needs regexp
+habr.com##.tm-voice-article
 habr.com###promo_block_1
+habr.com###promo_block_10
+habr.com###promo_block_11
 habr.com###promo_block_2
 habr.com###promo_block_3
 habr.com###promo_block_4
@@ -46,92 +57,79 @@ habr.com###promo_block_6
 habr.com###promo_block_7
 habr.com###promo_block_8
 habr.com###promo_block_9
-habr.com###promo_block_10
-habr.com###promo_block_11
+habr.com###stories_block_14
+habr.com###subcriptions_block
+habr.com##section.tm-block_spacing-bottom:has-text(Работа)
 
-! https://vk.com — hide subscription shit and advertised functionality
-vk.com###block_aliexpress-recommendations-carousel
-vk.com###block_youla-recommendations-carousel
-vk.com##.CatalogBlock__subscription_ru
-vk.com##.ConvoRecommendList
-vk.com##.EasterEggsContainer
-vk.com##.RecommendedNarrativesBlock
-vk.com##.audio_promo
-vk.com##.feed_blog_reminder
-vk.com##.feed_groups_recomm.page_block
-vk.com##.profile_friends_recomm
-vk.com##.apps_feedRightAppsBlock_single_app--.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
-
-pornhub.com###relateRecommendedItems>.alpha
-pornhub.com###welcome
-pornhub.com##.section-p2v
-
-pornolab.net###logo
-pornolab.net###page_footer
-pornolab.net###vs_here
-pornolab.net##.freeleech-icon
-
-deepl.com##.dl_app_popup__content
-deepl.com##.dl_overlay_popup
-deepl.com##.dl_ad_pro_container
-
-eurogamer.net##.ot-fade-in.onetrust-pc-dark-filter
-
-||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
-pepper.ru##.tGrid-row.footer
-pepper.ru##.js-telegram-widget
-
-ethermine.org##.tos-container
-
-youtube.com##.ytd-button-renderer.style-scope:has-text(/Создать клип|Спасибо/)
+imgbin.com##.overlay_registration
 
 itvdn.com##.subject-related-specialty
 
 meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнему нужна поддержка)
+meduza.io##[href="https://mdza.io/XfuQp-kfo_c"]
 
-tapochek.net###aposnow
-tapochek.net###page_container > .copyright
-tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
-tapochek.net##.b-page_newyear
-tapochek.net##.snow-layer
-tapochek.net##.snowman
+pawelurbanek.com##.measure > div.center > .footer-special
+pawelurbanek.com##.measure > div.center > .footer-specialer
+pawelurbanek.com##.post-content > div.center > .footer-special
+pawelurbanek.com##.post-content > div.center > .footer-specialer
+pawelurbanek.com##.twitter-avatar.center
 
-superuser.com##.s-sidebarwidget__yellow
+pepper.ru##.js-telegram-widget
+pepper.ru##.tGrid-row.footer
+pepper.ru##.js-newsletter-widget
+||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
 
-shoppingcart.aliexpress.com##.survey-link
-
-4pda.to##.poll-frame
-
-forum.xda-developers.com##.tloom-lb_modal
-forum.xda-developers.com##.tloom-lb_overlay
-
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../..)
-
-||www.nexusmods.com/assets/images/premiumbanner/billboard.png$image
-www.nexusmods.com###mainContent > div.clearfix
+pornhub.com##.section-p2v
+pornhub.com###relateRecommendedItems>.alpha
+pornhub.com###welcome
+pornolab.net##.freeleech-icon
+pornolab.net###logo
+pornolab.net###page_footer
+pornolab.net###vs_here
+xvideos.com##.premium-results-line
 
 reddit.com##.premium-banner-outer
 
-svtv.org##.post-fullpage-support
-svtv.org##.page__fuck-rkn
+revert.finance##.relative.landing-footer
+
+shoppingcart.aliexpress.com##.survey-link
+
+superuser.com##.s-sidebarwidget__yellow
+
 @@||api.russiafossiltracker.com/v0/counter_last$xhr,domain=svtv.org
+svtv.org##.page__fuck-rkn
+svtv.org##.post-fullpage-support
 
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##.yt-live-chat-viewer-engagement-message-renderer
-
-pawelurbanek.com##.post-content > div.center > .footer-special
-pawelurbanek.com##.post-content > div.center > .footer-specialer
-pawelurbanek.com##.measure > div.center > .footer-specialer
-pawelurbanek.com##.twitter-avatar.center
-pawelurbanek.com##.measure > div.center > .footer-special
-
-imgbin.com##.overlay_registration
+tapochek.net##.b-page_newyear
+tapochek.net##.snow-layer
+tapochek.net##.snowman
+tapochek.net###aposnow
+tapochek.net###page_container > .copyright
+tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
 
 tbconline.ge##[href="https://www.products.tbconline.ge/loan-refinance"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../..)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
 
-jira.bgaming.com##.aui-message-error
+vk.com##.apps_feedRightAppsBlock_single_app--.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
+vk.com##.audio_promo
+vk.com##.CatalogBlock__subscription_ru
+vk.com##.ConvoRecommendList
+vk.com##.EasterEggsContainer
+vk.com##.feed_blog_reminder
+vk.com##.feed_groups_recomm.page_block
+vk.com##.profile_friends_recomm
+vk.com##.RecommendedNarrativesBlock
+vk.com###block_aliexpress-recommendations-carousel
+vk.com###block_youla-recommendations-carousel
 
-www.pepper.ru##.js-newsletter-widget
+||nexusmods.com/assets/images/premiumbanner/billboard.png$image
+nexusmods.com###mainContent > div.clearfix
 
-www.xvideos.com##.premium-results-line
+youtube.com##.yt-live-chat-viewer-engagement-message-renderer
+youtube.com##.ytd-button-renderer.style-scope:has-text(/Создать клип|Спасибо/)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##ytd-reel-shelf-renderer
