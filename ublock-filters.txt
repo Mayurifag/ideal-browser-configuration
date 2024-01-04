@@ -16,6 +16,8 @@
 2ch.*##.desktop.tti_info
 2ch.*###plashque
 2ch.*##audio
+2ch.*##.rules
+2ch.*##.footer__info
 
 4pda.to##.poll-frame
 
@@ -60,6 +62,8 @@ habr.com###promo_block_9
 habr.com###stories_block_14
 habr.com###subcriptions_block
 habr.com##section.tm-block_spacing-bottom:has-text(Работа)
+habr.com##.article-donation-block__message
+habr.com##.article-donation-block
 
 imgbin.com##.overlay_registration
 
@@ -133,3 +137,15 @@ youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##ytd-reel-shelf-renderer
+
+twitch.tv##.holiday-gradient
+
+eshop-prices.com##.ads
+eshop-prices.com##div.games-list-item.adsbygoogle
+
+cock.li##.shills
+cock.li##blockquote
+
+rubyreferences.github.io##.menu-title
+
+hexlet.io##.hexlet-pre-courses-banner
