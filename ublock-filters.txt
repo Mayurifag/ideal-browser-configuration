@@ -130,14 +130,6 @@ vk.com###block_youla-recommendations-carousel
 ||nexusmods.com/assets/images/premiumbanner/billboard.png$image
 nexusmods.com###mainContent > div.clearfix
 
-youtube.com##.yt-live-chat-viewer-engagement-message-renderer
-youtube.com##.ytd-button-renderer.style-scope:has-text(/Создать клип|Спасибо/)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##ytd-reel-shelf-renderer
-
 twitch.tv##.holiday-gradient
 
 eshop-prices.com##.ads
