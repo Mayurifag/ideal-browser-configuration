@@ -1,9 +1,0 @@
-file_ids:
-- addons_settings/dark-reader/Dark-Reader-Settings.json
-- addons_settings/dollchan/dollchan-cfg.json
-- addons_settings/dynamic-history/DynamicHistory.json
-- addons_settings/floccus/floccus.export.json
-- addons_settings/foxyproxy/FoxyProxy Standard.json
-- addons_settings/sponsor-block/sponsor-block-backup.json
-- addons_settings/violentmonkey/scripts_2022-06-21_21.02.50.zip
-version: "1"

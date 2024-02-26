@@ -61,13 +61,7 @@ $FFPROFILEPATH/updater.sh -p $FFPROFILEPATH # -u doesnt work, needs confirmation
 ## Extensions and Themes
 
 Ниже перечислены аддоны, которыми я пользуюсь, либо же которые достойны
-упоминания. Значки перед названием аддона:
-
-- :page_facing_up: — Бекапы настроек для расширений имеются в директории
-  `addons_settings`. Часть зашифрована agebox.
-- :exclamation: — Расширение требует доп. настройки / не умеет в бекап / проч.
-- Если значка нет, то скорее всего расширение удовлетворительно работает на
-  дефолтных настройках.
+упоминания.
 
 ### Must have
 
@@ -253,23 +247,6 @@ CTRL+SHIFT+Q / CTRL+Q хоткеи, инструкции нужны будут �
 файла `search.json` через [mozlz4](https://github.com/jusw85/mozlz4). Как
 вариант — добавлять движок через [Add custom search engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/)
 И потом экспортировать из браузера через [mozlz4-edit](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/)
-
-### Agebox
-
-Extension settings are encrypted via [Agebox](https://github.com/slok/agebox).
-Cheatsheet:
-
-```sh
-agebox encrypt ./addons_settings/sponsor-block/sponsor-block-backup.json # alias to enc
-agebox decrypt --all --force --private-keys ./private # alias to dec
-agebox reencrypt # alias to e
-
-# initialization
-# Install age and agebox
-agebox init
-age-keygen -o ./private/key.txt
-# make ./keys/key.txt with public key from ./private/key.txt
-```
 
 ### Check `README.md` noted sites working
 
