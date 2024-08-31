@@ -131,6 +131,17 @@ vk.com###block_youla-recommendations-carousel
 nexusmods.com###mainContent > div.clearfix
 
 twitch.tv##.holiday-gradient
+||static-cdn.jtvnw.net/subs-image-assets/subtember-2024-*.png$image
+||static-cdn.jtvnw.net/subs-image-assets/subtember-2024-*.png$image
+||static-cdn.jtvnw.net/subs-image-assets/subtember-2024-right-sprites-half.png$image
+||static-cdn.jtvnw.net/subs-image-assets/subtember-2024-banner-large.png$image
+twitch.tv##.subtember-text
+twitch.tv##.subtember-gradient
+! Removes the Stories in the following page
+twitch.tv##.sr-only:upward(5)
+! Removes the Stories in the left side navigation section
+twitch.tv##[class*="storiesLeftNavSection"]
+
 
 eshop-prices.com##.ads
 eshop-prices.com##div.games-list-item.adsbygoogle
