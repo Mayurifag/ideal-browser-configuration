@@ -84,6 +84,7 @@ pepper.ru##.js-newsletter-widget
 ||static.pepper.ru/srennab/raw/large_horizontal_foreground/$image
 
 pornhub.com##.section-p2v
+pornhub.com###countryRedirectMessage
 pornhub.com###relateRecommendedItems>.alpha
 pornhub.com###welcome
 pornolab.net##.freeleech-icon
@@ -142,7 +143,6 @@ twitch.tv##.sr-only:upward(5)
 ! Removes the Stories in the left side navigation section
 twitch.tv##[class*="storiesLeftNavSection"]
 
-
 eshop-prices.com##.ads
 eshop-prices.com##div.games-list-item.adsbygoogle
 
@@ -152,3 +152,5 @@ cock.li##blockquote
 rubyreferences.github.io##.menu-title
 
 hexlet.io##.hexlet-pre-courses-banner
+
+finviz.com###scam-notice
