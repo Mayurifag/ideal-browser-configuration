@@ -113,8 +113,8 @@ tapochek.net###page_container > .copyright
 tapochek.net###page_content > .tCenter:has-text(До окончания фрилича осталось)
 
 tbconline.ge##[href="https://www.products.tbconline.ge/loan-refinance"]
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../..)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
+x.com##:xpath(//span[text()='Показать']/../../../../..)
+x.com##:xpath(//span[text()='Показать']/../../../../../../div):style(filter: none !important)
 
 vk.com##.apps_feedRightAppsBlock_single_app--.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
 vk.com##.audio_promo
