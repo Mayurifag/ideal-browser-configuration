@@ -154,3 +154,6 @@ rubyreferences.github.io##.menu-title
 hexlet.io##.hexlet-pre-courses-banner
 
 finviz.com###scam-notice
+finviz.com##.is-elite
+
+probiv.store##.block-sponsor-all
