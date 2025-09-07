@@ -157,3 +157,16 @@ finviz.com###scam-notice
 finviz.com##.is-elite
 
 probiv.store##.block-sponsor-all
+
+||starti.ge/banners/*$image
+starti.ge##.banner
+
+svtv.org##a.post-fullpage__socials-link
+
+meduza.io##section:has-text(/Помогите «Медузе»/)
+meduza.io##[href^="https://support.meduza.io/"]
+meduza.io##[href^="https://magaz.global/"]
+meduza.io##[href^="https://www.youtube.com/@MeduzaPro"]
+meduza.io##[href^="https://www.instagram.com/meduzapro/"]
+meduza.io##[href^="https://meduza.io/feature/2024/05/03/bit-ly-meduzamirror"]
+meduza.io##.SupportBlock-module-is1to3
