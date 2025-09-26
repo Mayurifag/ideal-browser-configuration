@@ -170,3 +170,5 @@ meduza.io##[href^="https://www.youtube.com/@MeduzaPro"]
 meduza.io##[href^="https://www.instagram.com/meduzapro/"]
 meduza.io##[href^="https://meduza.io/feature/2024/05/03/bit-ly-meduzamirror"]
 meduza.io##.SupportBlock-module-is1to3
+
+x.com##[aria-label$="unread items"]
