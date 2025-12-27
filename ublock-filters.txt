@@ -138,10 +138,6 @@ twitch.tv##.holiday-gradient
 ||static-cdn.jtvnw.net/subs-image-assets/subtember-2024-banner-large.png$image
 twitch.tv##.subtember-text
 twitch.tv##.subtember-gradient
-! Removes the Stories in the following page
-twitch.tv##.sr-only:upward(5)
-! Removes the Stories in the left side navigation section
-twitch.tv##[class*="storiesLeftNavSection"]
 
 eshop-prices.com##.ads
 eshop-prices.com##div.games-list-item.adsbygoogle
@@ -170,5 +166,10 @@ meduza.io##[href^="https://www.youtube.com/@MeduzaPro"]
 meduza.io##[href^="https://www.instagram.com/meduzapro/"]
 meduza.io##[href^="https://meduza.io/feature/2024/05/03/bit-ly-meduzamirror"]
 meduza.io##.SupportBlock-module-is1to3
+meduza.io##.SupportBlock-module-imageContainer
 
 x.com##[aria-label$="unread items"]
+
+home.ss.ge##.urgent-block
+
+genius.com##.LyricsHighlightTooltipContainer
