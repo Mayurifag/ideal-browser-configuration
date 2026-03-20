@@ -3,12 +3,12 @@ name: Check Markdown links
 on:
   push:
   schedule:
-    # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
-    - cron: "0 9 * * *"
+    # Run every Monday at 9:00 AM
+    - cron: "0 9 * * 1"
 
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v4
       - uses: gaurav-nelson/github-action-markdown-link-check@v1

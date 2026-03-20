@@ -18,6 +18,7 @@
 2ch.*##audio
 2ch.*##.rules
 2ch.*##.footer__info
+2ch.*##.neuroslop
 
 4pda.to##.poll-frame
 
@@ -173,3 +174,7 @@ x.com##[aria-label$="unread items"]
 home.ss.ge##.urgent-block
 
 genius.com##.LyricsHighlightTooltipContainer
+
+travelask.ru##.js-special-answer
+
+wikipedia.org##.wp25-banner
