@@ -11,10 +11,12 @@ Previously this repository contained a comprehensive Firefox browser configurati
 
 The repository has been simplified and now contains only a personal **uBlock Origin** filter list.
 
+You should use Helium browser, but it does not have sync abilities, so I can't recommend to use it yet.
+
 ## uBlock Origin filter list
 
 Add in uBlock Origin → Filter lists → Custom → Import:
 
-```
+```txt
 https://raw.githubusercontent.com/Mayurifag/ideal-browser-configuration/main/ublock-filters.txt
 ```

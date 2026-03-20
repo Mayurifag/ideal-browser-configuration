@@ -5,10 +5,11 @@ on:
   schedule:
     # Run every Monday at 9:00 AM
     - cron: "0 9 * * 1"
+  workflow_dispatch:
 
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - uses: actions/checkout@v6.0.2
+      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.17
