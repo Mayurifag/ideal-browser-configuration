@@ -22,6 +22,8 @@
 
 4pda.to##.poll-frame
 
+amazon.com#@#.rufus-panel-container
+
 deepl.com##.dl_ad_pro_container
 deepl.com##.dl_app_popup__content
 deepl.com##.dl_overlay_popup
