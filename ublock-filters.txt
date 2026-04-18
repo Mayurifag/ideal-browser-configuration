@@ -180,3 +180,9 @@ genius.com##.LyricsHighlightTooltipContainer
 travelask.ru##.js-special-answer
 
 wikipedia.org##.wp25-banner
+
+! https://github.com/imputnet/helium-services/blob/main/filters/helium-unbreak.txt
+! https://github.com/imputnet/helium/issues/816#issuecomment-3796798642
+*$permissions=join-ad-interest-group=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
+*$permissions=run-ad-auction=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
+*$permissions=browsing-topics=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
