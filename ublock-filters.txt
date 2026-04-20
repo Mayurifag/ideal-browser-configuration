@@ -2,8 +2,6 @@
 ! Title: Mayurifag's personal uBlock filters
 ! Homepage: https://github.com/Mayurifag/ideal-browser-configuration
 ! Expires: 2 days
-!
-! Keep sorted alphabetically if possible
 
 2ch.*/banners/**
 2ch.*/images/**
@@ -170,6 +168,7 @@ meduza.io##[href^="https://www.instagram.com/meduzapro/"]
 meduza.io##[href^="https://meduza.io/feature/2024/05/03/bit-ly-meduzamirror"]
 meduza.io##.SupportBlock-module-is1to3
 meduza.io##.SupportBlock-module-imageContainer
+||flowerpower.meduza.io/embed/ru/footer
 
 x.com##[aria-label$="unread items"]
 
