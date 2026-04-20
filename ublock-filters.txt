@@ -170,6 +170,7 @@ meduza.io##.SupportBlock-module-is1to3
 meduza.io##.SupportBlock-module-imageContainer
 meduza.io##.TopBar-module-container
 ||flowerpower.meduza.io/embed/ru/footer
+meduza.io##[class*="Toolbar-module_root__"]
 
 x.com##[aria-label$="unread items"]
 
