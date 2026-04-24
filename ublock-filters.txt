@@ -65,6 +65,7 @@ habr.com###subcriptions_block
 habr.com##section.tm-block_spacing-bottom:has-text(Работа)
 habr.com##.article-donation-block__message
 habr.com##.article-donation-block
+habr.com##.nornickel-special
 
 imgbin.com##.overlay_registration
 
@@ -183,6 +184,8 @@ travelask.ru##.js-special-answer
 wikipedia.org##.wp25-banner
 
 youtube.com##ytd-rich-section-renderer
+
+rutracker.org##.dl-btn-text-ad
 
 ! https://github.com/imputnet/helium-services/blob/main/filters/helium-unbreak.txt
 ! https://github.com/imputnet/helium/issues/816#issuecomment-3796798642
