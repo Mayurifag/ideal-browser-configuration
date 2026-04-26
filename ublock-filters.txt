@@ -235,7 +235,7 @@ youtube.com##.iv-branding
 ! Remove background from time display.
 youtube.com##.ytp-time-display span.ytp-time-wrapper:remove-class(ytp-time-wrapper)
 ! Remove pink gradient from progress bars (main player + partially watched video suggestions).
-youtube.com##:is(.ytp-play-progress, #progress, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment):style(background:#f03 !important;)
+! youtube.com##:is(.ytp-play-progress, #progress, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment):style(background:#f03 !important;)
 ! Remove the 1080p "premium" option from the quality selector.
 ! Funnily enough, forcing H.264 playback at 1080p has better (in my opinion) quality than
 ! VP9/AV1 "standard" 1080p while being less resource intensive, especially on older computers.
@@ -266,24 +266,12 @@ youtube.com###middle-row ytd-info-panel-content-renderer
 ! It would've been so easy to use just one line to nuke everything all at once,
 ! but of course YT makes everything hard (including watching their own videos sometimes).
 youtube.com###structured-description :is(ytd-horizontal-card-list-renderer, yt-video-attributes-section-view-model)
-! youtube.com##ytd-video-description-transcript-section-renderer
 youtube.com##ytd-video-description-course-section-renderer
-youtube.com##ytd-video-description-infocards-section-renderer:style(border:0 !important)
-youtube.com##ytd-video-description-infocards-section-renderer :is(#header, #action-buttons, #social-links)
-! Fix margins/padding from above changes.
-youtube.com##:is(ytd-structured-description-content-renderer, tp-yt-paper-button#collapse):style(margin: 0 !important;)
-youtube.com##ytd-video-description-infocards-section-renderer:style(padding: 0 !important;)
-youtube.com##ytd-video-description-infocards-section-renderer ytd-compact-infocard-renderer:first-of-type:style(margin-top: 16px !important;)
+! youtube.com##ytd-video-description-infocards-section-renderer :is(#header, #action-buttons, #social-links)
+
 ! Remove remnants of merch store.
 ! This seems to already be removed by an actual blocklist, but some padding was left over.
 youtube.com##ytd-merch-shelf-renderer
-! Disable description colouring on hover.
-! How is it possible for the interns at YouTube to need JavaScript(?) to re-colour text on hover???
-! There is a ":hover" CSS selector JUST FOR THIS PURPOSE!!!!!!!
-! youtube.com##ytd-watch-metadata:remove-attr(enable-color-sampling)
-! youtube.com###description span.yt-core-attributed-string--link-inherit-color:style(color: var(--yt-spec-text-primary) !important;)
-! youtube.com###description span.yt-core-attributed-string--highlight-text-decorator:style(background-color: var(--yt-spec-additive-background) !important;)
-! youtube.com###description :not(span.yt-core-attributed-string--highlight-text-decorator) > a.yt-core-attributed-string__link--call-to-action-color:style(color: var(--yt-spec-call-to-action) !important;)
 
 ! --- WATCH (related-vids) ---
 ! Hide the "Chapters" popup when clicking in a certain spot on the video player
@@ -305,5 +293,5 @@ youtube.com##div.yt-content-metadata-view-model-wiz__badge:has(div.badge-shape-w
 ! Remove skeleton UI from comments section
 youtube.com###comments #spinner-container
 ! hide "Download" button (just an ad for premium) below video
-www.youtube.com###below ytd-download-button-renderer
-www.youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-download-renderer
+youtube.com###below ytd-download-button-renderer
+youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-download-renderer
