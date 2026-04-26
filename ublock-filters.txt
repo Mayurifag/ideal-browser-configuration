@@ -183,8 +183,6 @@ travelask.ru##.js-special-answer
 
 wikipedia.org##.wp25-banner
 
-youtube.com##ytd-rich-section-renderer
-
 rutracker.org##.dl-btn-text-ad
 
 ! https://github.com/imputnet/helium-services/blob/main/filters/helium-unbreak.txt
@@ -192,3 +190,121 @@ rutracker.org##.dl-btn-text-ad
 *$permissions=join-ad-interest-group=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
 *$permissions=run-ad-auction=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
 *$permissions=browsing-topics=(),from=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,badfilter
+
+! =========== YouTube ============
+! some rules from https://github.com/johnny-official/YouTube-uBlock-Origin-Filters/blob/main/youtube-filters.txt adapted to RU locale
+! ------------ TOPBAR ------------
+
+! Block ads premium and ads shopping
+www.youtube.com###shopping-timely-shelf
+www.youtube.com###masthead-ad
+! Disable animated youtube logos (aka "yoodles") that appear on special occasions.
+youtube.com##ytd-yoodle-renderer > picture
+youtube.com##ytd-yoodle-renderer > ytd-logo:remove-attr(hidden)
+! Remove the voice search button.
+youtube.com###voice-search-button
+! Remove the "Create" button.
+youtube.com##:is(ytd-button-renderer, ytd-topbar-menu-button-renderer):has(button[aria-label="Создать"])
+! Remove frosted glass everywhere.
+! NO BACKGROUND BLUR IN MY WEB BROWSERS.
+youtube.com###frosted-glass
+youtube.com##:is(ytd-masthead, ytd-feed-filter-chip-bar-renderer):remove-attr(frosted-glass-mode)
+! ----------- HOME -----------
+! Remove skeleton UI while page is still loading or scrolling down.
+! (The homepage grid fix breaks these when scrolling down)
+youtube.com###home-page-skeleton
+youtube.com###ghost-cards
+! Remove basically everything that isn't a video from the homepage (and probably other places):
+youtube.com##ytd-rich-section-renderer
+
+! --------- CHANNELS ---------
+! Remove the "Shorts", and "Members-only videos" sections from channel home page.
+! I have no interest in Shorts, and will support channels by other means if I so desire.
+! TODO: remove from the grid that appears at the end of a video.
+youtube.com##ytd-reel-shelf-renderer:has(#title:has-text("Shorts"))
+youtube.com##ytd-item-section-renderer:has(a.ytd-shelf-renderer[title="Members-only videos"])
+youtube.com##ytd-rich-item-renderer:has(ytd-badge-supported-renderer div.badge-style-type-members-only)
+youtube.com##ytd-rich-item-renderer:has(ytd-badge-supported-renderer div.yt-badge-shape__text:has-text("Members only"))
+
+! ------ WATCH (player) ------
+! Remove the "Contains paid promotion" popup on sponsored videos.
+! SponsorBlock gets rid of said paid promotions anyways.
+youtube.com##.ytp-paid-content-overlay-link
+! Hide channel logo/branding in the bottom-right corner of the video.
+youtube.com##.iv-branding
+! Remove background from time display.
+youtube.com##.ytp-time-display span.ytp-time-wrapper:remove-class(ytp-time-wrapper)
+! Remove pink gradient from progress bars (main player + partially watched video suggestions).
+youtube.com##:is(.ytp-play-progress, #progress, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment):style(background:#f03 !important;)
+! Remove the 1080p "premium" option from the quality selector.
+! Funnily enough, forcing H.264 playback at 1080p has better (in my opinion) quality than
+! VP9/AV1 "standard" 1080p while being less resource intensive, especially on older computers.
+! NOTE: this option doesn't show up if H.264 encoding is forced,
+! either via about:config flags or an extension (e.g. h264ify)
+youtube.com##.ytp-menuitem:has(*:has-text("1080p Premium"))
+! Remove featured product ads from in video.
+youtube.com##.ytp-featured-product
+! Remove the "Experiencing interruptions?" popup, added during a recent anti-adblock update.
+youtube.com##tp-yt-paper-toast:has(yt-formatted-string:has-text("interruptions?"))
+
+! --- WATCH (description) ---
+! Hide "Members-first" text next to view count.
+! I could not care less if a few people get access to a video slightly earlier.
+youtube.com###info :is(span, a):has-text(Members first)
+! Hide the "x products" text as well.
+youtube.com###info span:has-text(product)
+! Remove the "Join", "Thanks", "Clip", and "Shop" buttons (including from the overflow menu).
+youtube.com###sponsor-button
+youtube.com##yt-button-view-model:has(:is(button[aria-label="Thanks"], button[aria-label="Clip"], button[aria-label="Shop"]))
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Thanks"))
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Clip"))
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Shop"))
+! Remove the "clarification" popups on certain videos (news outlets, covid videos etc.).
+youtube.com###clarify-box
+youtube.com###middle-row ytd-info-panel-content-renderer
+! Remove video description clutter (shorts, transcript, etc.), but leave links to other videos (from the 'i' button) untouched.
+! It would've been so easy to use just one line to nuke everything all at once,
+! but of course YT makes everything hard (including watching their own videos sometimes).
+youtube.com###structured-description :is(ytd-horizontal-card-list-renderer, yt-video-attributes-section-view-model)
+youtube.com##ytd-video-description-transcript-section-renderer
+youtube.com##ytd-video-description-course-section-renderer
+youtube.com##ytd-video-description-infocards-section-renderer:style(border:0 !important)
+youtube.com##ytd-video-description-infocards-section-renderer :is(#header, #action-buttons, #social-links)
+! Fix margins/padding from above changes.
+youtube.com##:is(ytd-structured-description-content-renderer, tp-yt-paper-button#collapse):style(margin: 0 !important;)
+youtube.com##ytd-video-description-infocards-section-renderer:style(padding: 0 !important;)
+youtube.com##ytd-video-description-infocards-section-renderer ytd-compact-infocard-renderer:first-of-type:style(margin-top: 16px !important;)
+! Remove remnants of merch store.
+! This seems to already be removed by an actual blocklist, but some padding was left over.
+! TODO: test if this is still needed or has been merged into a proper blocklist.
+youtube.com##ytd-merch-shelf-renderer
+! Disable description colouring on hover.
+! How is it possible for the interns at YouTube to need JavaScript(?) to re-colour text on hover???
+! There is a ":hover" CSS selector JUST FOR THIS PURPOSE!!!!!!!
+youtube.com##ytd-watch-metadata:remove-attr(enable-color-sampling)
+youtube.com###description span.yt-core-attributed-string--link-inherit-color:style(color: var(--yt-spec-text-primary) !important;)
+youtube.com###description span.yt-core-attributed-string--highlight-text-decorator:style(background-color: var(--yt-spec-additive-background) !important;)
+youtube.com###description :not(span.yt-core-attributed-string--highlight-text-decorator) > a.yt-core-attributed-string__link--call-to-action-color:style(color: var(--yt-spec-call-to-action) !important;)
+
+! --- WATCH (related-vids) ---
+! Hide the "Chapters" popup when clicking in a certain spot on the video player
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-macro-markers-description-chapters"]
+! Hide Youtube movie offers ("Watch on YouTube").
+! There are better platforms to watch paid movies/TV on.
+youtube.com###offer-module
+! Hide members-only videos in recommendations.
+! Again, if I want to see exclusive content, I will do it through another service (i.e. Floatplane, Patreon, Ko-fi, etc).
+youtube.com##:is(ytd-compact-video-renderer, yt-lockup-view-model):has(yt-badge-view-model div.badge-shape-wiz__text:has-text("Members only"))
+! Older version of the above. YT must be updating their UI...
+youtube.com##yt-lockup-view-model:has(.badge-style-type-members-only)
+! Hide the "New" badge on recommended videos.
+! Wow, these badges STILL cause ugly gaps between the thumbnails! (as of updating this rule)
+! It's almost as if YT doesn't give a fu-
+youtube.com##div.yt-content-metadata-view-model-wiz__badge:has(div.badge-shape-wiz__text:has-text("New"))
+
+! ----- WATCH (comments) -----
+! Remove skeleton UI from comments section
+youtube.com###comments #spinner-container
+! hide "Download" button (just an ad for premium) below video
+www.youtube.com###below ytd-download-button-renderer
+www.youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-download-renderer
