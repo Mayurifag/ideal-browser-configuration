@@ -295,3 +295,6 @@ youtube.com###comments #spinner-container
 ! hide "Download" button (just an ad for premium) below video
 youtube.com###below ytd-download-button-renderer
 youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-download-renderer
+
+! inex.ge - hide all packages that I've already taken out
+inex.ge##tr:has(td.status.parcel-details span.parcel-outline-success.takeout)
