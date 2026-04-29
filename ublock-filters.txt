@@ -302,3 +302,5 @@ youtube.com##div#flexible-item-buttons.ytd-menu-renderer ~ * button[aria-label="
 
 ! inex.ge - hide all packages that I've already taken out
 inex.ge##tr:has(td.status.parcel-details span.parcel-outline-success.takeout)
+! Apr 29, 2026 https://meduza.io
+meduza.io##.AdBadge-module-root
