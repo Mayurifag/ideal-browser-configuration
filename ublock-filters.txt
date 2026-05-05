@@ -141,7 +141,7 @@ twitch.tv##.holiday-gradient
 twitch.tv##.subtember-text
 twitch.tv##.subtember-gradient
 ! Chat adblock
-twitch.tv##.chat-line__message:has-text(/https://silvername.gg/)
+twitch.tv##.chat-line__message:has-text(/https://silvername.gg|https://www.origo.kz//)
 ! Removes the Stories in the left side navigation section
 twitch.tv##[class*="storiesLeftNavSection"]
 
