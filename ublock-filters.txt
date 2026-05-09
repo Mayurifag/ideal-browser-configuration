@@ -308,3 +308,7 @@ youtube.com##div#flexible-item-buttons.ytd-menu-renderer ~ * button[aria-label="
 inex.ge##tr:has(td.status.parcel-details span.parcel-outline-success.takeout)
 ! Apr 29, 2026 https://meduza.io
 meduza.io##.AdBadge-module-root
+
+! May 9, 2026 https://ticktick.com
+ticktick.com##.upgrade-button
+ticktick.com##.hoverSection:has-text(Lists)
