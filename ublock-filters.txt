@@ -304,10 +304,15 @@ youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-download-renderer
 youtube.com##yt-button-view-model:has(button[aria-label="Скачать на телефон"])
 youtube.com##div#flexible-item-buttons.ytd-menu-renderer ~ * button[aria-label="Ещё"]
 
+youtube.com###share-panel-header
+youtube.com##.yt-share-target-renderer
+youtube.com##.yt-third-party-share-target-section-renderer
+
 ! inex.ge - hide all packages that I've already taken out
 inex.ge##tr:has(td.status.parcel-details span.parcel-outline-success.takeout)
-! Apr 29, 2026 https://meduza.io
+
 meduza.io##.AdBadge-module-root
+meduza.io##p:has-text(/Скачайте наше приложение/)
 
 ! May 9, 2026 https://ticktick.com
 ticktick.com##.upgrade-button
