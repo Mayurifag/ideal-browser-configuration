@@ -71,9 +71,6 @@ imgbin.com##.overlay_registration
 
 itvdn.com##.subject-related-specialty
 
-meduza.io##div[class^="AnnouncementInText-module"]:has-text(по-прежнему нужна поддержка)
-meduza.io##[href="https://mdza.io/XfuQp-kfo_c"]
-
 pawelurbanek.com##.measure > div.center > .footer-special
 pawelurbanek.com##.measure > div.center > .footer-specialer
 pawelurbanek.com##.post-content > div.center > .footer-special
@@ -176,6 +173,12 @@ meduza.io##.SupportBlock-module-imageContainer
 meduza.io##.TopBar-module-container
 ||flowerpower.meduza.io/embed/ru/footer
 meduza.io##[class*="Toolbar-module_root__"]
+meduza.io##p:has-text(/конечно, вам нужен VPN! Чтобы не/)
+meduza.io##p:has-text(/Ваш донат \(лучше ежемесячный\) позволит кому-то увидеться с/)
+
+! May 9, 2026 https://ticktick.com
+ticktick.com##.upgrade-button
+ticktick.com##.hoverSection:has-text(Lists)
 
 x.com##[aria-label$="unread items"]
 
